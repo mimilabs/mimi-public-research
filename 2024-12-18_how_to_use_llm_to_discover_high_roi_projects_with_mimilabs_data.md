@@ -8,10 +8,10 @@
    - Replace {your objective} with your specific goals
 
 2. Data Catalogs
-   - Download `data/mimilabs-catalog.xml` which contains all available Mimilabs datasets
+   - Download [data/mimilabs-catalog.xml](https://github.com/mimilabs/mimi-public-research/blob/main/data/mimilabs-catalog.xml) which contains all available Mimilabs datasets
    - Either:
      * Create your own data catalog XML file describing your internal data, or
-     * Use `data/tuva-catalog.xml` if you're using the Tuva data model
+     * Use [data/tuva-catalog.xml](https://github.com/mimilabs/mimi-public-research/blob/main/data/tuva-catalog.xml) if you're using the Tuva data model
 
 ## Running the Analysis
 
