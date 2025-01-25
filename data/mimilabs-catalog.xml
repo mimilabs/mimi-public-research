@@ -9,6 +9,9 @@
   <schema name="hhsoig" description="## Datasets from the [HHS Office of Inspector General](https://oig.hhs.gov/)">
     <table name="leie" description="List of Excluded Individuals/Entities (LEIE)" source="https://oig.hhs.gov/exclusions/exclusions_list.asp" resolution="provider" interval="monthly"/>
     <table name="buprenorphine_countydata" description="Buprenorphine-Waivered Providers, County Data" source="https://oig.hhs.gov/oei/reports/oei-12-17-00240.asp" resolution="county" interval="snapshot"/>
+    <table name="enforcement_summaries" description="OIG Enforcement Summaries" source="https://oig.hhs.gov/fraud/enforcement/" resolution="case" interval="daily"/>
+    <table name="enforcement_details_enriched" description="OIG Enforcement Details LLM Extracted" source="https://oig.hhs.gov/fraud/enforcement/" resolution="case" interval="daily"/>
+    <table name="enforcement_details" description="OIG Enforcement Details Raw Text" source="https://oig.hhs.gov/fraud/enforcement/" resolution="case" interval="daily"/>
   </schema>
   <schema name="huduser" description="# Datasets from [huduser.gov](https://www.huduser.gov/apps/public/uspscrosswalk/login) - a part of the Office of Policy Development and Research, PD&R">
     <table name="county_to_zip" description="County to ZIP Code Crosswalk (raw data)" source="https://www.huduser.gov/portal/datasets/usps_crosswalk.html" resolution="county" interval="yearly"/>
@@ -27,6 +30,7 @@
   <schema name="payermrf" description="# [Price Transparency Files](https://github.com/CMSgov/price-transparency-guide) from various Payers - currently loaded: [UnitedHealthcare](https://transparency-in-coverage.uhc.com/), [Medica](https://web.healthsparq.com/healthsparq/public/#/one/insurerCode=MEDICA_I&brandCode=MEDICA&productCode=MRF/machine-readable-transparency-in-coverage), planned: [Aetna](https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICFI/machine-readable-transparency-in-coverage) - aka Payer TiC files, commercial or employer rates.">
     <table name="in_network_rates" description="In-Network Rates Data, Some of UHC data, and all Medica in-network files are loaded." source="https://github.com/CMSgov/price-transparency-guide/tree/master/schemas/in-network-rates" resolution="procedure x provider" interval="monthly"/>
     <table name="medica_toc" description="Medica Table of Contents" source="https://web.healthsparq.com/healthsparq/public/#/one/insurerCode=MEDICA_I&brandCode=MEDICA&productCode=MRF/machine-readable-transparency-in-coverage" resolution="health_plan" interval="monthly"/>
+    <table name="npi_to_tin" description="NPI to TIN Mapping Table" source="https://web.healthsparq.com/healthsparq/public/#/one/insurerCode=MEDICA_I&brandCode=MEDICA&productCode=MRF/machine-readable-transparency-in-coverage" resolution="provider" interval="monthly"/>
     <table name="molina_provider_directory" description="Molina Healthcare Provider Directory" source="https://www.molinahealthcare.com/members/il/en-us/Pages/home" resolution="provider" interval="monthly"/>
     <table name="allowed_amounts" description="Allowed Amounts Data (Out-of-Network), Out-of-Network pricing data, Currently, UHC and Medica data are loaded." source="https://github.com/CMSgov/price-transparency-guide/tree/master/schemas/allowed-amounts" resolution="procedure x provider" interval="monthly"/>
     <table name="unh_toc" description="UnitedHealthcare Table of Contents" source="https://transparency-in-coverage.uhc.com/" resolution="health_plan" interval="monthly"/>
@@ -36,6 +40,7 @@
     <table name="ckcc_performance" description="CKCC/KCF Performance Results" source="https://www.cms.gov/priorities/innovation/innovation-models/kidney-care-choices-kcc-model" resolution="ckcc" interval="yearly"/>
     <table name="dc_ratebook" description="ACO REACH (DCE) and CKCC/KCF Ratebook" source="https://www.cms.gov/priorities/innovation/innovation-models/aco-reach" resolution="aco" interval="yearly"/>
     <table name="gdpc_performance" description="ACO REACH (DCE) Performance Results" source="https://www.cms.gov/priorities/innovation/innovation-models/aco-reach" resolution="aco" interval="yearly"/>
+    <table name="reach_orgs" description="ACO REACH Organizations" source="https://www.cms.gov/priorities/innovation/innovation-models/aco-reach" resolution="aco" interval="yearly"/>
   </schema>
   <schema name="zillow" description="# Datasets from [Zillow](https://www.zillow.com/research/data/) (a real-estate marketplace company)">
     <table name="homevalue_zip" description="Home Values by Zillow" source="https://www.zillow.com/research/data/" resolution="zip" interval="monthly"/>
@@ -47,6 +52,7 @@
     <table name="pc_fqhc_owner" description="FQHC All Ownership Information" source="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/federally-qualified-health-center-all-owners" resolution="fqhc" interval="quarterly"/>
     <table name="pc_ruralhealthclinic_owner" description="Rural Health Clinic All Ownership Information" source="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/rural-health-clinic-all-owners" resolution="rural_health_clinic" interval="quarterly"/>
     <table name="mupdpr_prvdr" description="Medicare Part D Prescribers by Prescriber" source="https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider" resolution="provider" interval="yearly"/>
+    <table name="mssp_participants" description="MSSP Accountable Care Organization Participants" source="https://data.cms.gov/medicare-shared-savings-program/accountable-care-organization-participants" resolution="aco" interval="yearly"/>
     <table name="mupohp" description="Medicare Outpatient Hospitals by Provider and Service" source="https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service" resolution="outpatient_hospital x service" interval="yearly"/>
     <table name="otpp" description="Medicare Opioid Treatment Program Providers" source="https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers" resolution="provider" interval="weekly"/>
     <table name="pc_hospital" description="Hospital Medicare Enrollments" source="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments" resolution="hospital" interval="monthly"/>
@@ -60,6 +66,7 @@
     <table name="pc_snf" description="Skilled Nursing Facility Medicare Enrollments" source="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-enrollments" resolution="skilled_nursing_facility" interval="monthly"/>
     <table name="mupdpr" description="Medicare Part D Prescribers by Prescriber and Drug" source="https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider-and-drug" resolution="provider x drug" interval="yearly"/>
     <table name="pc_fqhc" description="Federally Qualified Health Center Medicare Enrollments" source="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/federally-qualified-health-center-enrollments" resolution="fqhc" interval="quarterly"/>
+    <table name="mssp_orgs" description="MSSP Accountable Care Organizations" source="https://data.cms.gov/medicare-shared-savings-program/accountable-care-organizations" resolution="aco" interval="yearly"/>
     <table name="mcbs_summer" description="Medicare Current Beneficiary Survey (MCBS), Summer" source="https://data.cms.gov/medicare-current-beneficiary-survey-mcbs" resolution="respondent" interval="yearly"/>
     <table name="pendingilt" description="Medicare Enrollment, Pending Initial Logging and Tracking" source="https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians" resolution="provider" interval="weekly"/>
     <table name="pc_snf_owner" description="SNF All Ownership Information" source="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-all-owners" resolution="skilled_nursing_facility" interval="quarterly"/>
@@ -70,7 +77,6 @@
     <table name="pc_homehealth" description="Home Health Agency Medicare Enrollments" source="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-enrollments" resolution="home_health_organization" interval="quarterly"/>
     <table name="pc_homeinfusion" description="Home Infusion Therapy Provider Medicare Enrollments" source="https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/home-infusion-therapy-providers" resolution="home_infusion_provider" interval="weekly"/>
     <table name="qpp" description="Quality Payment Program, e.g., MIPS, APMs, Performance Results" source="https://data.cms.gov/quality-of-care/quality-payment-program-experience" resolution="provider" interval="yearly"/>
-    <table name="mssp_county_lvl_expenditures" description="Medicare Shared Savings Program County-level Aggregate Expenditure and Risk Score Data" source="d-risk-score-data-on-assignable-beneficiaries" resolution="county" interval="yearly"/>
     <table name="mupdpr_geo" description="Medicare Part D Prescribers by Geography and Drug" source="https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-geography-and-drug" resolution="state x drug" interval="yearly"/>
     <table name="mupihp_prvdr" description="Medicare Inpatient Hospitals by Provider" source="https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider" resolution="hospital" interval="yearly"/>
     <table name="mcbs_fall" description="Medicare Current Beneficiary Survey (MCBS), Fall" source="https://data.cms.gov/medicare-current-beneficiary-survey-mcbs" resolution="respondent" interval="yearly"/>
@@ -88,19 +94,28 @@
     <table name="datacatalog" description="The Data Catalog (metadata) of the data.cms.gov site" source="https://data.cms.gov/data.json" resolution="dataset" interval="weekly"/>
     <table name="pc_hospice_owner" description="Hospice All Ownership Information" source="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospice-all-owners" resolution="hospice_agency" interval="quarterly"/>
     <table name="mupdme_suphpr" description="Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service" source="https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service" resolution="supplier x service" interval="yearly"/>
+    <table name="mssp_county_lvl_expenditures" description="Medicare Shared Savings Program County-level Aggregate Expenditure and Risk Score Data" source="d-risk-score-data-on-assignable-beneficiaries" resolution="county" interval="yearly"/>
     <table name="pc_homehealth_owner" description="Home Health All Ownership Information" source="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-all-owners" resolution="home_health_agency" interval="quarterly"/>
     <table name="mupihp" description="Medicare Inpatient Hospitals by Provider and Service" source="https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider-and-service" resolution="hospital" interval="yearly"/>
     <table name="mupphy_prvdr" description="Medicare Physician & Other Practitioners by Provider" source="https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider" resolution="provider" interval="yearly"/>
     <table name="psps" description="Physician/Supplier Procedure Summary" source="https://data.cms.gov/summary-statistics-on-use-and-payments/physiciansupplier-procedure-summary" resolution="code" interval="yearly"/>
   </schema>
   <schema name="cmsmarketplace" description="# Datasets from the [CMS Health Insurance Marketplace](https://www.cms.gov/marketplace/in-person-assisters/information-partners) section -  a subsection of the [data.cms.gov](https://data.cms.gov) site">
+    <table name="puf_transparency_in_coverage" description="Transparency in Coverage PUF" source="https://www.cms.gov/marketplace/resources/data/public-use-files" resolution="plan" interval="yearly"/>
     <table name="product_details" description="Product Details" source="https://www.cms.gov/marketplace/resources/data/healthcaregov-plan-finder-data" resolution="health_plan" interval="quarterly"/>
     <table name="mlr_part12_summary" description="MLR PART1 2 SUMMARY DATA PREMIUM CLAIMS" source="https://www.cms.gov/marketplace/resources/data/medical-loss-ratio-data-systems-resources" resolution="health_plan" interval="yearly"/>
     <table name="issuer_details" description="Issuer Details" source="https://www.cms.gov/marketplace/resources/data/healthcaregov-plan-finder-data" resolution="health_plan" interval="quarterly"/>
+    <table name="puf_benefits_and_cost_sharing" description="Benefits and Cost Sharing PUF" source="https://www.cms.gov/marketplace/resources/data/public-use-files" resolution="plan" interval="yearly"/>
     <table name="rate_review_wksh2" description="Unified Rate Review Public Use File Worksheet 2" source="https://www.cms.gov/marketplace/resources/data/rate-review-data" resolution="health_plan" interval="yearly"/>
     <table name="mlr_part3_mlr_rebate" description="MLR PART1 2 SUMMARY DATA PREMIUM CLAIMS" source="https://www.cms.gov/marketplace/resources/data/medical-loss-ratio-data-systems-resources" resolution="health_plan" interval="yearly"/>
     <table name="enrollment" description="Issuer Level Enrollment Data" source="https://www.cms.gov/marketplace/resources/data/issuer-level-enrollment-data" resolution="health_plan" interval="yearly"/>
     <table name="rate_review_wksh1" description="Unified Rate Review Public Use File Worksheet 1" source="https://www.cms.gov/marketplace/resources/data/rate-review-data" resolution="health_plan" interval="yearly"/>
+  </schema>
+  <schema name="medicalboard" description="# Datasets from State Medical Boards">
+    <table name="ny_ed_enforcement_actions" description="New York Board of Regents Enforcement Actions" source="https://www.op.nysed.gov/enforcement/enforcement-actions" resolution="provider" interval="weekly"/>
+    <table name="ny_disciplinary_actions" description="New York Department of Health Disciplinary Actions" source="https://apps.health.ny.gov/pubdoh/professionals/doctors/conduct/factions/Home.action" resolution="provider" interval="weekly"/>
+    <table name="fl_disciplinary_actions" description="Florida Medical Board Disciplinary Actions" source="https://mqa-internet.doh.state.fl.us/MQASearchServices/EnforcementActionsPractitioner" resolution="provider" interval="daily"/>
+    <table name="ca_disciplinary_actions" description="California Medical Board Disciplinary Actions" source="https://www.mbc.ca.gov/Resources/Publications/Alerts.aspx" resolution="provider" interval="weekly"/>
   </schema>
   <schema name="openpayments" description="# Datasets from the [CMS Open Payments](https://openpaymentsdata.cms.gov/) site">
     <table name="general" description="General Payments Details" source="https://www.cms.gov/priorities/key-initiatives/open-payments/data/dataset-downloads" resolution="provider x event" interval="yearly"/>
@@ -108,12 +123,16 @@
     <table name="ownership" description="Physician Ownership Details" source="https://www.cms.gov/priorities/key-initiatives/open-payments/data/dataset-downloads" resolution="provider x event" interval="yearly"/>
     <table name="deleted" description="Deleted Entries from the Open Payment datasets" source="https://openpaymentsdata.cms.gov/" resolution="record" interval="yearly"/>
   </schema>
+  <schema name="cmssafetystandards" description="# Datasets from [CMS Health Saftey Standards](https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-group-qsog)">
+    <table name="termination_notices" description="Medicare Termination Notices" source="https://www.cms.gov/medicare/health-safety-standards/medicare-termination-notices" resolution="provider" interval="monthly"/>
+  </schema>
   <schema name="cmscoding" description="# Datasets from the [Coding & Billing section of the CMS website](https://www.cms.gov/medicare/coding-billing/icd-10-codes).">
     <table name="icd10cm" description="ICD-10-CM Codes and Descriptions" source="https://www.cms.gov/medicare/coding-billing/icd-10-codes" resolution="code" interval="yearly"/>
-    <table name="nicc_mue" description="Medicare National Correct Coding Initiative (NICC) Medically Unlikely Edit (MUE) Codes and Descriptions" source="https://www.cms.gov/medicare/coding-billing/national-correct-coding-initiative-ncci-edits/medicare-ncci-mue-archive" resolution="code" interval="quarterly"/>
     <table name="icd10cm_poa_exempt" description="ICD-10-CM Present on Admission (POA) Exempt Codes and Descriptions" source="https://www.cms.gov/medicare/coding-billing/icd-10-codes" resolution="code" interval="yearly"/>
+    <table name="ncci_ptp" description="Medicare National Correct Coding Initiative (NCCI) Procedure to Procedure Edit (PTP) Codes and Descriptions" source="https://www.cms.gov/medicare/coding-billing/national-correct-coding-initiative-ncci-edits/medicare-ncci-procedure-procedure-ptp-edits" resolution="code" interval="quarterly"/>
     <table name="icd10pcs" description="ICD-10-PCS Codes and Descriptions" source="https://www.cms.gov/medicare/coding-billing/icd-10-codes" resolution="code" interval="yearly"/>
     <table name="hcpcs" description="HCPCS Codes and Descriptions" source="https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system/quarterly-update" resolution="code" interval="quarterly"/>
+    <table name="ncci_mue" description="Medicare National Correct Coding Initiative (NCCI) Medically Unlikely Edit (MUE) Codes and Descriptions" source="https://www.cms.gov/medicare/coding-billing/national-correct-coding-initiative-ncci-edits/medicare-ncci-mue-archive" resolution="code" interval="quarterly"/>
   </schema>
   <schema name="surgoventures" description="# Datasets from [Surgo Ventures](https://surgoventures.org/)">
     <table name="ccvi_state" description="THE U.S. COVID COMMUNITY VULNERABILITY INDEX (CCVI)" source="https://precisionforcovid.org/ccvi" resolution="state" interval="snapshot"/>
@@ -161,6 +180,7 @@
     <table name="ed_deactivated_edits" description="Ecounter Data Deactivated Edits" source="https://csscoperations.com/internet/csscw3.nsf/DID/C1QB31Y8ZY" resolution="code" interval="yearly"/>
   </schema>
   <schema name="cmspayment" description="# Datasets from the [Payment section of the CMS website](https://www.cms.gov/medicare/payment/fee-schedules/physician).">
+    <table name="rvu_oppscap" description="Outpatient Prospective Payment System Caps for RVUs" source="https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files" resolution="code" interval="quarterly"/>
     <table name="ra_hierarchies" description="Hierarchies of Condition Categories (CCs)" source="https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics/risk-adjustment" resolution="code" interval="yearly"/>
     <table name="bpt_ma_6" description="Bid Pricing Tool MA Worksheet 6 Bid Summary" source="https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics/data" resolution="health_plan" interval="yearly"/>
     <table name="partb_drug_awp_ndc_to_hcpcs" description="AWP NDC-HCPCS Crosswalk" source="https://www.cms.gov/medicare/payment/part-b-drugs/asp-pricing-files" resolution="code" interval="quarterly"/>
@@ -174,6 +194,7 @@
     <table name="mac_locality" description="MAC (Medicare Administrative Contractor) Locality Codes" source="https://www.cms.gov/medicare/payment/fee-schedules/physician" resolution="mac" interval="yearly"/>
     <table name="ffs_data" description="Medicare FFS Data summarized by county" source="https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics/ffs-data-2015-2022" resolution="county" interval="yearly"/>
     <table name="physicianfeeschedule_metadata" description="Physician Fee Schedules Download Metadata, e.g. webpage URL, dataset name, comment" source="https://www.cms.gov/medicare/payment/fee-schedules/physician" resolution="variable" interval="quarterly"/>
+    <table name="rvu_gpci" description="Geographic Practice Cost Index (GPCI)" source="https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files" resolution="code" interval="quarterly"/>
     <table name="partb_drug_asp_pricing" description="Average Sales Pricing (ASP) - Pricing File" source="https://www.cms.gov/medicare/payment/part-b-drugs/asp-pricing-files" resolution="code" interval="quarterly"/>
     <table name="physicianfeeschedule" description="Physician Fee Schedules National Payment Amount File" source="https://www.cms.gov/medicare/payment/fee-schedules/physician/national-payment-amount-file" resolution="code" interval="quarterly"/>
     <table name="bpt_ma_3" description="Bid Pricing Tool MA Worksheet 3 Projected Cost Sharing PMPM" source="https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics/data" resolution="health_plan" interval="yearly"/>
@@ -184,6 +205,7 @@
     <table name="bpt_ma_5" description="Bid Pricing Tool MA Worksheet 5 Benchmark PMPM" source="https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics/data" resolution="health_plan" interval="yearly"/>
     <table name="bpt_ma_7" description="Bid Pricing Tool MA Worksheet 7 Optional Supplemental Benefits" source="https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics/data" resolution="health_plan" interval="yearly"/>
     <table name="ma_ratebook" description="Medicare Advantage Rate Book by county" source="https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics/ratebooks-supporting-data" resolution="county" interval="yearly"/>
+    <table name="rvu_pprrvu" description="Physician Procedure RVU (PPRRVU)" source="https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files" resolution="code" interval="quarterly"/>
     <table name="ra_coefficients" description="Risk Adjustment Coefficient Values" source="https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics/risk-adjustment" resolution="code" interval="yearly"/>
     <table name="bpt_ma_1" description="Bid Pricing Tool MA Worksheet 1 Base Period Experience and Projection Assumptions" source="https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics/data" resolution="health_plan" interval="yearly"/>
     <table name="opps_addendum_b" description="Outpatient Prospective Payment System (OPPS) Addendum B" source="https://www.cms.gov/medicare/payment/prospective-payment-systems/hospital-outpatient/addendum-a-b-updates" resolution="code" interval="quarterly"/>
@@ -281,6 +303,7 @@
     <table name="rxn_all_pathways" description="RxNorm All Pathways, inspired by the Google Health's all pathways dataset, mimi-derived data" source="https://console.cloud.google.com/marketplace/product/national-library-of-medicine/rxnorm?rapt=AEjHL4Mpmsjkp9q9USGdQKmShOvDuFKObRq15QyU_YwQTIgqQj0RazLxXesZQgjNK34dKSGj8rkmonvrXQlczsfFgzSR5x-l4H851GKO2ZPVpDGE05nB7vE&project=central-courier-427523-t1" resolution="rxcui" interval="latest"/>
     <table name="rxnsat" description="RxNorm Simple Concept and Atom Attributes (RXNSAT), Prescribable Content" source="https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html" resolution="rxcui" interval="monthly"/>
     <table name="rxnorm_paths" description="RxNorm Default Paths" source="https://lhncbc.nlm.nih.gov/RxNav/applications/RxNavViews.html#label:appendix" resolution="rx_concept_path" interval="snapshot"/>
+    <table name="historical_ndcs" description="Historical NDCs for RxCUI" source="https://lhncbc.nlm.nih.gov/RxNav/APIs/api-RxNorm.getAllHistoricalNDCs.html" resolution="ndc" interval="monthly"/>
   </schema>
   <schema name="census" description="## Datasets from the [US Census Bureau](https://www.census.gov/)">
     <table name="centerofpop_bg" description="The Centers of Population for each Census Block Group" source="https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html" resolution="census_block_group" interval="yearly"/>
@@ -300,6 +323,9 @@
   </schema>
   <schema name="healthit" description="# Datasets from the [HealthIT.gov](https://www.healthit.gov/data) - the official website of the Office of the National Coordinator for Health Information Technology (ONC)">
     <table name="chit_cpip" description="Certified Health Information Technology Reported by Clinicians for Promoting Interoperability Performance" source="https://www.healthit.gov/data/datasets/certified-health-information-technology-reported-clinicians-promoting" resolution="provider" interval="yearly"/>
+  </schema>
+  <schema name="irs" description="# Datasets from the [Internal Revenue Service](https://www.irs.gov/)">
+    <table name="zpallagi" description="Individual income tax statistics - ZIP Code data (SOI)" source="https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi" resolution="zip" interval="yearly"/>
   </schema>
   <schema name="nasbo" description="# Datasets from the [National Association of State Budget Officers](https://www.nasbo.org/home).">
     <table name="state_expenditure" description="State Expenditure Report data ($ in Millions)." source="https://www.nasbo.org/reports-data/historical-data" resolution="state" interval="yearly"/>
@@ -349,6 +375,7 @@
     <table name="nhanes_qre_diabetes" description="CDC NHANES QRE Diabetes" source="https://www.cdc.gov/nchs/nhanes/index.htm" resolution="respondent" interval="yearly"/>
     <table name="nhanes_mortality" description="CDC NHANES Mortality Dataset" source="https://www.cdc.gov/nchs/data-linkage/mortality-public.htm" resolution="respondent" interval="yearly"/>
     <table name="nhanes_qre_blood_pressure_cholesterol" description="CDC NHANES QRE Blood Pressure & Cholesterol" source="https://www.cdc.gov/nchs/nhanes/index.htm" resolution="respondent" interval="yearly"/>
+    <table name="nssp_edvisits" description="NSSP Emergency Department Visit Trajectories by State and Sub State Regions- COVID-19, Flu, RSV, Combined" source="https://data.cdc.gov/Public-Health-Surveillance/NSSP-Emergency-Department-Visit-Trajectories-by-St/rdmq-nq56/about_data" resolution="county" interval="weekly"/>
     <table name="places_zcta" description="PLACES: Local Data for Better Health" source="https://www.cdc.gov/places/" resolution="zcta" interval="yearly"/>
     <table name="nhanes_lab_glyphosate_glyp_urine" description="CDC NHANES LAB Glyphosate (GLYP) - Urine" source="https://www.cdc.gov/nchs/nhanes/index.htm" resolution="respondent" interval="yearly"/>
     <table name="nhanes_qre_preventive_aspirin_use" description="CDC NHANES QRE Preventive Aspirin Use" source="https://www.cdc.gov/nchs/nhanes/index.htm" resolution="respondent" interval="yearly"/>
@@ -447,6 +474,17 @@
     <table name="ng_aco_indicator_code" description="NextGen ACO Indicator Code" source="https://resdac.org/cms-data/variables/claim-next-generation-ng-accountable-care-organization-aco-indicator-code-post" resolution="code" interval="yearly"/>
     <table name="claim_outpatient_transaction_type" description="Claim Outpatient Transaction Type" source="https://resdac.org/cms-data/variables/claim-outpatient-transaction-type" resolution="code" interval="yearly"/>
   </schema>
+  <schema name="placekey" description="# Datasets from [Placekey](https://www.placekey.io/)">
+    <table name="pc_ruralhealthclinic_with_placekey" description="Rural Health Clinic with Placekey" source="https://www.placekey.io/" resolution="provider" interval="monthly"/>
+    <table name="pc_fqhc_with_placekey" description="FQHC with Placekey" source="https://www.placekey.io/" resolution="provider" interval="monthly"/>
+    <table name="pc_homeinfusion_with_placekey" description="Home Infusion with Placekey" source="https://www.placekey.io/" resolution="provider" interval="monthly"/>
+    <table name="npidata_with_placekey" description="NPIDATA with Placekey" source="https://www.placekey.io/" resolution="provider" interval="monthly"/>
+    <table name="pc_hospice_with_placekey" description="Hospice with Placekey" source="https://www.placekey.io/" resolution="provider" interval="monthly"/>
+    <table name="pc_snf_with_placekey" description="SNF with Placekey" source="https://www.placekey.io/" resolution="provider" interval="monthly"/>
+    <table name="pc_hospital_with_placekey" description="Hospital with Placekey" source="https://www.placekey.io/" resolution="provider" interval="monthly"/>
+    <table name="dac_ndf_with_placekey" description="Medicare Provider with Placekey" source="https://www.placekey.io/" resolution="provider" interval="monthly"/>
+    <table name="pc_homehealth_with_placekey" description="Homehealth with Placekey" source="https://www.placekey.io/" resolution="provider" interval="monthly"/>
+  </schema>
   <schema name="grahamcenter" description="# Datasets from the [Robert Graham Center](https://www.graham-center.org/home.html) - a research arm of [AAFP](https://www.aafp.org/home.html)">
     <table name="sdi_pcsa" description="Social Deprivation Index (SDI) at PCSA (Primary Care Service Area) Level" source="https://www.graham-center.org/maps-data-tools/social-deprivation-index.html" resolution="pcsa" interval="yearly"/>
     <table name="gme" description="Graduate Medical Education Dataset" source="https://www.graham-center.org/maps-data-tools/gme-data-tables.html" resolution="hospital" interval="yearly"/>
@@ -505,8 +543,14 @@
     <table name="article_x_hcpc_modifier_group" description="ARTICLE_X_HCPC_MODIFIER_GROUP" source="https://www.cms.gov/medicare-coverage-database/search.aspx" resolution="article" interval="monthly"/>
   </schema>
   <schema name="stategov" description="# Datasets from State Governments">
-    <table name="newyork_medicaid_provider_directory" description="New York Medicaid Provider Directory" source="https://health.data.ny.gov/Health/Medicaid-Enrolled-Provider-Listing/keti-qx5t/about_data" resolution="provider" interval="monthly"/>
+    <table name="texas_medicaid_provider_exclusions" description="Texas Health and Human Services Commission Office of the Inspector General Exclusions" source="https://oig.hhsc.state.tx.us/oigportal2/Exclusions" resolution="provider" interval="monthly"/>
+    <table name="newyork_medicaid_provider_exclusions" description="New York Office of the Medicaid Inspector General List of Exclusions" source="https://omig.ny.gov/medicaid-fraud/medicaid-exclusions" resolution="provider" interval="monthly"/>
+    <table name="nevada_medicaid_provider_exclusions" description="Nevada Department of Health and Human Services Excluded/Sanctioned Providers" source="https://dhcfp.nv.gov/Providers/PI/PSExclusions/" resolution="provider" interval="monthly"/>
     <table name="california_medicaid_provider_directory" description="California Medicaid Provider Directory" source="https://data.ca.gov/dataset/profile-of-enrolled-medi-cal-fee-for-service-ffs-providers" resolution="provider" interval="monthly"/>
+    <table name="newyork_medicaid_provider_directory" description="New York Medicaid Provider Directory" source="https://health.data.ny.gov/Health/Medicaid-Enrolled-Provider-Listing/keti-qx5t/about_data" resolution="provider" interval="monthly"/>
+    <table name="california_suspended_ineligible_list" description="California Department of Health Care Services Suspended and Ineligible Provider List" source="https://mcweb.apps.prd.cammis.medi-cal.ca.gov/references/sandi" resolution="provider" interval="monthly"/>
+    <table name="georgia_medicaid_provider_exclusions" description="Georgia Office of Inspector General Exclusions List" source="https://dch.georgia.gov/office-inspector-general/georgia-oig-exclusions-list" resolution="provider" interval="monthly"/>
+    <table name="pennsylvania_medicheck_preclusions" description="Pennsylvania Department of Human Services Medicheck Precluded Providers List" source="https://www.humanservices.state.pa.us/Medchk/MedchkSearch/Index" resolution="provider" interval="monthly"/>
     <table name="hospital_inpatient_discharges_sparcs" description="New York Hospital Inpatient Discharges (SPARCS De-Identified)" source="https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/5dtw-tffi/about_data" resolution="event" interval="yearly"/>
     <table name="georgia_medicaid_provider_directory" description="Gerogia Medicaid Provider Directory" source="https://dch.georgia.gov/providers/provider-directory" resolution="provider" interval="monthly"/>
   </schema>
