@@ -1,0 +1,123 @@
+<dataset name="competition_dataset_2025">
+    <category name="provider_info">
+        <field name="zip_code" description="Provider practice location ZIP code" />
+        <field name="npi" description="National Provider Identifier" />
+        <field name="gndr" description="Provider gender" />
+        <field name="pri_spec" description="Provider primary medical specialty" />
+        <field name="facility_name" description="Practice facility name" />
+        <field name="num_org_mem" description="Number of clinicians in organization" />
+    </category>
+
+    <category name="mips_performance">
+        <field name="prop_opted_into_mips" description="Proportion of times provider opted into MIPS" />
+        <field name="prop_euc" description="Proportion of extreme and uncontrollable circumstances" />
+        <field name="avg_complex_patient_bonus" description="Average complex patient bonus points" />
+        <field name="avg_quality_reweighting_euc" description="Average quality reweighting due to EUC" />
+        <field name="avg_quality_category_score" description="Average quality category score" />
+        <field name="avg_quality_improvement_score" description="Average quality improvement score" />
+        <field name="avg_final_score" description="Average final MIPS score" />
+        <field name="prop_rural_status" description="Proportion of rural status designations" />
+    </category>
+
+    <category name="medicare_service_payment">
+        <field name="tot_benes" description="Total Medicare beneficiaries served" />
+        <field name="tot_srvcs" description="Total services provided" />
+        <field name="tot_sbmtd_chrg" description="Total submitted charges" />
+        <field name="tot_mdcr_alowd_amt" description="Total Medicare allowed amount" />
+        <field name="tot_mdcr_pymt_amt" description="Total Medicare payment amount" />
+        <field name="tot_mdcr_stdzd_amt" description="Total Medicare standardized payment amount" />
+        <field name="tot_hcpcs_cds" description="Total unique HCPCS codes billed" />
+    </category>
+
+    <category name="beneficiary_demographics">
+        <field name="bene_avg_age" description="Average age of beneficiaries" />
+        <field name="bene_age_lt_65_cnt" description="Count of beneficiaries under 65" />
+        <field name="bene_age_65_74_cnt" description="Count of beneficiaries 65-74" />
+        <field name="bene_age_75_84_cnt" description="Count of beneficiaries 75-84" />
+        <field name="bene_age_gt_84_cnt" description="Count of beneficiaries over 84" />
+        <field name="bene_feml_cnt" description="Count of female beneficiaries" />
+        <field name="bene_male_cnt" description="Count of male beneficiaries" />
+    </category>
+
+    <category name="beneficiary_race_ethnicity">
+        <field name="bene_race_wht_cnt" description="Count of White beneficiaries" />
+        <field name="bene_race_black_cnt" description="Count of Black beneficiaries" />
+        <field name="bene_race_api_cnt" description="Count of Asian/Pacific Islander beneficiaries" />
+        <field name="bene_race_hspnc_cnt" description="Count of Hispanic beneficiaries" />
+        <field name="bene_race_nat_ind_cnt" description="Count of Native American beneficiaries" />
+        <field name="bene_race_othr_cnt" description="Count of other race beneficiaries" />
+        <field name="bene_dual_cnt" description="Count of dual-eligible beneficiaries" />
+        <field name="bene_ndual_cnt" description="Count of non-dual-eligible beneficiaries" />
+    </category>
+
+    <category name="beneficiary_behavioral_health">
+        <field name="bene_cc_bh_adhd_othcd_v1_pct" description="Percent of beneficiaries with ADHD" />
+        <field name="bene_cc_bh_alcohol_drug_v1_pct" description="Percent of beneficiaries with alcohol/drug use" />
+        <field name="bene_cc_bh_tobacco_v1_pct" description="Percent of beneficiaries with tobacco use" />
+        <field name="bene_cc_bh_alz_non_alzdem_v2_pct" description="Percent of beneficiaries with Alzheimer's/dementia" />
+        <field name="bene_cc_bh_anxiety_v1_pct" description="Percent of beneficiaries with anxiety" />
+        <field name="bene_cc_bh_bipolar_v1_pct" description="Percent of beneficiaries with bipolar disorder" />
+        <field name="bene_cc_bh_mood_v2_pct" description="Percent of beneficiaries with mood disorders" />
+        <field name="bene_cc_bh_depress_v1_pct" description="Percent of beneficiaries with depression" />
+        <field name="bene_cc_bh_pd_v1_pct" description="Percent of beneficiaries with personality disorders" />
+        <field name="bene_cc_bh_ptsd_v1_pct" description="Percent of beneficiaries with PTSD" />
+        <field name="bene_cc_bh_schizo_oth_psy_v1_pct" description="Percent of beneficiaries with schizophrenia/psychoses" />
+    </category>
+
+    <category name="beneficiary_physical_health">
+        <field name="bene_cc_ph_asthma_v2_pct" description="Percent of beneficiaries with asthma" />
+        <field name="bene_cc_ph_afib_v2_pct" description="Percent of beneficiaries with atrial fibrillation" />
+        <field name="bene_cc_ph_cancer6_v2_pct" description="Percent of beneficiaries with cancer" />
+        <field name="bene_cc_ph_ckd_v2_pct" description="Percent of beneficiaries with chronic kidney disease" />
+        <field name="bene_cc_ph_copd_v2_pct" description="Percent of beneficiaries with COPD" />
+        <field name="bene_cc_ph_diabetes_v2_pct" description="Percent of beneficiaries with diabetes" />
+        <field name="bene_cc_ph_hf_nonihd_v2_pct" description="Percent of beneficiaries with heart failure" />
+        <field name="bene_cc_ph_hyperlipidemia_v2_pct" description="Percent of beneficiaries with hyperlipidemia" />
+        <field name="bene_cc_ph_hypertension_v2_pct" description="Percent of beneficiaries with hypertension" />
+        <field name="bene_cc_ph_ischemic_heart_v2_pct" description="Percent of beneficiaries with ischemic heart disease" />
+        <field name="bene_cc_ph_osteoporosis_v2_pct" description="Percent of beneficiaries with osteoporosis" />
+        <field name="bene_cc_ph_parkinson_v2_pct" description="Percent of beneficiaries with Parkinson's disease" />
+        <field name="bene_cc_ph_arthritis_v2_pct" description="Percent of beneficiaries with arthritis" />
+        <field name="bene_cc_ph_stroke_tia_v2_pct" description="Percent of beneficiaries with stroke/TIA" />
+        <field name="bene_avg_risk_scre" description="Average HCC risk score of beneficiaries" />
+    </category>
+
+    <category name="cdc_places_health_measures">
+        <field name="all_teeth_lost_among_adults_aged__gte_65_years" description="Percent adults 65+ who have lost all teeth" />
+        <field name="any_disability_among_adults_aged__gte_18_years" description="Percent adults 18+ with any disability" />
+        <field name="arthritis_among_adults_aged__gte_18_years" description="Percent adults 18+ with arthritis" />
+        <field name="binge_drinking_among_adults_aged__gte_18_years" description="Percent adults 18+ who binge drink" />
+        <field name="cancer_excluding_skin_cancer_among_adults_aged__gte_18_years" description="Percent adults 18+ with non-skin cancer" />
+        <field name="cervical_cancer_screening_among_adult_women_aged_21_65_years" description="Percent women 21-65 with cervical cancer screening" />
+        <field name="cholesterol_screening_among_adults_aged__gte_18_years" description="Percent adults 18+ with cholesterol screening" />
+        <field name="chronic_kidney_disease_among_adults_aged__gte_18_years" description="Percent adults 18+ with chronic kidney disease" />
+        <field name="chronic_obstructive_pulmonary_disease_among_adults_aged__gte_18_years" description="Percent adults 18+ with COPD" />
+        <field name="cognitive_disability_among_adults_ages__gte_18_years" description="Percent adults 18+ with cognitive disability" />
+        <field name="coronary_heart_disease_among_adults_aged__gte_18_years" description="Percent adults 18+ with coronary heart disease" />
+        <field name="current_asthma_among_adults_aged__gte_18_years" description="Percent adults 18+ with current asthma" />
+        <field name="current_lack_of_health_insurance_among_adults_aged_18_64_years" description="Percent adults 18-64 without health insurance" />
+        <field name="current_smoking_among_adults_aged__gte_18_years" description="Percent adults 18+ who currently smoke" />
+        <field name="depression_among_adults_aged__gte_18_years" description="Percent adults 18+ with depression" />
+        <field name="diagnosed_diabetes_among_adults_aged__gte_18_years" description="Percent adults 18+ with diagnosed diabetes" />
+        <field name="fair_or_poor_self_rated_health_status_among_adults_aged__gte_18_years" description="Percent adults 18+ reporting fair/poor health" />
+        <field name="fecal_occult_blood_test_sigmoidoscopy_or_colonoscopy_among_adults_aged_50_75_years" description="Percent adults 50-75 with colorectal cancer screening" />
+        <field name="hearing_disability_among_adults_aged__gte_18_years" description="Percent adults 18+ with hearing disability" />
+        <field name="high_blood_pressure_among_adults_aged__gte_18_years" description="Percent adults 18+ with high blood pressure" />
+        <field name="high_cholesterol_among_adults_aged__gte_18_years_who_have_been_screened_in_the_past_5_years" description="Percent screened adults 18+ with high cholesterol" />
+        <field name="independent_living_disability_among_adults_aged__gte_18_years" description="Percent adults 18+ with independent living disability" />
+        <field name="mammography_use_among_women_aged_50_74_years" description="Percent women 50-74 with mammography" />
+        <field name="mental_health_not_good_for__gte_14_days_among_adults_aged__gte_18_years" description="Percent adults 18+ with 14+ days poor mental health" />
+        <field name="mobility_disability_among_adults_aged__gte_18_years" description="Percent adults 18+ with mobility disability" />
+        <field name="no_leisure_time_physical_activity_among_adults_aged__gte_18_years" description="Percent adults 18+ with no leisure time physical activity" />
+        <field name="obesity_among_adults_aged__gte_18_years" description="Percent adults 18+ with obesity" />
+        <field name="older_adult_men_aged__gte_65_years_who_are_up_to_date_on_a_core_set_of_clinical_preventive_services_flu_shot_past_year_ppv_shot_ever_colorectal_cancer_screening" description="Percent women 65+ up to date on core preventive services" />
+        <field name="physical_health_not_good_for__gte_14_days_among_adults_aged__gte_18_years" description="Percent adults 18+ with 14+ days poor physical health" />
+        <field name="self_care_disability_among_adults_aged__gte_18_years" description="Percent adults 18+ with self-care disability" />
+        <field name="sleeping_less_than_7_hours_among_adults_aged__gte_18_years" description="Percent adults 18+ sleeping less than 7 hours" />
+        <field name="stroke_among_adults_aged__gte_18_years" description="Percent adults 18+ who had stroke" />
+        <field name="taking_medicine_for_high_blood_pressure_control_among_adults_aged__gte_18_years_with_high_blood_pressure" description="Percent adults 18+ taking blood pressure medication" />
+        <field name="vision_disability_among_adults_aged__gte_18_years" description="Percent adults 18+ with vision disability" />
+        <field name="visits_to_dentist_or_dental_clinic_among_adults_aged__gte_18_years" description="Percent adults 18+ with dental visits" />
+        <field name="visits_to_doctor_for_routine_checkup_within_the_past_year_among_adults_aged__gte_18_years" description="Percent adults 18+ with routine checkup in past year" />
+    </category>
+</dataset>
