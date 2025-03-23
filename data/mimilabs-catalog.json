@@ -1,0 +1,3077 @@
+[
+  {
+    "path": "hrsa.unmet_need_score",
+    "description": "Unmet Need Score",
+    "source": "https://data.hrsa.gov"
+  },
+  {
+    "path": "hrsa.hpsa_fct_det_dh",
+    "description": "Health Professional Shortage Areas (HPSA) for Dent...",
+    "source": "https://data.hrsa.gov"
+  },
+  {
+    "path": "hrsa.mua_det",
+    "description": "Medically Underserved Areas/Populations (MUA/P)",
+    "source": "https://data.hrsa.gov"
+  },
+  {
+    "path": "hrsa.hpsa_fct_det_mh",
+    "description": "Health Professional Shortage Areas (HPSA) for Ment...",
+    "source": "https://data.hrsa.gov"
+  },
+  {
+    "path": "hrsa.hpsa_fct_det_pc",
+    "description": "Health Professional Shortage Areas (HPSA) for Prim...",
+    "source": "https://data.hrsa.gov"
+  },
+  {
+    "path": "hhsoig.leie",
+    "description": "List of Excluded Individuals/Entities (LEIE)",
+    "source": "https://oig.hhs.gov"
+  },
+  {
+    "path": "hhsoig.buprenorphine_countydata",
+    "description": "Buprenorphine-Waivered Providers, County Data",
+    "source": "https://oig.hhs.gov"
+  },
+  {
+    "path": "hhsoig.enforcement_summaries",
+    "description": "OIG Enforcement Summaries",
+    "source": "https://oig.hhs.gov"
+  },
+  {
+    "path": "hhsoig.enforcement_details_enriched",
+    "description": "OIG Enforcement Details LLM Extracted",
+    "source": "https://oig.hhs.gov"
+  },
+  {
+    "path": "hhsoig.enforcement_details",
+    "description": "OIG Enforcement Details Raw Text",
+    "source": "https://oig.hhs.gov"
+  },
+  {
+    "path": "huduser.county_to_zip",
+    "description": "County to ZIP Code Crosswalk (raw data)",
+    "source": "https://www.huduser.gov"
+  },
+  {
+    "path": "huduser.zip_to_cbsa_mto",
+    "description": "ZIP to CBSA crosswalk, many-to-one (mto) mapping b...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "huduser.zip_to_county_mto",
+    "description": "ZIP to County crosswalk, many-to-one (mto) mapping...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "huduser.tract_to_zip",
+    "description": "Census Tract to ZIP Code Crosswalk (raw data)",
+    "source": "https://www.huduser.gov"
+  },
+  {
+    "path": "huduser.cbsa_to_zip",
+    "description": "Core-Based Statistical Area (CBSA) to ZIP Code Cro...",
+    "source": "https://www.huduser.gov"
+  },
+  {
+    "path": "huduser.cbsa_to_zip_otm",
+    "description": "CBSA to ZIP crosswalk, one-to-many (otm) mapping b...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "huduser.zip_to_tract",
+    "description": "ZIP Code to Census Tract Crosswalk (raw data)",
+    "source": "https://www.huduser.gov"
+  },
+  {
+    "path": "huduser.zip_to_tract_otm",
+    "description": "ZIP to Census Tract crosswalk, one-to-many (otm) m...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "huduser.zip_to_cbsa",
+    "description": "ZIP Code to Core-Based Statistical Area (CBSA) (ra...",
+    "source": "https://www.huduser.gov"
+  },
+  {
+    "path": "huduser.zip_to_county",
+    "description": "ZIP Code to County Crosswalk (raw data)",
+    "source": "https://www.huduser.gov"
+  },
+  {
+    "path": "huduser.tract_to_zip_mto",
+    "description": "Census Tract to ZIP crosswalk, many-to-one (mto) m...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "huduser.county_to_zip_otm",
+    "description": "County to ZIP crosswalk, one-to-many (otm) mapping...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "payermrf.premera_toc",
+    "description": "Premera Table of Contents",
+    "source": "https://www.premera.com"
+  },
+  {
+    "path": "payermrf.provider_references_ucare",
+    "description": "Provider Reference Data, UCare",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.provider_references_medica",
+    "description": "Provider Reference Data, Medica",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.provider_references_aetna",
+    "description": "Provider Reference Data, Aetna",
+    "source": "https://health1.aetna.com"
+  },
+  {
+    "path": "payermrf.in_network_rates",
+    "description": "In-Network Rates Data, Some of UHC data, and all M...",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.medica_toc",
+    "description": "Medica Table of Contents",
+    "source": "https://web.healthsparq.com"
+  },
+  {
+    "path": "payermrf.provider_references_healthpartners",
+    "description": "Provider Reference Data, Health Partners",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.provider_references_unitedhealth",
+    "description": "Provider Reference Data, UnitedHealthcare",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.in_network_rates_medica",
+    "description": "In-Network Rates Data, Medica",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.in_network_rates_unitedhealth",
+    "description": "In-Network Rates Data, UnitedHealthcare",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.aetna_toc",
+    "description": "CVS/Aetna Table of Contents",
+    "source": "https://health1.aetna.com"
+  },
+  {
+    "path": "payermrf.npi_to_tin",
+    "description": "NPI to TIN Mapping Table",
+    "source": "https://web.healthsparq.com/healthsparq/public/#/one/insurerCode=MEDICA_I&brandCode=MEDICA&productCode=MRF/machine-readable-transparency-in-coverage"
+  },
+  {
+    "path": "payermrf.molina_provider_directory",
+    "description": "Molina Healthcare Provider Directory",
+    "source": "https://www.molinahealthcare.com"
+  },
+  {
+    "path": "payermrf.in_network_rates_healthpartners",
+    "description": "In-Network Rates Data, HealthPartners",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.allowed_amounts",
+    "description": "Allowed Amounts Data (Out-of-Network), Out-of-Netw...",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.in_network_rates_ucare",
+    "description": "In-Network Rates Data, UCare",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.in_network_rates_aetna",
+    "description": "In-Network Rates Data, Aetna",
+    "source": "https://health1.aetna.com"
+  },
+  {
+    "path": "payermrf.unh_toc",
+    "description": "UnitedHealthcare Table of Contents",
+    "source": "https://transparency-in-coverage.uhc.com"
+  },
+  {
+    "path": "payermrf.provider_references",
+    "description": "Provider Reference Data",
+    "source": "https://github.com"
+  },
+  {
+    "path": "cmsinnovation.ckcc_performance",
+    "description": "CKCC/KCF Performance Results",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsinnovation.primarycarefirst_participants",
+    "description": "Primary Care First (PCF) Participant List",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsinnovation.dc_ratebook",
+    "description": "ACO REACH (DCE) and CKCC/KCF Ratebook",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsinnovation.makingcareprimary_participants_with_npi",
+    "description": "Making Care Primary (MCP) Participant List with NP...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsinnovation.makingcareprimary_participants",
+    "description": "Making Care Primary (MCP) Participant List",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsinnovation.gdpc_performance",
+    "description": "ACO REACH (DCE) Performance Results",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsinnovation.reach_orgs",
+    "description": "ACO REACH Organizations",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsinnovation.primarycarefirst_results",
+    "description": "Primary Care First (PCF) Results",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsinnovation.primarycarefirst_participants_with_npi",
+    "description": "Primary Care First (PCF) Participant List with NPI...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "zillow.homevalue_zip",
+    "description": "Home Values by Zillow",
+    "source": "https://www.zillow.com"
+  },
+  {
+    "path": "zillow.rent_zip",
+    "description": "Rentals by Zillow",
+    "source": "https://www.zillow.com"
+  },
+  {
+    "path": "datacmsgov.pc_fqhc_owner",
+    "description": "FQHC All Ownership Information",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_ruralhealthclinic_owner",
+    "description": "Rural Health Clinic All Ownership Information",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupdpr_prvdr",
+    "description": "Medicare Part D Prescribers by Prescriber",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mssp_participants",
+    "description": "MSSP Accountable Care Organization Participants",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupohp",
+    "description": "Medicare Outpatient Hospitals by Provider and Serv...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.otpp",
+    "description": "Medicare Opioid Treatment Program Providers",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_hospital",
+    "description": "Hospital Medicare Enrollments",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupdme_geo",
+    "description": "Medicare Durable Medical Equipment, Devices & Supp...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_ruralhealthclinic",
+    "description": "Rural Health Clinic Medicare Enrollments",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.betos",
+    "description": "Restructured BETOS Classification System (RBCS)",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.muppac_geo",
+    "description": "Medicare Post-Acute Care and Hospice by Geography ...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupdme_sup",
+    "description": "Medicare Durable Medical Equipment, Devices & Supp...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.orderandreferring",
+    "description": "Medicare Order and Referring Eligible Providers",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupohp_geo",
+    "description": "Medicare Outpatient Hospitals by Geography and Ser...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_snf",
+    "description": "Skilled Nursing Facility Medicare Enrollments",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupdpr",
+    "description": "Medicare Part D Prescribers by Prescriber and Drug",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_fqhc",
+    "description": "Federally Qualified Health Center Medicare Enrollm...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mssp_orgs",
+    "description": "MSSP Accountable Care Organizations",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mcbs_summer",
+    "description": "Medicare Current Beneficiary Survey (MCBS), Summer",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pendingilt",
+    "description": "Medicare Enrollment, Pending Initial Logging and T...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_snf_owner",
+    "description": "SNF All Ownership Information",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.optout",
+    "description": "Medicare Opt Out Affidavits",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.geovariation",
+    "description": "Medicare Geographic Variation - by National, State...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_hospice",
+    "description": "Hospice Medicare Enrollments",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupihp_geo",
+    "description": "Medicare Inpatient Hospitals by Geography and Serv...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_homehealth",
+    "description": "Home Health Agency Medicare Enrollments",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_homeinfusion",
+    "description": "Home Infusion Therapy Provider Medicare Enrollment...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.qpp",
+    "description": "Quality Payment Program, e.g., MIPS, APMs, Perform...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupphy_prvdr",
+    "description": "Medicare Physician & Other Practitioners by Provid...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupdpr_geo",
+    "description": "Medicare Part D Prescribers by Geography and Drug",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupihp_prvdr",
+    "description": "Medicare Inpatient Hospitals by Provider",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mcbs_fall",
+    "description": "Medicare Current Beneficiary Survey (MCBS), Fall",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.revalidation",
+    "description": "Medicare Revalidation Clinic Group Practice Reassi...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_provider",
+    "description": "Medicare Fee-For-Service Public Provider Medicare ...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.nursinghome_ae_perf",
+    "description": "Nursing Home Affiliated Entity Performance",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mssp_results",
+    "description": "Medicare Shared Savings Program (MSSP) Performance...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupdme",
+    "description": "Medicare Durable Medical Equipment, Devices & Supp...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.covid19nursinghomes",
+    "description": "COVID-19 Nursing Home Data",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mcbs_winter",
+    "description": "Medicare Current Beneficiary Survey (MCBS), Winter",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupphy_geo",
+    "description": "Medicare Physician & Other Practitioners by Geogra...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupphy",
+    "description": "Medicare Physician & Other Practitioners by Provid...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupdme_prvdr",
+    "description": "Medicare Durable Medical Equipment, Devices & Supp...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_hospital_owner",
+    "description": "Hospital All Ownership Information",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.datacatalog",
+    "description": "The Data Catalog (metadata) of the data.cms.gov si...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pc_hospice_owner",
+    "description": "Hospice All Ownership Information",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupdme_suphpr",
+    "description": "Medicare Durable Medical Equipment, Devices & Supp...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mssp_county_lvl_expenditures",
+    "description": "Medicare Shared Savings Program County-level Aggre...",
+    "source": "://"
+  },
+  {
+    "path": "datacmsgov.mssp_regional_trend_factors",
+    "description": "MSSP Regional Trend Factor derived from `mssp_coun...",
+    "source": "https://data.cms.gov/"
+  },
+  {
+    "path": "datacmsgov.pc_homehealth_owner",
+    "description": "Home Health All Ownership Information",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.mupihp",
+    "description": "Medicare Inpatient Hospitals by Provider and Servi...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.psps",
+    "description": "Physician/Supplier Procedure Summary",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "cmsmarketplace.puf_transparency_in_coverage",
+    "description": "Transparency in Coverage PUF",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsmarketplace.product_details",
+    "description": "Product Details",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsmarketplace.mlr_part12_summary",
+    "description": "MLR PART1 2 SUMMARY DATA PREMIUM CLAIMS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsmarketplace.issuer_details",
+    "description": "Issuer Details",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsmarketplace.puf_benefits_and_cost_sharing",
+    "description": "Benefits and Cost Sharing PUF",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsmarketplace.rate_review_wksh2",
+    "description": "Unified Rate Review Public Use File Worksheet 2",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsmarketplace.mlr_part3_mlr_rebate",
+    "description": "MLR PART1 2 SUMMARY DATA PREMIUM CLAIMS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsmarketplace.enrollment",
+    "description": "Issuer Level Enrollment Data",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsmarketplace.rate_review_wksh1",
+    "description": "Unified Rate Review Public Use File Worksheet 1",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "medicalboard.ny_ed_enforcement_actions",
+    "description": "New York Board of Regents Enforcement Actions",
+    "source": "https://www.op.nysed.gov"
+  },
+  {
+    "path": "medicalboard.ny_disciplinary_actions",
+    "description": "New York Department of Health Disciplinary Actions",
+    "source": "https://apps.health.ny.gov"
+  },
+  {
+    "path": "medicalboard.fl_disciplinary_actions",
+    "description": "Florida Medical Board Disciplinary Actions",
+    "source": "https://mqa-internet.doh.state.fl.us"
+  },
+  {
+    "path": "medicalboard.ca_disciplinary_actions",
+    "description": "California Medical Board Disciplinary Actions",
+    "source": "https://www.mbc.ca.gov"
+  },
+  {
+    "path": "openpayments.general",
+    "description": "General Payments Details",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "openpayments.research",
+    "description": "Research Payments Details",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "openpayments.ownership",
+    "description": "Physician Ownership Details",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "openpayments.deleted",
+    "description": "Deleted Entries from the Open Payment datasets",
+    "source": "https://openpaymentsdata.cms.gov"
+  },
+  {
+    "path": "tuvahealth.location",
+    "description": "Location",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf7_partd_claims",
+    "description": "CCLF7 Part D Claims",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.eligibility",
+    "description": "Eligibility",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf5_partb_physicians",
+    "description": "CCLF5 Part B Physician",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.medical_claim",
+    "description": "Medical Claim",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.lab_result",
+    "description": "Lab Result",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf4_parta_diagnosis_code",
+    "description": "CCLF4 Part A Claims Diagnosis Code",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.practitioner",
+    "description": "Practitioner",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclfx_enrollment",
+    "description": "CCLFX ACO Enrollment File",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.patient",
+    "description": "Patient",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf2_parta_claims_revenue_center_detail",
+    "description": "CCLF2 Part A Claims Revenue Center Detail",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.medication",
+    "description": "Medication",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf3_parta_procedure_code",
+    "description": "CCLF3 Part A Claims Procedure Code",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.condition",
+    "description": "Condition",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.pharmacy_claim",
+    "description": "Pharmacy Claim",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf8_beneficiary_demographics",
+    "description": "CCLF8 Beneficiary Demographics",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.encounter",
+    "description": "Encounter",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf1_parta_claims_header",
+    "description": "CCLF1 Part A Claims Header File",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf9_beneficiary_xref",
+    "description": "CCLF9 Beneficiary XREF",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.observation",
+    "description": "Observation",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf6_partb_dme",
+    "description": "CCLF6 Part B Part B DME",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.procedure",
+    "description": "Procedure",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "cmssafetystandards.termination_notices",
+    "description": "Medicare Termination Notices",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "legacycom.obituaries",
+    "description": "Scraped Obituaries",
+    "source": "legacy.com"
+  },
+  {
+    "path": "cmscoding.icd10cm",
+    "description": "ICD-10-CM Codes and Descriptions",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmscoding.icd10cm_poa_exempt",
+    "description": "ICD-10-CM Present on Admission (POA) Exempt Codes ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmscoding.ncci_ptp",
+    "description": "Medicare National Correct Coding Initiative (NCCI)...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmscoding.icd10pcs",
+    "description": "ICD-10-PCS Codes and Descriptions",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmscoding.hcpcs",
+    "description": "HCPCS Codes and Descriptions",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmscoding.ncci_mue",
+    "description": "Medicare National Correct Coding Initiative (NCCI)...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "surgoventures.ccvi_state",
+    "description": "THE U.S. COVID COMMUNITY VULNERABILITY INDEX (CCVI...",
+    "source": "https://precisionforcovid.org"
+  },
+  {
+    "path": "surgoventures.mvi_county",
+    "description": "The U.S. Maternal Vulnerability Index by Surgo Ven...",
+    "source": "https://mvi.surgoventures.org"
+  },
+  {
+    "path": "surgoventures.ccvi_county",
+    "description": "THE U.S. COVID COMMUNITY VULNERABILITY INDEX (CCVI...",
+    "source": "https://precisionforcovid.org"
+  },
+  {
+    "path": "nppes.npi_to_address",
+    "description": "NPI to Geocoded Address (both practice and mail ad...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "nppes.address_key",
+    "description": "Address Key, A collection of Unique Address String...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "nppes.fhir_qualification",
+    "description": "NPPES-in-FHIR qualification component, mimi-derive...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "nppes.fhir_telecom",
+    "description": "NPPES-in-FHIR telecom component, mimi-derived data",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "nppes.placekey",
+    "description": "NPIDATA with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "nppes.pl",
+    "description": "Other Practice Locations from the monthly NPPES ba...",
+    "source": "https://download.cms.gov"
+  },
+  {
+    "path": "nppes.fhir_address",
+    "description": "NPPES-in-FHIR address component, mimi-derived data",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "nppes.npidata",
+    "description": "NPIDATA, the base table for the NPI directory",
+    "source": "https://download.cms.gov"
+  },
+  {
+    "path": "nppes.deactivated",
+    "description": "Deactived Provider List from the monthly NPPES bat...",
+    "source": "https://download.cms.gov"
+  },
+  {
+    "path": "nppes.endpoint",
+    "description": "Health Information Exchange (HIE) Endpoints, i.e.,...",
+    "source": "https://download.cms.gov"
+  },
+  {
+    "path": "nppes.address_census_geocoder_dedup",
+    "description": "De-duplicated Geocoding Results for the `address_k...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "nppes.othername",
+    "description": "Other Business Names such as DBA from the monthly ...",
+    "source": "https://download.cms.gov"
+  },
+  {
+    "path": "nppes.fhir_identifier",
+    "description": "NPPES-in-FHIR identifier component, mimi-derived d...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "nppes.fhir_export",
+    "description": "NPPES-in-FHIR database for the https://nppesfhir.m...",
+    "source": "https://nppesfhir.mimilabs.ai"
+  },
+  {
+    "path": "nppes.fhir_name",
+    "description": "NPPES-in-FHIR name component, mimi-derived data",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "nppes.address_census_geocoder_raw",
+    "description": "Raw Geocoding Results from the US Census Geocoder,...",
+    "source": "https://geocoding.geo.census.gov"
+  },
+  {
+    "path": "neighborhoodatlas.adi_censusblock",
+    "description": "Area Deprivation Index (ADI) Original (Census Bloc...",
+    "source": "https://www.neighborhoodatlas.medicine.wisc.edu"
+  },
+  {
+    "path": "neighborhoodatlas.adi_county",
+    "description": "Area Deprivation Index (ADI) Aggregated (Census Bl...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "neighborhoodatlas.adi_censustract",
+    "description": "Area Deprivation Index (ADI) Aggregated (Census Tr...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "palmettogba.ed_loops_segments",
+    "description": "Ecounter Data Loops and Segments",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.edps_edit_lookup",
+    "description": "EDPS Edit Lookup~References)",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.ta1_edit_lookup",
+    "description": "The Interchange Acknowledgement (TA1) Edit Lookup~...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.raps_edit_lookup",
+    "description": "Risk Adjustment Processing System (RAPS) Edit Look...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.dmecs",
+    "description": "DME Coding System (DMECS) Update Listing",
+    "source": "https://www.dmepdac.com"
+  },
+  {
+    "path": "palmettogba.cem_837_edit_lookup",
+    "description": "Combined Common Edit Module (CEM) 837 Edit Lookup~...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.sbsc_minimum_data_elements",
+    "description": "Supplemental Benefit Services Category Minimum Dat...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.277ca_edit_lookup",
+    "description": "277CA Edit Lookup~References)",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.acceptable_physician_specialties",
+    "description": "Acceptable Physician Specialty Types~References)",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.ed_control_segments",
+    "description": "Ecounter Data Control Segments",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.outpatient_cpt_exlusions",
+    "description": "Outpatient CPT/HCPCS Exclusion List~References)",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.sbsc_codes",
+    "description": "Supplemental Benefit Services Category Codes",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.ndc_hcpcs_xwalk",
+    "description": "NDC/HCPCS Crosswalk",
+    "source": "https://dmepdac.com"
+  },
+  {
+    "path": "palmettogba.feras_edit_lookup",
+    "description": "Front End Risk Adjustment System (FERAS) Edit Look...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "palmettogba.ed_deactivated_edits",
+    "description": "Ecounter Data Deactivated Edits",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "cmspayment.rvu_oppscap",
+    "description": "Outpatient Prospective Payment System Caps for RVU...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ra_hierarchies",
+    "description": "Hierarchies of Condition Categories (CCs)",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.bpt_ma_6",
+    "description": "Bid Pricing Tool MA Worksheet 6 Bid Summary",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.partb_drug_awp_ndc_to_hcpcs",
+    "description": "AWP NDC-HCPCS Crosswalk",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.partb_drug_noc_pricing",
+    "description": "Not Otherwie Classified (NOC) - Pricing File",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.bpt_ma_2",
+    "description": "Bid Pricing Tool MA Worksheet 2 Projected Allowed ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.partb_drug_noc_ndc_to_hcpcs",
+    "description": "NOC NDC-HCPCS Crosswalk",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ra_labels",
+    "description": "Labels for Condition Categories",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.bpt_ma_4",
+    "description": "Bid Pricing Tool MA Worksheet 4 Projected Revenue ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.partb_drug_asp_ndc_to_hcpcs",
+    "description": "ASP NDC-HCPCS Crosswalk",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ra_eligible_cpt_hcpcs",
+    "description": "Eligible CPT/HCPCS Codes for Risk Adjustment",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.mac_locality",
+    "description": "MAC (Medicare Administrative Contractor) Locality ...",
+    "source": "https://www.cms.gov/medicare/payment/fee-schedules/physician"
+  },
+  {
+    "path": "cmspayment.ffs_data",
+    "description": "Medicare FFS Data summarized by county",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.physicianfeeschedule_metadata",
+    "description": "Physician Fee Schedules Download Metadata, e.g. we...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.rvu_gpci",
+    "description": "Geographic Practice Cost Index (GPCI)",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.partb_drug_asp_pricing",
+    "description": "Average Sales Pricing (ASP) - Pricing File",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.physicianfeeschedule",
+    "description": "Physician Fee Schedules National Payment Amount Fi...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.bpt_ma_3",
+    "description": "Bid Pricing Tool MA Worksheet 3 Projected Cost Sha...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ra_dx_to_cc_mapping",
+    "description": "ICD-10-CM to CC mapping",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.pace_ratebook",
+    "description": "PACE Rate Book by county",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.opps_addendum_a",
+    "description": "Outpatient Prospective Payment System (OPPS) Adden...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.partb_drug_opps_ndc_to_hcpcs",
+    "description": "OPPS NDC-HCPCS Crosswalk",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ra_report_to_congress",
+    "description": "Risk Adjustment Report-to-Congress Data",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.bpt_ma_5",
+    "description": "Bid Pricing Tool MA Worksheet 5 Benchmark PMPM",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.bpt_ma_7",
+    "description": "Bid Pricing Tool MA Worksheet 7 Optional Supplemen...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ma_ratebook",
+    "description": "Medicare Advantage Rate Book by county",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.rvu_pprrvu",
+    "description": "Physician Procedure RVU (PPRRVU)",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ra_coefficients",
+    "description": "Risk Adjustment Coefficient Values",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.bpt_ma_1",
+    "description": "Bid Pricing Tool MA Worksheet 1 Base Period Experi...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.opps_addendum_b",
+    "description": "Outpatient Prospective Payment System (OPPS) Adden...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "epa.airdata_yearly",
+    "description": "Pre-generated Yearly Data by Monitor",
+    "source": "https://aqs.epa.gov"
+  },
+  {
+    "path": "epa.airdata_yearly_cbsa",
+    "description": "Pre-generated Yearly AQI by CBSA",
+    "source": "https://aqs.epa.gov"
+  },
+  {
+    "path": "epa.airdata_yearly_county",
+    "description": "Pre-generated Yearly AQI by County",
+    "source": "https://aqs.epa.gov"
+  },
+  {
+    "path": "epa.airdata_daily_cbsa",
+    "description": "Pre-generated Daily AQI by CBSA",
+    "source": "https://aqs.epa.gov"
+  },
+  {
+    "path": "epa.airdata_daily_county",
+    "description": "Pre-generated Daily AQI by County",
+    "source": "https://aqs.epa.gov"
+  },
+  {
+    "path": "epa.airdata_daily",
+    "description": "Pre-generated Daily Data by Monitor",
+    "source": "https://aqs.epa.gov"
+  },
+  {
+    "path": "qcorcms.clia_listing",
+    "description": "CLIA ())Clinical Laboratory Improvement Amendments...",
+    "source": "https://qcor.cms.gov"
+  },
+  {
+    "path": "datahealthcaregov.provider_addresses",
+    "description": "Provider Addresses from the MRF Provider Directori...",
+    "source": "https://data.healthcare.gov"
+  },
+  {
+    "path": "datahealthcaregov.plan",
+    "description": "Plan Information from the MRF Provider Directories",
+    "source": "https://data.healthcare.gov"
+  },
+  {
+    "path": "datahealthcaregov.mrf_xlsx",
+    "description": "Machine Readable File (MRF) URLs",
+    "source": "https://data.healthcare.gov"
+  },
+  {
+    "path": "datahealthcaregov.provider_base",
+    "description": "Provider Directory (base table) from the MRF Provi...",
+    "source": "https://data.healthcare.gov"
+  },
+  {
+    "path": "datahealthcaregov.provider_plans",
+    "description": "Provider to Contracted Plans from the MRF Provider...",
+    "source": "https://data.healthcare.gov"
+  },
+  {
+    "path": "datahealthcaregov.formulary_details",
+    "description": "Plan Formulary Details, e.g., Drug Name, RxNorm ID...",
+    "source": "https://data.healthcare.gov"
+  },
+  {
+    "path": "datahealthcaregov.plan_formulary_base",
+    "description": "Plan Formulary Base Information from the MRF Provi...",
+    "source": "https://data.healthcare.gov"
+  },
+  {
+    "path": "ahrq.meps_event_outpatientvisits",
+    "description": "MEPS HC Event Files Outpatient Visits",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.compendium_homehealth_linkage",
+    "description": "Compendium of U.S. Health Systems, Home Health Lin...",
+    "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_event_label_dictionary",
+    "description": "MEPS (Medical Expenditure Panel Survey) Household ...",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_event_officevisits",
+    "description": "MEPS HC Event Files Office-based Visits",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.compendium_us_health_systems",
+    "description": "Compendium of U.S. Health Systems",
+    "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.compendium_outpatient_linkage",
+    "description": "Compendium of U.S. Health Systems, Outpatient Link...",
+    "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_event_metadata",
+    "description": "MEPS (Medical Expenditure Panel Survey) Household ...",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.sdohdb_zipcode",
+    "description": "SDoH Database",
+    "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.compendium_hospital_linkage",
+    "description": "Compendium of U.S. Health Systems, Hospital Linkag...",
+    "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_event_prescribedmeds",
+    "description": "MEPS HC Event Files Prescribed Medicines",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.compendium_nursinghome_linkage",
+    "description": "Compendium of U.S. Health Systems, Nursing Home Li...",
+    "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_event_dentalvisits",
+    "description": "MEPS HC Event Files Dental Visits",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_consol_metadata",
+    "description": "MEPS (Medical Expenditure Panel Survey) Household ...",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_event_inpatientstays",
+    "description": "MEPS HC Event Files Inpatient Stays",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.compendium_grouppractice_linkage",
+    "description": "Compendium of U.S. Health Systems, Group Practice ...",
+    "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.sdohdb_county",
+    "description": "SDoH Database",
+    "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_event_othermedicalexp",
+    "description": "MEPS HC Event Files Other Medical Expenditures",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.sdohdb_tract",
+    "description": "SDoH Database",
+    "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_event_homehealth",
+    "description": "MEPS HC Event Files Home Health",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_consol_label_dictionary",
+    "description": "MEPS (Medical Expenditure Panel Survey) Household ...",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_fyc",
+    "description": "MEPS HC Full Year Consolidated Files",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.meps_event_ervisits",
+    "description": "MEPS HC Event Files Emergency Room Visits",
+    "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "synthea.patients",
+    "description": "Patient demographic data, MITRE Synthea",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.allergies",
+    "description": "Patient allergy data, MITRE Synthea",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.observations",
+    "description": "Patient observations including vital signs and lab...",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.imaging_studies",
+    "description": "Patient imaging metadata, MITRE Synthea",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.devices",
+    "description": "Patient-affixed permanent and semi-permanent devic...",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.supplies",
+    "description": "Supplies used in the provision of care, MITRE Synt...",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.organizations",
+    "description": "Provider organizations including hospitals, MITRE ...",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.medications",
+    "description": "Patient medication data, MITRE Synthea",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.providers",
+    "description": "Clinicians that provide patient care, MITRE Synthe...",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.conditions",
+    "description": "Patient conditions or diagnoses, MITRE Synthea",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.payer_transitions",
+    "description": "Payer Transition data (i.e. changes in health insu...",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.immunizations",
+    "description": "Patient immunization data, MITRE Synthea",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.careplans",
+    "description": "Patient care plan data, including goals, MITRE Syn...",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.procedures",
+    "description": "Patient procedure data including surgeries, MITRE ...",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.encounters",
+    "description": "Patient encounter data, MITRE Synthea",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "synthea.payers",
+    "description": "Payer organization data, MITRE Synthea",
+    "source": "https://synthetichealth.github.io"
+  },
+  {
+    "path": "mimilabs.cms_emails",
+    "description": "CMS Email Subscriptions",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mimilabs.columnstats",
+    "description": "ColumnStats provides a snapshot of the column deta...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "mimilabs.kff_emails",
+    "description": "Kaiser Family Foundation Email Subscriptions",
+    "source": "https://www.kff.org"
+  },
+  {
+    "path": "mimilabs.tablestats",
+    "description": "TableStats provides a snapshot of the table source...",
+    "source": "https://mimilabs.ai"
+  },
+  {
+    "path": "mimilabs.google_emails",
+    "description": "Google Alert Email Subscriptions, Keyword: Centers...",
+    "source": "https://www.google.com"
+  },
+  {
+    "path": "medlineplus.primary_institute",
+    "description": "Information about the primary institute associated...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.language_mapped_topic",
+    "description": "Information about topic translations or language v...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.site",
+    "description": "Information about external sites related to the to...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.standard_description",
+    "description": "Standard descriptions for each site from MedlinePl...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.also_called",
+    "description": "Alternative names or terms for health topics from ...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.organization",
+    "description": "Organizations associated with each site from Medli...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.other_language",
+    "description": "Information about the topic in other languages fro...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.topic_group",
+    "description": "Group information associated with health topics fr...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.health_topic",
+    "description": "Main information for each individual health topic ...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.mesh_qualifier",
+    "description": "MeSH qualifiers associated with MeSH descriptors f...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.information_category",
+    "description": "Categories of information for each site from Medli...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.mesh_heading",
+    "description": "Medical Subject Headings (MeSH) descriptors for to...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.see_reference",
+    "description": "Cross-references or \"see also\" type information fr...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "medlineplus.related_topic",
+    "description": "Information about topics related to the main topic...",
+    "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "nber.ssa2fips_state_and_county",
+    "description": "SSA to FIPS crowsswalk",
+    "source": "https://www.nber.org"
+  },
+  {
+    "path": "nlm.rxnconso",
+    "description": "RxNorm Concept Names and Soruces (RXNCONSO), Presc...",
+    "source": "https://www.nlm.nih.gov"
+  },
+  {
+    "path": "nlm.rxnrel",
+    "description": "RxNorm Related Concepts (RXNREL), Prescribable Con...",
+    "source": "https://www.nlm.nih.gov"
+  },
+  {
+    "path": "nlm.rxn_all_pathways",
+    "description": "RxNorm All Pathways, inspired by the Google Health...",
+    "source": "https://console.cloud.google.com"
+  },
+  {
+    "path": "nlm.rxnsat",
+    "description": "RxNorm Simple Concept and Atom Attributes (RXNSAT)...",
+    "source": "https://www.nlm.nih.gov"
+  },
+  {
+    "path": "nlm.rxnorm_paths",
+    "description": "RxNorm Default Paths",
+    "source": "https://lhncbc.nlm.nih.gov"
+  },
+  {
+    "path": "nlm.historical_ndcs",
+    "description": "Historical NDCs for RxCUI",
+    "source": "https://lhncbc.nlm.nih.gov"
+  },
+  {
+    "path": "census.centerofpop_bg",
+    "description": "The Centers of Population for each Census Block Gr...",
+    "source": "https://www.census.gov"
+  },
+  {
+    "path": "census.cbsa_to_metro_div_csa",
+    "description": "Core based statistical areas (CBSAs), metropolitan...",
+    "source": "https://www.census.gov"
+  },
+  {
+    "path": "census.cbsa_to_principal_city_fips",
+    "description": "Principal cities of metropolitan and micropolitan ...",
+    "source": "https://www.census.gov"
+  },
+  {
+    "path": "census.pop_est_zcta",
+    "description": "Population Size by ZCTA",
+    "source": "https://data.census.gov"
+  },
+  {
+    "path": "census.centerofpop_tr",
+    "description": "The Centers of Population for each Census Tract",
+    "source": "https://www.census.gov"
+  },
+  {
+    "path": "census.centerofpop_co",
+    "description": "The Centers of Population for each County",
+    "source": "https://www.census.gov"
+  },
+  {
+    "path": "census.centerofpop_st",
+    "description": "The Centers of Population for each State",
+    "source": "https://www.census.gov"
+  },
+  {
+    "path": "census.acs5_table_shells",
+    "description": "American Community Survey (ACS) 5 Years Table Shel...",
+    "source": "https://www.census.gov"
+  },
+  {
+    "path": "census.centerofpop_us",
+    "description": "The Center of Population of the US",
+    "source": "https://www.census.gov"
+  },
+  {
+    "path": "nyu.ed_avoidable_patch_icd9cm",
+    "description": "A \"patch\" to the NYU Avoidable Emergency Room Visi...",
+    "source": "https://pmc.ncbi.nlm.nih.gov"
+  },
+  {
+    "path": "nyu.ed_avoidable_original_icd10cm",
+    "description": "The original NYU Avoidable Emergency Room Visit Al...",
+    "source": "https://wagner.nyu.edu"
+  },
+  {
+    "path": "nyu.ed_avoidable_patch_icd10cm",
+    "description": "A \"patch\" to the NYU Avoidable Emergency Room Visi...",
+    "source": "https://pmc.ncbi.nlm.nih.gov"
+  },
+  {
+    "path": "nyu.ed_avoidable_original_icd9cm",
+    "description": "The original NYU Avoidable Emergency Room Visit Al...",
+    "source": "https://wagner.nyu.edu"
+  },
+  {
+    "path": "healthit.chit_cpip",
+    "description": "Certified Health Information Technology Reported b...",
+    "source": "https://www.healthit.gov"
+  },
+  {
+    "path": "irs.zpallagi",
+    "description": "Individual income tax statistics - ZIP Code data (...",
+    "source": "https://www.irs.gov"
+  },
+  {
+    "path": "nasbo.state_expenditure",
+    "description": "State Expenditure Report data ($ in Millions).",
+    "source": "https://www.nasbo.org"
+  },
+  {
+    "path": "nasbo.rainy_day_fund_balances",
+    "description": "State Rainy Day Balances data ($ in Millions).",
+    "source": "https://www.nasbo.org"
+  },
+  {
+    "path": "nasbo.general_fund_revenue",
+    "description": "State General Fund Revenue data ($ in Millions).",
+    "source": "https://www.nasbo.org"
+  },
+  {
+    "path": "datamedicaidgov.quality",
+    "description": "Child and Adult Health Care Quality Measures Quali...",
+    "source": "https://data.medicaid.gov"
+  },
+  {
+    "path": "datamedicaidgov.nadac",
+    "description": "NADAC (National Average Drug Acquisition Cost)",
+    "source": "https://data.medicaid.gov"
+  },
+  {
+    "path": "datamedicaidgov.drugutilization",
+    "description": "Medicaid State Drug Utilization",
+    "source": "https://data.medicaid.gov"
+  },
+  {
+    "path": "datamedicaidgov.mlrsummary",
+    "description": "MLR Summary Report",
+    "source": "https://data.medicaid.gov"
+  },
+  {
+    "path": "cdc.nhanes_demo_demographic_variables_sample_weights",
+    "description": "CDC NHANES DEMO Demographic Variables & Sample Wei...",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_exam_body_measures",
+    "description": "CDC NHANES EXAM Body Measures",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_censustract_y2022",
+    "description": "Social Vulnerability Index at County-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.svi_censustract_y2016",
+    "description": "Social Vulnerability Index at Census Tract-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.nndss",
+    "description": "National Notifiable Diseases Surveillance System (...",
+    "source": "https://data.cdc.gov"
+  },
+  {
+    "path": "cdc.nwss_mpox",
+    "description": "National Wastewater Surveillance System (NWSS) for...",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_county_y2016",
+    "description": "Social Vulnerability Index at County-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.urbanrural_classification",
+    "description": "NCHS Urban-Rural Classification Scheme for Countie...",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_oral_glucose_tolerance_test",
+    "description": "CDC NHANES LAB Oral Glucose Tolerance Test",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_smoking_adult_recent_tobacco_use_youth_cigarettetobacco_use",
+    "description": "CDC NHANES QRE Smoking - Adult Recent Tobacco Use ...",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_smoking_cigarette_use",
+    "description": "CDC NHANES QRE Smoking - Cigarette Use",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_county_y2020",
+    "description": "Social Vulnerability Index at County-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.svi_censustract_y2010",
+    "description": "Social Vulnerability Index at Census Tract-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.nhanes_qre_acculturation",
+    "description": "CDC NHANES QRE Acculturation",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_exam_blood_pressure",
+    "description": "CDC NHANES EXAM Blood Pressure",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_kidney_conditions",
+    "description": "CDC NHANES QRE Kidney Conditions",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_standard_biochemistry_profile",
+    "description": "CDC NHANES LAB Standard Biochemistry Profile",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_metadata",
+    "description": "National Health and Nutrition Examination Survey (...",
+    "source": "https://wwwn.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_censustract_y2018",
+    "description": "Social Vulnerability Index at Census Tract-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.svi_censustract_y2000",
+    "description": "Social Vulnerability Index at Census Tract-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.nhanes_qre_smoking_household_smokers",
+    "description": "CDC NHANES QRE Smoking - Household Smokers",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_smoking_recent_tobacco_use",
+    "description": "CDC NHANES QRE Smoking - Recent Tobacco Use",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_alpha1acid_glycoprotein_serum_surplus",
+    "description": "CDC NHANES LAB Alpha-1-Acid Glycoprotein - Serum (...",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_fasting_questionnaire",
+    "description": "CDC NHANES LAB Fasting Questionnaire",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_censustract_multiyears",
+    "description": "Social Vulnerability Index at Census Tract-Level",
+    "source": "https://www.atsdr.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_medical_conditions",
+    "description": "CDC NHANES QRE Medical Conditions",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_glycohemoglobin",
+    "description": "CDC NHANES LAB Glycohemoglobin",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_county_y2014",
+    "description": "Social Vulnerability Index at County-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.places_censustract",
+    "description": "PLACES: Local Data for Better Health",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nwss_covid",
+    "description": "National Wastewater Surveillance System (NWSS) for...",
+    "source": "https://data.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_plasma_fasting_glucose",
+    "description": "CDC NHANES LAB Plasma Fasting Glucose",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_diabetes",
+    "description": "CDC NHANES QRE Diabetes",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_mortality",
+    "description": "CDC NHANES Mortality Dataset",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_blood_pressure_cholesterol",
+    "description": "CDC NHANES QRE Blood Pressure & Cholesterol",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nssp_edvisits",
+    "description": "NSSP Emergency Department Visit Trajectories by St...",
+    "source": "https://data.cdc.gov"
+  },
+  {
+    "path": "cdc.places_zcta",
+    "description": "PLACES: Local Data for Better Health",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_glyphosate_glyp_urine",
+    "description": "CDC NHANES LAB Glyphosate (GLYP) - Urine",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_preventive_aspirin_use",
+    "description": "CDC NHANES QRE Preventive Aspirin Use",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_income",
+    "description": "CDC NHANES QRE Income",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_insulin",
+    "description": "CDC NHANES LAB Insulin",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_county_multiyears",
+    "description": "Social Vulnerability Index at County-Level",
+    "source": "https://www.atsdr.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_cardiovascular_health",
+    "description": "CDC NHANES QRE Cardiovascular Health",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.vsrr_drugoverdose",
+    "description": "Vital Statistics Rapid Reporting (VSRR) for Drug O...",
+    "source": "https://data.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_qre_hospital_utilization_access_to_care",
+    "description": "CDC NHANES QRE Hospital Utilization & Access to Ca...",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_cholesterol_hdl",
+    "description": "CDC NHANES LAB Cholesterol - HDL",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_albumin_creatinine_urine",
+    "description": "CDC NHANES LAB Albumin & Creatinine - Urine",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.places_county",
+    "description": "PLACES: Local Data for Better Health",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_county_y2018",
+    "description": "Social Vulnerability Index at County-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.nhanes_qre_air_quality",
+    "description": "CDC NHANES QRE Air Quality",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_censustract_y2020",
+    "description": "Social Vulnerability Index at Census Tract-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.svi_county_y2010",
+    "description": "Social Vulnerability Index at County-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.nhanes_lab_highsensitivity_creactive_protein",
+    "description": "CDC NHANES LAB High-Sensitivity C-Reactive Protein",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_cholesterol_total",
+    "description": "CDC NHANES LAB Cholesterol - Total",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_county_y2000",
+    "description": "Social Vulnerability Index at County-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.nhanes_qre_bowel_health",
+    "description": "CDC NHANES QRE Bowel Health",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_censustract_y2014",
+    "description": "Social Vulnerability Index at Census Tract-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "cdc.nhanes_qre_alcohol_use",
+    "description": "CDC NHANES QRE Alcohol Use",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.nhanes_lab_cholesterol_ldl_triglycerides",
+    "description": "CDC NHANES LAB Cholesterol - LDL & Triglycerides",
+    "source": "https://www.cdc.gov"
+  },
+  {
+    "path": "cdc.svi_county_y2022",
+    "description": "Social Vulnerability Index at County-Level",
+    "source": "https://data.cdc.gov/"
+  },
+  {
+    "path": "prescriptiondrugplan.beneficiary_cost",
+    "description": "Beneficiary Cost File from the Part-D Formularies ...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "prescriptiondrugplan.pharmacy_networks",
+    "description": "Pharmacy Networks File from the Part-D Formularies...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "prescriptiondrugplan.indication_based_coverage_formulary",
+    "description": "Indication Based Coverage (IBC) Formulary File fro...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "prescriptiondrugplan.basic_drugs_formulary",
+    "description": "Basic Drugs Formulary File from the Part-D Formula...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "prescriptiondrugplan.geographic_locator",
+    "description": "Geographic Locator File from the Part-D Formularie...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "prescriptiondrugplan.plan_information",
+    "description": "Plan Information File from the Part-D Formularies ...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "prescriptiondrugplan.excluded_drugs_formulary",
+    "description": "Excluded Drugs Formulary File from the Part-D Form...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "prescriptiondrugplan.pricing",
+    "description": "Pricing File from the Part-D Formularies and Netwo...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "prescriptiondrugplan.partial_gap_coverage",
+    "description": "Partial Gap File from the Part-D Formularies and N...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "prescriptiondrugplan.insulin_beneficiary_cost",
+    "description": "Insulin Beneficiary Cost File from the Part-D Form...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospital_hsc",
+    "description": "Medicare Hospital Spending by Claim from the Hospi...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospital_tec",
+    "description": "Timely and Effective Care from the Hospital Data s...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.asc_quality",
+    "description": "Ambulatory Surgial Center Quality Measures",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospital_hcahps",
+    "description": "Patient survey (HCAHPS) from the Hospital Data sec...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.dac_ndf",
+    "description": "National Downloadable Files from the Doctors and C...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospital_pvc",
+    "description": "Payment and value of care from the Hospital Data s...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.dac_fa",
+    "description": "Facility Affiliations from the Doctors and Clinici...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.dac_ec_public_reporting",
+    "description": "Clinician Public Reporting: MIPS Measures and Atte...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.dac_vg_public_reporting",
+    "description": "Virtual Group Public Reporting: MIPS Measures and ...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospital_psi",
+    "description": "CMS Medicare PSI-90 and component measures, six-di...",
+    "source": "hhttps://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.dac_utilization",
+    "description": "Utilization from the Doctors and Clinicians Data s...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospital_general",
+    "description": "Hospital General Information from the Hospital Dat...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.nursinghomes_mds",
+    "description": "Nursing Home Minimum Data Set (MDS) Files",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.dac_grp_public_reporting_cahps",
+    "description": "Group Public Reporting: Patient Experience from th...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospital_uhv",
+    "description": "Unplanned Hospital Visits from the Hospital Data s...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospital_hai",
+    "description": "Healthcare Associated Infections from the Hospital...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.dac_grp_public_reporting",
+    "description": "Group Public Reporting: MIPS Measures and Attestat...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospital_cad",
+    "description": "Complications and Deaths from the Hospital Data se...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.dac_ec_score_file",
+    "description": "Clinician Public Reporting: Overall MIPS Performan...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "fda.enforcement",
+    "description": "Drug Recall Enforcement, Base Table",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.purplebook",
+    "description": "All FDA-licensed (approved) biological products re...",
+    "source": "https://purplebooksearch.fda.gov"
+  },
+  {
+    "path": "fda.orangebook_products",
+    "description": "Product info from the Approved Drug Products with ...",
+    "source": "https://www.fda.gov"
+  },
+  {
+    "path": "fda.ndc_directory",
+    "description": "NDC Directory",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.enforcement_ndc_detail",
+    "description": "Package NDC Table, a part of the Drug Recall Enfor...",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.ndc_to_active_ingredients",
+    "description": "NDC to Active Ingredients Mapping, a part of the N...",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.orangebook_exclusivity",
+    "description": "Exclusivity info from the Approved Drug Products w...",
+    "source": "https://www.fda.gov"
+  },
+  {
+    "path": "fda.ndc_to_pharm_class",
+    "description": "NDC to Pharmacologic Class Mapping, a part of the ...",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.adverse_event_base",
+    "description": "Drug Adverse Event, Base Table",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.ndc_label",
+    "description": "Drug Package Labels, full text",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.adverse_event_reaction",
+    "description": "Reaction Table, a part of the Drug Adverse Event B...",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.orangebook_patent",
+    "description": "Patent info from the Approved Drug Products with T...",
+    "source": "https://www.fda.gov"
+  },
+  {
+    "path": "fda.adverse_event_drug",
+    "description": "Drug Table, a part of the Drug Adverse Event Base ...",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.ndc_to_rxcui",
+    "description": "NDC to RxCUI Mapping, a part of the NDC Directory",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "resdac.revenue_center_status_indicator_code",
+    "description": "Revenue Center Status Indicator Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.revenue_center_1st_ansi_code",
+    "description": "Revenue Center 1st ANSI Code (X12)",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.claim_value_code",
+    "description": "Claim Value Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.claim_frequency_code",
+    "description": "Claim Frequency Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.claim_occurrence_span_code",
+    "description": "Claim Occurrence Span Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.revenue_center_code",
+    "description": "Revenue Center Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.claim_related_condition_code",
+    "description": "Claim Related Condition Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.claim_medicare_non_payment_reason_code",
+    "description": "Claim Medicare Non Payment Reason Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.all_tables_variables",
+    "description": "All Tables and Variables from ResDAC",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.nch_claim_type_code",
+    "description": "NCH Claim Type Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.claim_related_occurrence_code",
+    "description": "Claim Related Occurrence Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.therapy_cap_indicator_code",
+    "description": "Therapy Cap Indicator Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.demonstration_number",
+    "description": "Demonstration Number",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.line_cms_type_service_code",
+    "description": "Line CMS Type Service Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.physician_specialty_code",
+    "description": "Physician Specialty Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.line_place_service_code_ffs",
+    "description": "Line Place Service Code (Place of Service, POS)",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.carrier_or_mac_number",
+    "description": "Carrier or MAC Number",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.line_other_applied_indicator_code",
+    "description": "Line Other Applied Indicator Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.revenue_center_pricing_indicator_code",
+    "description": "Revenue Center Pricing Indicator Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.patient_discharge_status_code",
+    "description": "Patient Discharge Status Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.ng_aco_indicator_code",
+    "description": "NextGen ACO Indicator Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.claim_outpatient_transaction_type",
+    "description": "Claim Outpatient Transaction Type",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "placekey.pc_ruralhealthclinic_with_placekey",
+    "description": "Rural Health Clinic with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "placekey.pc_fqhc_with_placekey",
+    "description": "FQHC with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "placekey.pc_homeinfusion_with_placekey",
+    "description": "Home Infusion with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "placekey.npidata_with_placekey",
+    "description": "NPIDATA with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "placekey.pc_hospice_with_placekey",
+    "description": "Hospice with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "placekey.pc_snf_with_placekey",
+    "description": "SNF with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "placekey.pc_hospital_with_placekey",
+    "description": "Hospital with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "placekey.dac_ndf_with_placekey",
+    "description": "Medicare Provider with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "placekey.pc_homehealth_with_placekey",
+    "description": "Homehealth with Placekey",
+    "source": "https://www.placekey.io"
+  },
+  {
+    "path": "grahamcenter.sdi_pcsa",
+    "description": "Social Deprivation Index (SDI) at PCSA (Primary Ca...",
+    "source": "https://www.graham-center.org"
+  },
+  {
+    "path": "grahamcenter.gme",
+    "description": "Graduate Medical Education Dataset",
+    "source": "https://www.graham-center.org"
+  },
+  {
+    "path": "grahamcenter.sdi_county",
+    "description": "Social Deprivation Index (SDI) at County Level",
+    "source": "https://www.graham-center.org"
+  },
+  {
+    "path": "grahamcenter.sdi_censustract",
+    "description": "Social Deprivation Index (SDI) at Census Tract Lev...",
+    "source": "https://www.graham-center.org"
+  },
+  {
+    "path": "grahamcenter.sdi_zcta",
+    "description": "Social Deprivation Index (SDI) at ZIP-code Level",
+    "source": "https://www.graham-center.org"
+  },
+  {
+    "path": "synmedpuf.carrier",
+    "description": "Carrier Claims from CMS Synthetic Medicare PUF",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "synmedpuf.dme",
+    "description": "Durable Medical Equipment Claims from CMS Syntheti...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "synmedpuf.inpatient",
+    "description": "Inpatient Claims from CMS Synthetic Medicare PUF",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "synmedpuf.hha",
+    "description": "Home Health Agency Claims from CMS Synthetic Medic...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "synmedpuf.snf",
+    "description": "Skilled Nursing Facility Claims from CMS Synthetic...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "synmedpuf.outpatient",
+    "description": "Outpatient Claims from CMS Synthetic Medicare PUF",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "synmedpuf.beneficiary",
+    "description": "Beneficiary Summary",
+    "source": "https://data.cms.gov/collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event"
+  },
+  {
+    "path": "synmedpuf.hospice",
+    "description": "Hospice Claims from CMS Synthetic Medicare PUF",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "synmedpuf.pde",
+    "description": "Prescription Drug Events from 2008 to 2010 from CM...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "foursquare.places",
+    "description": "FSQ Places",
+    "source": "https://docs.foursquare.com"
+  },
+  {
+    "path": "foursquare.categories",
+    "description": "FSQ Categories",
+    "source": "https://docs.foursquare.com"
+  },
+  {
+    "path": "mcd.article_url_type_lookup",
+    "description": "ARTICLE_URL_TYPE_LOOKUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_related_ncd_documents",
+    "description": "LCD_RELATED_NCD_DOCUMENTS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_contractor",
+    "description": "ARTICLE_X_CONTRACTOR",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.state_x_region",
+    "description": "STATE_X_REGION",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_hcpc_code_group",
+    "description": "LCD_X_HCPC_CODE_GROUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_advisory_committee",
+    "description": "LCD_X_ADVISORY_COMMITTEE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_other_coding_group",
+    "description": "ARTICLE_X_OTHER_CODING_GROUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.contractor_jurisdiction",
+    "description": "CONTRACTOR_JURISDICTION",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_icd10_noncovered_group",
+    "description": "ARTICLE_X_ICD10_NONCOVERED_GROUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_synopsis_changes_fields",
+    "description": "LCD_X_SYNOPSIS_CHANGES_FIELDS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.dmerc_region_lookup",
+    "description": "DMERC_REGION_LOOKUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_bill_code",
+    "description": "ARTICLE_X_BILL_CODE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_code_table",
+    "description": "ARTICLE_X_CODE_TABLE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_related_source_icd9",
+    "description": "ARTICLE_RELATED_SOURCE_ICD9",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_hcpc_code",
+    "description": "LCD_X_HCPC_CODE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_contractor",
+    "description": "LCD_X_CONTRACTOR",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_response_to_comment",
+    "description": "ARTICLE_X_RESPONSE_TO_COMMENT",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_type_lookup",
+    "description": "ARTICLE_TYPE_LOOKUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_revenue_code",
+    "description": "ARTICLE_X_REVENUE_CODE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_future_retire",
+    "description": "ARTICLE_FUTURE_RETIRE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.region_lookup",
+    "description": "REGION_LOOKUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_url_type_lookup",
+    "description": "LCD_URL_TYPE_LOOKUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_urls",
+    "description": "ARTICLE_X_URLS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.state_lookup",
+    "description": "STATE_LOOKUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_requestor_letters",
+    "description": "LCD_X_REQUESTOR_LETTERS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_revision_history",
+    "description": "LCD_X_REVISION_HISTORY",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_icd10_pcs_code",
+    "description": "ARTICLE_X_ICD10_PCS_CODE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_reason_change",
+    "description": "LCD_X_REASON_CHANGE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_hcpc_code",
+    "description": "ARTICLE_X_HCPC_CODE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_revision_history",
+    "description": "ARTICLE_X_REVISION_HISTORY",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.contractor_subtype_lookup",
+    "description": "CONTRACTOR_SUBTYPE_LOOKUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd",
+    "description": "LCD",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article",
+    "description": "ARTICLE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_sticky_note",
+    "description": "LCD_X_STICKY_NOTE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_primary_jurisdiction",
+    "description": "LCD_X_PRIMARY_JURISDICTION",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_icd10_covered",
+    "description": "ARTICLE_X_ICD10_COVERED",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.contractor_oversight",
+    "description": "CONTRACTOR_OVERSIGHT",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_primary_jurisdiction",
+    "description": "ARTICLE_X_PRIMARY_JURISDICTION",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_hcpc_modifier",
+    "description": "ARTICLE_X_HCPC_MODIFIER",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_related_source_icd9",
+    "description": "LCD_RELATED_SOURCE_ICD9",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_icd10_pcs_code_group",
+    "description": "ARTICLE_X_ICD10_PCS_CODE_GROUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.contractor_type_lookup",
+    "description": "CONTRACTOR_TYPE_LOOKUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_sticky_note",
+    "description": "ARTICLE_X_STICKY_NOTE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_related_documents",
+    "description": "ARTICLE_RELATED_DOCUMENTS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_x_urls",
+    "description": "LCD_X_URLS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_hcpc_code_group",
+    "description": "ARTICLE_X_HCPC_CODE_GROUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_future_retire",
+    "description": "LCD_FUTURE_RETIRE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.lcd_related_documents",
+    "description": "LCD_RELATED_DOCUMENTS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_icd10_noncovered",
+    "description": "ARTICLE_X_ICD10_NONCOVERED",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_related_ncd_documents",
+    "description": "ARTICLE_RELATED_NCD_DOCUMENTS",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.update_period",
+    "description": "UPDATE_PERIOD",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.contractor",
+    "description": "CONTRACTOR",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_icd10_covered_group",
+    "description": "ARTICLE_X_ICD10_COVERED_GROUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_x_hcpc_modifier_group",
+    "description": "ARTICLE_X_HCPC_MODIFIER_GROUP",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "stategov.texas_medicaid_provider_exclusions",
+    "description": "Texas Health and Human Services Commission Office ...",
+    "source": "https://oig.hhsc.state.tx.us"
+  },
+  {
+    "path": "stategov.newyork_medicaid_provider_exclusions",
+    "description": "New York Office of the Medicaid Inspector General ...",
+    "source": "https://omig.ny.gov"
+  },
+  {
+    "path": "stategov.nevada_medicaid_provider_exclusions",
+    "description": "Nevada Department of Health and Human Services Exc...",
+    "source": "https://dhcfp.nv.gov"
+  },
+  {
+    "path": "stategov.florida_licensedb",
+    "description": "Florida Licensure Database",
+    "source": "https://data-download.mqa.flhealthsource.gov"
+  },
+  {
+    "path": "stategov.florida_ahca_orders",
+    "description": "Florica Agency for Health Care Administration (AHC...",
+    "source": "https://apps.ahca.myflorida.com"
+  },
+  {
+    "path": "stategov.california_medicaid_provider_directory",
+    "description": "California Medicaid Provider Directory",
+    "source": "https://data.ca.gov"
+  },
+  {
+    "path": "stategov.newyork_medicaid_provider_directory",
+    "description": "New York Medicaid Provider Directory",
+    "source": "https://health.data.ny.gov"
+  },
+  {
+    "path": "stategov.california_suspended_ineligible_list",
+    "description": "California Department of Health Care Services Susp...",
+    "source": "https://mcweb.apps.prd.cammis.medi-cal.ca.gov"
+  },
+  {
+    "path": "stategov.georgia_medicaid_provider_exclusions",
+    "description": "Georgia Office of Inspector General Exclusions Lis...",
+    "source": "https://dch.georgia.gov"
+  },
+  {
+    "path": "stategov.pennsylvania_medicheck_preclusions",
+    "description": "Pennsylvania Department of Human Services Medichec...",
+    "source": "https://www.humanservices.state.pa.us"
+  },
+  {
+    "path": "stategov.hospital_inpatient_discharges_sparcs",
+    "description": "New York Hospital Inpatient Discharges (SPARCS De-...",
+    "source": "https://health.data.ny.gov"
+  },
+  {
+    "path": "stategov.georgia_medicaid_provider_directory",
+    "description": "Gerogia Medicaid Provider Directory",
+    "source": "https://dch.georgia.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_raw_hosp_rpt",
+    "description": "Hospital 2552-2010 form (original) Report Table",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_raw_snf_alpha",
+    "description": "Skilled Nursing Facility 2540-2010 form (original)...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_raw_hha_nmrc",
+    "description": "Home Health Agency 1728-2929 form (original) Numer...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.marketplace_enrollment_state_metal",
+    "description": "OEP State, Metal Level, and Enrollment Status Publ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_raw_hha_rpt",
+    "description": "Home Health Agency 1728-2929 form (original) Repor...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_mimi_snf",
+    "description": "Skilled Nursing Facility Cost Reports 2540-2010 mi...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.marketplace_enrollment_zip",
+    "description": "OEP County-Level Public Use File",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_raw_hosp_nmrc",
+    "description": "Hospital 2552-2010 form (original) Numeric Table",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.marketplace_enrollment_state",
+    "description": "OEP State-Level Public Use File",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_mimi_hha",
+    "description": "Home Health Agency Cost Reports 1728-2020 mimi Ver...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_mimi_hosp",
+    "description": "Hospital Cost Reports 2552-2010 mimi Version",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_sas_hosp",
+    "description": "Hospital Cost Reports 2552-2010 SAS Version",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_raw_hha_alpha",
+    "description": "Home Health Agency 1728-2929 form (original) Alphn...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.partb_national_summary_bess",
+    "description": "Part B National Summary Data File (Previously know...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_raw_snf_rpt",
+    "description": "Skilled Nursing Facility 2540-2010 form (original)...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_raw_hosp_alpha",
+    "description": "Hospital 2552-2010 form (original) Alphnumeric Tab...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.marketplace_enrollment_county",
+    "description": "OEP ZIP-Code Level Public Use File",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.costreport_raw_snf_nmrc",
+    "description": "Skilled Nursing Facility 2540-2010 form (original)...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.hosp_id_info",
+    "description": "Hospital Provider ID-Name Crosswalk for the Cost R...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.cpsc_contract",
+    "description": "Medicare Advantage Contract Information from the C...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_metadata",
+    "description": "Medicare Advantage Benefits Information Metadata, ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b10_amb_trans",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.landscape_plan_premium_report",
+    "description": "Premium Report form the MAPD Coverage Landscape fi...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.landscape_medicare_advantage",
+    "description": "Medicare Advantage section from the MAPD Coverage ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b13i_b19b_services_vbid_ssbci",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_mrx",
+    "description": "Medicare Advantage Benefits Information Section MR...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_mrx_tier",
+    "description": "Medicare Advantage Benefits Information Section MR...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b18_hearing_exams_aids",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b16_dental",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.snpdata",
+    "description": "Special Needs Plan Data",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.hedis_rau_measures",
+    "description": "Risk Adjusted Measures from the HEDIS Public Use F...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.hedis_measures",
+    "description": "Contract-level Performance from the HEDIS Public U...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b18_b19b_hearing_exams_aids_vbid_uf",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.mapd_plan_directory",
+    "description": "MAPD Plan Directory",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b17_b19b_eye_exams_wear_vbid_uf",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_plan_region_area",
+    "description": "Medicare Advantage Benefits Information Section Pl...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b16_b19b_dental_vbid_uf",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b15_partb_rx_drugs",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.starrating_measure_star",
+    "description": "Stars from the Part C & D Performance Data (Star R...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.lis_enrollment_by_plan",
+    "description": "LIS Enrollment by Plan",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.cpsc_enrollment",
+    "description": "Medicare Advantage Enrollment by Contract/Plan/Sta...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.starrating_measure_value",
+    "description": "Raw measure values from the Part C & D Performance...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_plan_area",
+    "description": "Medicare Advantage Benefits Information Section Pl...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b14c_b19b_preventive_vbid_uf",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.hedis_national_rates",
+    "description": "National Rates from the HEDIS Public Use Files (PU...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_mrx_tier_vbid",
+    "description": "Medicare Advantage Benefits Information Section MR...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.starrating_display_hedis_measure",
+    "description": "Display and HEDIS values from the Part C & D Perfo...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_mrx_p_vbid",
+    "description": "Medicare Advantage Benefits Information Section MR...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_b17_eye_exams_wear",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.cpsc_combined",
+    "description": "Medicare Advantage CPSC Enrollment with Directory ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_mrx_p",
+    "description": "Medicare Advantage Benefits Information Section B1...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.mpf_benefit_summary",
+    "description": "Marketplace Plan Finder (MPF) Benefit Summary",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_section_d_opt",
+    "description": "Medicare Advantage Benefits Information Section D ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_section_d",
+    "description": "Medicare Advantage Benefits Information Section D ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_mrx_gapcoverage",
+    "description": "Medicare Advantage Benefits Information Section MR...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.plan_crosswalk",
+    "description": "Plan Crosswalk Data",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.hedis_general",
+    "description": "Contract Information from the HEDIS Public Use Fil...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.landscape_prescription_drug_plan",
+    "description": "Prescription Drug Plan from the MAPD Coverage Land...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.landscape_special_needs_plan",
+    "description": "Special Needs Plan section from the MAPD Coverage ...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_mrx_vbid",
+    "description": "Medicare Advantage Benefits Information Section MR...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.pbp_section_a",
+    "description": "Medicare Advantage Benefits Information Section A,...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "desynpuf.inpatient_claims",
+    "description": "Inpatient Claims from 2008 to 2010, DE-SynPUF",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "desynpuf.prescription_drug_events",
+    "description": "Prescription Drug Events from 2008 to 2010, DE-Syn...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "desynpuf.carrier_claims",
+    "description": "Carrier Claims from 2008 to 2010, DE-SynPUF",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "desynpuf.outpatient_claims",
+    "description": "Outpatient Claims from 2008 to 2010, DE-SynPUF",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "desynpuf.beneficiary_summary",
+    "description": "Beneficiary Summary from 2008 to 2010, DE-SynPUF",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "x12.service_review_decision_reason_codes",
+    "description": "Service Review Decision Reason Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.claim_adjustment_group_codes",
+    "description": "Claim Adjustment Group Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.property_casualty_code_lists",
+    "description": "Property & Casualty Code Lists",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.service_type_codes",
+    "description": "Service Type Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.insurance_business_process_application_error_codes",
+    "description": "Insurance Business Process Application Error Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.service_type_descriptor_codes",
+    "description": "Service Type Descriptor Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.remittance_advice_remark_codes",
+    "description": "Remittance Advice Remark Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.industry_specific_remark_codes",
+    "description": "Industry Specific Remark Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.report_type_codes",
+    "description": "Report Type Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.payment_type_codes",
+    "description": "Payment Type Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.claim_adjustment_reason_codes",
+    "description": "Claim Adjustment Reason Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.error_reason_codes",
+    "description": "Error Reason Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.insurance_descriptor_codes",
+    "description": "Insurance Descriptor Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.provider_adjustment_reason_codes",
+    "description": "Provider Adjustment Reason Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.claim_status_category_codes",
+    "description": "Claim Status Category Codes",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.edi_examples",
+    "description": "EDI Examples",
+    "source": "https://x12.org"
+  },
+  {
+    "path": "x12.claim_status_codes",
+    "description": "Claim Status Codes",
+    "source": "https://x12.org"
+  }
+]
