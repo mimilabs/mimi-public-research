@@ -1,5 +1,35 @@
 [
   {
+    "path": "cmsit.hpms_memos",
+    "description": "Health Plan Management System (HPMS) weekly memo a...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "noridian.modifiers",
+    "description": "Claim Modifiers",
+    "source": "https://med.noridianmedicare.com"
+  },
+  {
+    "path": "noridian.discharge_codes",
+    "description": "Patient Discharge Codes",
+    "source": "https://med.noridianmedicare.com"
+  },
+  {
+    "path": "noridian.revenue_codes",
+    "description": "Revenue Codes",
+    "source": "https://med.noridianmedicare.com"
+  },
+  {
+    "path": "noridian.type_of_bill_structure",
+    "description": "Type of Bill Code Structure",
+    "source": "https://med.noridianmedicare.com"
+  },
+  {
+    "path": "noridian.type_of_bill_by_facility",
+    "description": "Type of Bill By Facility",
+    "source": "https://med.noridianmedicare.com"
+  },
+  {
     "path": "hrsa.unmet_need_score",
     "description": "Unmet Need Score",
     "source": "https://data.hrsa.gov"
@@ -110,9 +140,19 @@
     "source": "https://mimilabs.ai"
   },
   {
+    "path": "payermrf.bcbsmn_toc",
+    "description": "BCBS Minnesota Table of Contents - contains BCBS p...",
+    "source": "https://www.bluecrossmn.com"
+  },
+  {
     "path": "payermrf.premera_toc",
     "description": "Premera Table of Contents",
     "source": "https://www.premera.com"
+  },
+  {
+    "path": "payermrf.in_network_rates_premera",
+    "description": "In-Network Rates Data, Premera",
+    "source": "https://github.com"
   },
   {
     "path": "payermrf.provider_references_ucare",
@@ -125,13 +165,18 @@
     "source": "https://github.com"
   },
   {
+    "path": "payermrf.in_network_rates_bcbsmn",
+    "description": "In-Network Rates Data, BCBS MN",
+    "source": "https://github.com"
+  },
+  {
     "path": "payermrf.provider_references_aetna",
     "description": "Provider Reference Data, Aetna",
     "source": "https://health1.aetna.com"
   },
   {
-    "path": "payermrf.in_network_rates",
-    "description": "In-Network Rates Data, Some of UHC data, and all M...",
+    "path": "payermrf.provider_references_bcbsmn",
+    "description": "Provider Reference Data, BCBS MN",
     "source": "https://github.com"
   },
   {
@@ -155,6 +200,11 @@
     "source": "https://github.com"
   },
   {
+    "path": "payermrf.in_network_rates_bcbsal",
+    "description": "In-Network Rates Data, BCBS Alabama",
+    "source": "https://github.com"
+  },
+  {
     "path": "payermrf.in_network_rates_unitedhealth",
     "description": "In-Network Rates Data, UnitedHealthcare",
     "source": "https://github.com"
@@ -167,7 +217,17 @@
   {
     "path": "payermrf.npi_to_tin",
     "description": "NPI to TIN Mapping Table",
-    "source": "https://web.healthsparq.com/healthsparq/public/#/one/insurerCode=MEDICA_I&brandCode=MEDICA&productCode=MRF/machine-readable-transparency-in-coverage"
+    "source": "https://github.com/CMSgov/price-transparency-guide"
+  },
+  {
+    "path": "payermrf.provider_references_bcbsal",
+    "description": "Provider Reference Data, BCBS Alabama",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.cigna_toc",
+    "description": "Cigna Table of Contents",
+    "source": "https://www.cigna.com"
   },
   {
     "path": "payermrf.molina_provider_directory",
@@ -195,14 +255,14 @@
     "source": "https://health1.aetna.com"
   },
   {
+    "path": "payermrf.provider_references_premera",
+    "description": "Provider Reference Data, Premera",
+    "source": "https://github.com"
+  },
+  {
     "path": "payermrf.unh_toc",
     "description": "UnitedHealthcare Table of Contents",
     "source": "https://transparency-in-coverage.uhc.com"
-  },
-  {
-    "path": "payermrf.provider_references",
-    "description": "Provider Reference Data",
-    "source": "https://github.com"
   },
   {
     "path": "cmsinnovation.ckcc_performance",
@@ -335,6 +395,11 @@
     "source": "https://data.cms.gov"
   },
   {
+    "path": "datacmsgov.cmmi_participants",
+    "description": "Innovation Center Model Participants",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "datacmsgov.mupdpr",
     "description": "Medicare Part D Prescribers by Prescriber and Drug",
     "source": "https://data.cms.gov"
@@ -347,6 +412,11 @@
   {
     "path": "datacmsgov.mssp_orgs",
     "description": "MSSP Accountable Care Organizations",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.geovariation",
+    "description": "Medicare Geographic Variation - by National, State...",
     "source": "https://data.cms.gov"
   },
   {
@@ -367,11 +437,6 @@
   {
     "path": "datacmsgov.optout",
     "description": "Medicare Opt Out Affidavits",
-    "source": "https://data.cms.gov"
-  },
-  {
-    "path": "datacmsgov.geovariation",
-    "description": "Medicare Geographic Variation - by National, State...",
     "source": "https://data.cms.gov"
   },
   {
@@ -425,6 +490,11 @@
     "source": "https://data.cms.gov"
   },
   {
+    "path": "datacmsgov.taxonomy_crosswalk",
+    "description": "Medicare Provider and Supplier Taxonomy Crosswalk",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "datacmsgov.pc_provider",
     "description": "Medicare Fee-For-Service Public Provider Medicare ...",
     "source": "https://data.cms.gov"
@@ -447,6 +517,11 @@
   {
     "path": "datacmsgov.covid19nursinghomes",
     "description": "COVID-19 Nursing Home Data",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.cmmi_reports",
+    "description": "Innovation Center Data and Reports",
     "source": "https://data.cms.gov"
   },
   {
@@ -580,6 +655,11 @@
     "source": "https://www.mbc.ca.gov"
   },
   {
+    "path": "openpayments.teaching_hospital_list",
+    "description": "Teaching Hospital List, CCN x Tax ID",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "openpayments.general",
     "description": "General Payments Details",
     "source": "https://www.cms.gov"
@@ -598,6 +678,36 @@
     "path": "openpayments.deleted",
     "description": "Deleted Entries from the Open Payment datasets",
     "source": "https://openpaymentsdata.cms.gov"
+  },
+  {
+    "path": "cmsomh.archive_index",
+    "description": "Office of Minority Health reports and URLs",
+    "source": "https://www.cms.gov/priorities/health-equity/minority-health"
+  },
+  {
+    "path": "cmsomh.text_from_pdfs",
+    "description": "Parsed Text from PDFs, Office of Minority Health R...",
+    "source": "https://www.cms.gov/priorities/health-equity/minority-health"
+  },
+  {
+    "path": "va.pbm_national_drug_code_extract",
+    "description": "VA PBM National Drug Code (NDC) Extract",
+    "source": "https://www.pbm.va.gov"
+  },
+  {
+    "path": "va.pbm_national_formulary",
+    "description": "VA PBM National Formulary",
+    "source": "https://www.pbm.va.gov"
+  },
+  {
+    "path": "va.pbm_product_name_list",
+    "description": "VA PBM Product Name List",
+    "source": "https://www.pbm.va.gov"
+  },
+  {
+    "path": "va.pbm_drug_class_list",
+    "description": "VA PBM Drug Class List",
+    "source": "https://www.pbm.va.gov"
   },
   {
     "path": "tuvahealth.location",
@@ -945,6 +1055,11 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "cmspayment.msdrg_cc",
+    "description": "MS-DRG List of Complications or Comorbidities (CCs...",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "cmspayment.bpt_ma_6",
     "description": "Bid Pricing Tool MA Worksheet 6 Bid Summary",
     "source": "https://www.cms.gov"
@@ -972,6 +1087,11 @@
   {
     "path": "cmspayment.ra_labels",
     "description": "Labels for Condition Categories",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ipsf_hos",
+    "description": "Provider Specific File (PSF) Hospice",
     "source": "https://www.cms.gov"
   },
   {
@@ -1020,8 +1140,23 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "cmspayment.ipsf_hha",
+    "description": "Provider Specific File (PSF) Home Health Agency",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ipsf_ipf",
+    "description": "Provider Specific File (PSF) Inpatient Psychiatric...",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "cmspayment.bpt_ma_3",
     "description": "Bid Pricing Tool MA Worksheet 3 Projected Cost Sha...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ipsf_snf",
+    "description": "Provider Specific File (PSF) Skilled Nursing Facil...",
     "source": "https://www.cms.gov"
   },
   {
@@ -1040,8 +1175,18 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "cmspayment.msdrg_mcc",
+    "description": "MS-DRG List of Major Complications or Comorbiditie...",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "cmspayment.partb_drug_opps_ndc_to_hcpcs",
     "description": "OPPS NDC-HCPCS Crosswalk",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.msdrg_index",
+    "description": "MS-DRG Names, Descriptions, and Versions",
     "source": "https://www.cms.gov"
   },
   {
@@ -1070,13 +1215,38 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "cmspayment.ipsf_irf",
+    "description": "Provider Specific File (PSF) Inpatient Rehab",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "cmspayment.ra_coefficients",
     "description": "Risk Adjustment Coefficient Values",
     "source": "https://www.cms.gov"
   },
   {
+    "path": "cmspayment.ipsf_ltch",
+    "description": "Provider Specific File (PSF) Long Term Care",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "cmspayment.bpt_ma_1",
     "description": "Bid Pricing Tool MA Worksheet 1 Base Period Experi...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.msdrg_dx2drg",
+    "description": "MS-DRG Diagnosis-to-DRG Mapping",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.ipsf_inp",
+    "description": "Provider Specific File (PSF) Inpatient",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmspayment.opsf_full",
+    "description": "Provider Specific File (PSF) Outpatient",
     "source": "https://www.cms.gov"
   },
   {
@@ -1180,6 +1350,11 @@
     "source": "https://www.ahrq.gov"
   },
   {
+    "path": "ahrq.ccsr_dx",
+    "description": "Clinical Classifications Software Refined (CCSR) D...",
+    "source": "https://hcup-us.ahrq.gov"
+  },
+  {
     "path": "ahrq.compendium_outpatient_linkage",
     "description": "Compendium of U.S. Health Systems, Outpatient Link...",
     "source": "https://www.ahrq.gov"
@@ -1198,6 +1373,11 @@
     "path": "ahrq.compendium_hospital_linkage",
     "description": "Compendium of U.S. Health Systems, Hospital Linkag...",
     "source": "https://www.ahrq.gov"
+  },
+  {
+    "path": "ahrq.ccsr_pr",
+    "description": "Clinical Classifications Software Refined (CCSR) P...",
+    "source": "https://hcup-us.ahrq.gov"
   },
   {
     "path": "ahrq.meps_event_prescribedmeds",
@@ -1438,6 +1618,11 @@
     "path": "medlineplus.related_topic",
     "description": "Information about topics related to the main topic...",
     "source": "https://medlineplus.gov"
+  },
+  {
+    "path": "unitednations.unspsc",
+    "description": "United Nations Standard Products and Services Code...",
+    "source": "https://www.undp.org"
   },
   {
     "path": "nber.ssa2fips_state_and_county",
@@ -2273,6 +2458,16 @@
     "path": "grahamcenter.sdi_zcta",
     "description": "Social Deprivation Index (SDI) at ZIP-code Level",
     "source": "https://www.graham-center.org"
+  },
+  {
+    "path": "usaspending.contracts",
+    "description": "All Contracts Data",
+    "source": "https://www.usaspending.gov"
+  },
+  {
+    "path": "usaspending.assistance",
+    "description": "All Assistance Data",
+    "source": "https://www.usaspending.gov"
   },
   {
     "path": "synmedpuf.carrier",
