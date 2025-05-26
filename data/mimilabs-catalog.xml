@@ -48,18 +48,23 @@
     <table name="provider_references_bcbsmn" description="Provider Reference Data, BCBS MN" source="https://github.com""/>
     <table name="medica_toc" description="Medica Table of Contents" source="https://web.healthsparq.com""/>
     <table name="provider_references_healthpartners" description="Provider Reference Data, Health Partners" source="https://github.com""/>
+    <table name="bcbsaz_toc" description="BCBS Arizona Table of Contents - contains BCBS plans from other states" source="https://bcbsaz.healthsparq.com""/>
     <table name="provider_references_unitedhealth" description="Provider Reference Data, UnitedHealthcare" source="https://github.com""/>
+    <table name="provider_references_cigna" description="Provider Reference Data, Cigna" source="https://github.com""/>
     <table name="in_network_rates_medica" description="In-Network Rates Data, Medica" source="https://github.com""/>
     <table name="in_network_rates_bcbsal" description="In-Network Rates Data, BCBS Alabama" source="https://github.com""/>
     <table name="in_network_rates_unitedhealth" description="In-Network Rates Data, UnitedHealthcare" source="https://github.com""/>
     <table name="aetna_toc" description="CVS/Aetna Table of Contents" source="https://health1.aetna.com""/>
+    <table name="provider_references_bcbsaz" description="Provider Reference Data, BCBS AZ" source="https://bcbsaz.healthsparq.com""/>
     <table name="npi_to_tin" description="NPI to TIN Mapping Table" source="https://github.com/CMSgov/price-transparency-guide""/>
     <table name="provider_references_bcbsal" description="Provider Reference Data, BCBS Alabama" source="https://github.com""/>
+    <table name="in_network_rates_cigna" description="In-Network Rates Data, Cigna" source="https://github.com""/>
     <table name="cigna_toc" description="Cigna Table of Contents" source="https://www.cigna.com""/>
     <table name="molina_provider_directory" description="Molina Healthcare Provider Directory" source="https://www.molinahealthcare.com""/>
     <table name="in_network_rates_healthpartners" description="In-Network Rates Data, HealthPartners" source="https://github.com""/>
     <table name="allowed_amounts" description="Allowed Amounts Data (Out-of-Network), Out-of-Network pricing data, Currently, UHC and Medica data are loaded." source="https://github.com""/>
     <table name="in_network_rates_ucare" description="In-Network Rates Data, UCare" source="https://github.com""/>
+    <table name="in_network_rates_bcbsaz" description="In-Network Rates Data, BCBS AZ" source="https://bcbsaz.healthsparq.com""/>
     <table name="in_network_rates_aetna" description="In-Network Rates Data, Aetna" source="https://health1.aetna.com""/>
     <table name="provider_references_premera" description="Provider Reference Data, Premera" source="https://github.com""/>
     <table name="unh_toc" description="UnitedHealthcare Table of Contents" source="https://transparency-in-coverage.uhc.com""/>
@@ -90,6 +95,7 @@
     <table name="otpp" description="Medicare Opioid Treatment Program Providers" source="https://data.cms.gov""/>
     <table name="pc_hospital" description="Hospital Medicare Enrollments" source="https://data.cms.gov""/>
     <table name="mupdme_geo" description="Medicare Durable Medical Equipment, Devices & Supplies by Geography and Service" source="https://data.cms.gov""/>
+    <table name="acoreach_eligible_beneficiaries" description="ACO REACH Eligible Beneficiaries" source="https://data.cms.gov""/>
     <table name="pc_ruralhealthclinic" description="Rural Health Clinic Medicare Enrollments" source="https://data.cms.gov""/>
     <table name="betos" description="Restructured BETOS Classification System (RBCS)" source="https://data.cms.gov""/>
     <table name="muppac_geo" description="Medicare Post-Acute Care and Hospice by Geography & Provider" source="https://data.cms.gov""/>
@@ -100,6 +106,7 @@
     <table name="cmmi_participants" description="Innovation Center Model Participants" source="https://data.cms.gov""/>
     <table name="mupdpr" description="Medicare Part D Prescribers by Prescriber and Drug" source="https://data.cms.gov""/>
     <table name="pc_fqhc" description="Federally Qualified Health Center Medicare Enrollments" source="https://data.cms.gov""/>
+    <table name="market_saturation_state_county" description="Market Saturation & Utilization State-County" source="https://data.cms.gov""/>
     <table name="mssp_orgs" description="MSSP Accountable Care Organizations" source="https://data.cms.gov""/>
     <table name="geovariation" description="Medicare Geographic Variation - by National, State & County" source="https://data.cms.gov""/>
     <table name="mcbs_summer" description="Medicare Current Beneficiary Survey (MCBS), Summer" source="https://data.cms.gov""/>
@@ -133,9 +140,11 @@
     <table name="mupdme_suphpr" description="Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service" source="https://data.cms.gov""/>
     <table name="mssp_county_lvl_expenditures" description="Medicare Shared Savings Program County-level Aggregate Expenditure and Risk Score Data" source="://""/>
     <table name="mssp_regional_trend_factors" description="MSSP Regional Trend Factor derived from `mssp_county_lvl_expenditures`" source="https://data.cms.gov/""/>
+    <table name="market_saturation_cbsa" description="Market Saturation & Utilization CBSA" source="https://data.cms.gov""/>
     <table name="pc_homehealth_owner" description="Home Health All Ownership Information" source="https://data.cms.gov""/>
     <table name="mupihp" description="Medicare Inpatient Hospitals by Provider and Service" source="https://data.cms.gov""/>
     <table name="psps" description="Physician/Supplier Procedure Summary" source="https://data.cms.gov""/>
+    <table name="acoreach_providers" description="ACO REACH Providers" source="https://data.cms.gov""/>
   </schema>
   <schema name="cmsmarketplace"">
     <table name="puf_transparency_in_coverage" description="Transparency in Coverage PUF" source="https://www.cms.gov""/>
@@ -170,6 +179,55 @@
     <table name="pbm_national_formulary" description="VA PBM National Formulary" source="https://www.pbm.va.gov""/>
     <table name="pbm_product_name_list" description="VA PBM Product Name List" source="https://www.pbm.va.gov""/>
     <table name="pbm_drug_class_list" description="VA PBM Drug Class List" source="https://www.pbm.va.gov""/>
+  </schema>
+  <schema name="clinicaltrialsgov"">
+    <table name="detailed_descriptions" description="detailed_descriptions" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="result_agreements" description="result_agreements" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="outcome_analysis_groups" description="outcome_analysis_groups" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="baseline_measurements" description="baseline_measurements" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="search_results" description="search_results" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="designs" description="designs" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="interventions" description="interventions" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="reported_events" description="reported_events" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="facilities" description="facilities" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="outcome_analyses" description="outcome_analyses" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="drop_withdrawals" description="drop_withdrawals" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="intervention_other_names" description="intervention_other_names" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="sponsors" description="sponsors" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="overall_officials" description="overall_officials" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="calculated_values" description="calculated_values" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="eligibilities" description="eligibilities" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="pending_results" description="pending_results" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="browse_interventions" description="browse_interventions" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="outcomes" description="outcomes" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="ipd_information_types" description="ipd_information_types" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="design_outcomes" description="design_outcomes" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="design_group_interventions" description="design_group_interventions" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="central_contacts" description="central_contacts" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="facility_contacts" description="facility_contacts" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="documents" description="documents" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="links" description="links" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="brief_summaries" description="brief_summaries" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="milestones" description="milestones" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="reported_event_totals" description="reported_event_totals" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="keywords" description="keywords" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="baseline_counts" description="baseline_counts" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="retractions" description="retractions" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="design_groups" description="design_groups" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="outcome_measurements" description="outcome_measurements" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="study_references" description="study_references" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="result_groups" description="result_groups" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="countries" description="countries" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="browse_conditions" description="browse_conditions" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="conditions" description="conditions" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="id_information" description="Id_Information" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="result_contacts" description="result_contacts" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="studies" description="studies" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="outcome_counts" description="outcome_counts" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="responsible_parties" description="responsible_parties" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="participant_flows" description="participant_flows" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="provided_documents" description="provided_documents" source="https://aact.ctti-clinicaltrials.org""/>
+    <table name="facility_investigators" description="facility_investigators" source="https://aact.ctti-clinicaltrials.org""/>
   </schema>
   <schema name="tuvahealth"">
     <table name="location" description="Location" source="https://thetuvaproject.com""/>
@@ -238,21 +296,8 @@
     <table name="adi_censustract" description="Area Deprivation Index (ADI) Aggregated (Census Tract Level, mimi-derived data, **USE WITH CAUTION**)" source="https://mimilabs.ai""/>
   </schema>
   <schema name="palmettogba"">
-    <table name="ed_loops_segments" description="Ecounter Data Loops and Segments" source="https://csscoperations.com""/>
-    <table name="edps_edit_lookup" description="EDPS Edit Lookup~References)" source="https://csscoperations.com""/>
-    <table name="ta1_edit_lookup" description="The Interchange Acknowledgement (TA1) Edit Lookup~References)" source="https://csscoperations.com""/>
-    <table name="raps_edit_lookup" description="Risk Adjustment Processing System (RAPS) Edit Lookup~References)" source="https://csscoperations.com""/>
     <table name="dmecs" description="DME Coding System (DMECS) Update Listing" source="https://www.dmepdac.com""/>
-    <table name="cem_837_edit_lookup" description="Combined Common Edit Module (CEM) 837 Edit Lookup~References)" source="https://csscoperations.com""/>
-    <table name="sbsc_minimum_data_elements" description="Supplemental Benefit Services Category Minimum Data Elements" source="https://csscoperations.com""/>
-    <table name="277ca_edit_lookup" description="277CA Edit Lookup~References)" source="https://csscoperations.com""/>
-    <table name="acceptable_physician_specialties" description="Acceptable Physician Specialty Types~References)" source="https://csscoperations.com""/>
-    <table name="ed_control_segments" description="Ecounter Data Control Segments" source="https://csscoperations.com""/>
-    <table name="outpatient_cpt_exlusions" description="Outpatient CPT/HCPCS Exclusion List~References)" source="https://csscoperations.com""/>
-    <table name="sbsc_codes" description="Supplemental Benefit Services Category Codes" source="https://csscoperations.com""/>
     <table name="ndc_hcpcs_xwalk" description="NDC/HCPCS Crosswalk" source="https://dmepdac.com""/>
-    <table name="feras_edit_lookup" description="Front End Risk Adjustment System (FERAS) Edit Lookup~References)" source="https://csscoperations.com""/>
-    <table name="ed_deactivated_edits" description="Ecounter Data Deactivated Edits" source="https://csscoperations.com""/>
   </schema>
   <schema name="cmspayment"">
     <table name="rvu_oppscap" description="Outpatient Prospective Payment System Caps for RVUs" source="https://www.cms.gov""/>
@@ -344,6 +389,12 @@
     <table name="meps_fyc" description="MEPS HC Full Year Consolidated Files" source="https://meps.ahrq.gov""/>
     <table name="meps_event_ervisits" description="MEPS HC Event Files Emergency Room Visits" source="https://meps.ahrq.gov""/>
   </schema>
+  <schema name="fcc"">
+    <table name="c2h_maternal_counties" description="Connect2Health Broadband and Maternal Health, County Level" source="https://www.fcc.gov""/>
+    <table name="c2h_opioids_chronic_counties" description="Connect2Health Broadband and Opioids and Chronic Conditions, County Level" source="https://www.fcc.gov""/>
+    <table name="c2h_opioids_chronic_states" description="Connect2Health Broadband and Opioids and Chronic Conditions, State Level" source="https://www.fcc.gov""/>
+    <table name="c2h_maternal_states" description="Connect2Health Broadband and Maternal Health, State Level" source="https://www.fcc.gov""/>
+  </schema>
   <schema name="datacommons"">
   </schema>
   <schema name="synthea"">
@@ -365,11 +416,12 @@
     <table name="payers" description="Payer organization data, MITRE Synthea" source="https://synthetichealth.github.io""/>
   </schema>
   <schema name="mimilabs"">
-    <table name="cms_emails" description="CMS Email Subscriptions" source="https://www.cms.gov""/>
+    <table name="cms_emails_raw" description="CMS Email ListServ Subscriptions (Raw)" source="https://www.cms.gov""/>
+    <table name="cms_emails_extracts" description="CMS Email ListServ Subscriptions (Extracts)" source="https://www.cms.gov""/>
+    <table name="kff_emails_raw" description="Kaiser Family Foundation Email Subscriptions" source="https://www.kff.org""/>
     <table name="columnstats" description="ColumnStats provides a snapshot of the column details for each table in the mimilabs data warehouse" source="https://mimilabs.ai""/>
-    <table name="kff_emails" description="Kaiser Family Foundation Email Subscriptions" source="https://www.kff.org""/>
+    <table name="google_emails_raw" description="Google Alert Email Subscriptions, Keyword: Centers for Medicare & Medicaid Services" source="https://www.google.com""/>
     <table name="tablestats" description="TableStats provides a snapshot of the table source date, load date, data statistics for each table in the mimilabs workspace." source="https://mimilabs.ai""/>
-    <table name="google_emails" description="Google Alert Email Subscriptions, Keyword: Centers for Medicare & Medicaid Services" source="https://www.google.com""/>
   </schema>
   <schema name="medlineplus"">
     <table name="primary_institute" description="Information about the primary institute associated with a topic from MedlinePlus" source="https://medlineplus.gov""/>
@@ -423,6 +475,23 @@
   </schema>
   <schema name="irs"">
     <table name="zpallagi" description="Individual income tax statistics - ZIP Code data (SOI)" source="https://www.irs.gov""/>
+  </schema>
+  <schema name="csscoperations"">
+    <table name="acceptable_physician_specialties" description="Acceptable Physician Specialty Types~References)" source="https://csscoperations.com""/>
+    <table name="raps_edit_lookup" description="Risk Adjustment Processing System (RAPS) Edit Lookup~References)" source="https://csscoperations.com""/>
+    <table name="edps_edit_lookup" description="EDPS Edit Lookup~References)" source="https://csscoperations.com""/>
+    <table name="outpatient_cpt_exlusions" description="Outpatient CPT/HCPCS Exclusion List~References)" source="https://csscoperations.com""/>
+    <table name="ed_deactivated_edits" description="Ecounter Data Deactivated Edits" source="https://csscoperations.com""/>
+    <table name="references_index" description="Reference Files Index Table, PartC, FAI, PartD" source="https://www.csscoperations.com""/>
+    <table name="ta1_edit_lookup" description="The Interchange Acknowledgement (TA1) Edit Lookup~References)" source="https://csscoperations.com""/>
+    <table name="listservs" description="ListServs" source="https://www.csscoperations.com""/>
+    <table name="cem_837_edit_lookup" description="Combined Common Edit Module (CEM) 837 Edit Lookup~References)" source="https://csscoperations.com""/>
+    <table name="feras_edit_lookup" description="Front End Risk Adjustment System (FERAS) Edit Lookup~References)" source="https://csscoperations.com""/>
+    <table name="277ca_edit_lookup" description="277CA Edit Lookup~References)" source="https://csscoperations.com""/>
+    <table name="ed_loops_segments" description="Ecounter Data Loops and Segments" source="https://csscoperations.com""/>
+    <table name="sbsc_codes" description="Supplemental Benefit Services Category Codes" source="https://csscoperations.com""/>
+    <table name="sbsc_minimum_data_elements" description="Supplemental Benefit Services Category Minimum Data Elements" source="https://csscoperations.com""/>
+    <table name="ed_control_segments" description="Ecounter Data Control Segments" source="https://csscoperations.com""/>
   </schema>
   <schema name="nasbo"">
     <table name="state_expenditure" description="State Expenditure Report data ($ in Millions)." source="https://www.nasbo.org""/>
@@ -510,6 +579,9 @@
     <table name="partial_gap_coverage" description="Partial Gap File from the Part-D Formularies and Networks files" source="https://data.cms.gov""/>
     <table name="insulin_beneficiary_cost" description="Insulin Beneficiary Cost File from the Part-D Formularies and Networks files" source="https://data.cms.gov""/>
   </schema>
+  <schema name="grants"">
+    <table name="grants_xml_extracts" description="Grants Daily XML Extracts" source="https://www.grants.gov""/>
+  </schema>
   <schema name="provdatacatalog"">
     <table name="hospital_hsc" description="Medicare Hospital Spending by Claim from the Hospital Data section" source="https://data.cms.gov""/>
     <table name="hospital_tec" description="Timely and Effective Care from the Hospital Data section" source="https://data.cms.gov""/>
@@ -551,6 +623,7 @@
     <table name="revenue_center_status_indicator_code" description="Revenue Center Status Indicator Code" source="https://resdac.org""/>
     <table name="revenue_center_1st_ansi_code" description="Revenue Center 1st ANSI Code (X12)" source="https://resdac.org""/>
     <table name="claim_value_code" description="Claim Value Code" source="https://resdac.org""/>
+    <table name="betos_nch_version" description="BETOS NCH Version - prior to the revision" source="https://resdac.org""/>
     <table name="claim_frequency_code" description="Claim Frequency Code" source="https://resdac.org""/>
     <table name="claim_occurrence_span_code" description="Claim Occurrence Span Code" source="https://resdac.org""/>
     <table name="revenue_center_code" description="Revenue Center Code" source="https://resdac.org""/>
@@ -667,12 +740,12 @@
   <schema name="stategov"">
     <table name="texas_medicaid_provider_exclusions" description="Texas Health and Human Services Commission Office of the Inspector General Exclusions" source="https://oig.hhsc.state.tx.us""/>
     <table name="newyork_medicaid_provider_exclusions" description="New York Office of the Medicaid Inspector General List of Exclusions" source="https://omig.ny.gov""/>
-    <table name="nevada_medicaid_provider_exclusions" description="Nevada Department of Health and Human Services Excluded/Sanctioned Providers" source="https://dhcfp.nv.gov""/>
     <table name="florida_licensedb" description="Florida Licensure Database" source="https://data-download.mqa.flhealthsource.gov""/>
     <table name="florida_ahca_orders" description="Florica Agency for Health Care Administration (AHCA) Orders)/default.aspx#Final_Orders)" source="https://apps.ahca.myflorida.com""/>
     <table name="california_medicaid_provider_directory" description="California Medicaid Provider Directory" source="https://data.ca.gov""/>
     <table name="newyork_medicaid_provider_directory" description="New York Medicaid Provider Directory" source="https://health.data.ny.gov""/>
     <table name="california_suspended_ineligible_list" description="California Department of Health Care Services Suspended and Ineligible Provider List" source="https://mcweb.apps.prd.cammis.medi-cal.ca.gov""/>
+    <table name="nevada_medicaid_provider_exclusions" description="Nevada Department of Health and Human Services Excluded/Sanctioned Providers" source="https://dhcfp.nv.gov""/>
     <table name="georgia_medicaid_provider_exclusions" description="Georgia Office of Inspector General Exclusions List" source="https://dch.georgia.gov""/>
     <table name="pennsylvania_medicheck_preclusions" description="Pennsylvania Department of Human Services Medicheck Precluded Providers List" source="https://www.humanservices.state.pa.us""/>
     <table name="hospital_inpatient_discharges_sparcs" description="New York Hospital Inpatient Discharges (SPARCS De-Identified)" source="https://health.data.ny.gov""/>

@@ -190,8 +190,18 @@
     "source": "https://github.com"
   },
   {
+    "path": "payermrf.bcbsaz_toc",
+    "description": "BCBS Arizona Table of Contents - contains BCBS pla...",
+    "source": "https://bcbsaz.healthsparq.com"
+  },
+  {
     "path": "payermrf.provider_references_unitedhealth",
     "description": "Provider Reference Data, UnitedHealthcare",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.provider_references_cigna",
+    "description": "Provider Reference Data, Cigna",
     "source": "https://github.com"
   },
   {
@@ -215,6 +225,11 @@
     "source": "https://health1.aetna.com"
   },
   {
+    "path": "payermrf.provider_references_bcbsaz",
+    "description": "Provider Reference Data, BCBS AZ",
+    "source": "https://bcbsaz.healthsparq.com"
+  },
+  {
     "path": "payermrf.npi_to_tin",
     "description": "NPI to TIN Mapping Table",
     "source": "https://github.com/CMSgov/price-transparency-guide"
@@ -222,6 +237,11 @@
   {
     "path": "payermrf.provider_references_bcbsal",
     "description": "Provider Reference Data, BCBS Alabama",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.in_network_rates_cigna",
+    "description": "In-Network Rates Data, Cigna",
     "source": "https://github.com"
   },
   {
@@ -248,6 +268,11 @@
     "path": "payermrf.in_network_rates_ucare",
     "description": "In-Network Rates Data, UCare",
     "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.in_network_rates_bcbsaz",
+    "description": "In-Network Rates Data, BCBS AZ",
+    "source": "https://bcbsaz.healthsparq.com"
   },
   {
     "path": "payermrf.in_network_rates_aetna",
@@ -360,6 +385,11 @@
     "source": "https://data.cms.gov"
   },
   {
+    "path": "datacmsgov.acoreach_eligible_beneficiaries",
+    "description": "ACO REACH Eligible Beneficiaries",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "datacmsgov.pc_ruralhealthclinic",
     "description": "Rural Health Clinic Medicare Enrollments",
     "source": "https://data.cms.gov"
@@ -407,6 +437,11 @@
   {
     "path": "datacmsgov.pc_fqhc",
     "description": "Federally Qualified Health Center Medicare Enrollm...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.market_saturation_state_county",
+    "description": "Market Saturation & Utilization State-County",
     "source": "https://data.cms.gov"
   },
   {
@@ -575,6 +610,11 @@
     "source": "https://data.cms.gov/"
   },
   {
+    "path": "datacmsgov.market_saturation_cbsa",
+    "description": "Market Saturation & Utilization CBSA",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "datacmsgov.pc_homehealth_owner",
     "description": "Home Health All Ownership Information",
     "source": "https://data.cms.gov"
@@ -587,6 +627,11 @@
   {
     "path": "datacmsgov.psps",
     "description": "Physician/Supplier Procedure Summary",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.acoreach_providers",
+    "description": "ACO REACH Providers",
     "source": "https://data.cms.gov"
   },
   {
@@ -708,6 +753,241 @@
     "path": "va.pbm_drug_class_list",
     "description": "VA PBM Drug Class List",
     "source": "https://www.pbm.va.gov"
+  },
+  {
+    "path": "clinicaltrialsgov.detailed_descriptions",
+    "description": "detailed_descriptions",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.result_agreements",
+    "description": "result_agreements",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.outcome_analysis_groups",
+    "description": "outcome_analysis_groups",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.baseline_measurements",
+    "description": "baseline_measurements",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.search_results",
+    "description": "search_results",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.designs",
+    "description": "designs",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.interventions",
+    "description": "interventions",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.reported_events",
+    "description": "reported_events",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.facilities",
+    "description": "facilities",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.outcome_analyses",
+    "description": "outcome_analyses",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.drop_withdrawals",
+    "description": "drop_withdrawals",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.intervention_other_names",
+    "description": "intervention_other_names",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.sponsors",
+    "description": "sponsors",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.overall_officials",
+    "description": "overall_officials",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.calculated_values",
+    "description": "calculated_values",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.eligibilities",
+    "description": "eligibilities",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.pending_results",
+    "description": "pending_results",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.browse_interventions",
+    "description": "browse_interventions",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.outcomes",
+    "description": "outcomes",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.ipd_information_types",
+    "description": "ipd_information_types",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.design_outcomes",
+    "description": "design_outcomes",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.design_group_interventions",
+    "description": "design_group_interventions",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.central_contacts",
+    "description": "central_contacts",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.facility_contacts",
+    "description": "facility_contacts",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.documents",
+    "description": "documents",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.links",
+    "description": "links",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.brief_summaries",
+    "description": "brief_summaries",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.milestones",
+    "description": "milestones",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.reported_event_totals",
+    "description": "reported_event_totals",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.keywords",
+    "description": "keywords",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.baseline_counts",
+    "description": "baseline_counts",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.retractions",
+    "description": "retractions",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.design_groups",
+    "description": "design_groups",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.outcome_measurements",
+    "description": "outcome_measurements",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.study_references",
+    "description": "study_references",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.result_groups",
+    "description": "result_groups",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.countries",
+    "description": "countries",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.browse_conditions",
+    "description": "browse_conditions",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.conditions",
+    "description": "conditions",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.id_information",
+    "description": "Id_Information",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.result_contacts",
+    "description": "result_contacts",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.studies",
+    "description": "studies",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.outcome_counts",
+    "description": "outcome_counts",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.responsible_parties",
+    "description": "responsible_parties",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.participant_flows",
+    "description": "participant_flows",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.provided_documents",
+    "description": "provided_documents",
+    "source": "https://aact.ctti-clinicaltrials.org"
+  },
+  {
+    "path": "clinicaltrialsgov.facility_investigators",
+    "description": "facility_investigators",
+    "source": "https://aact.ctti-clinicaltrials.org"
   },
   {
     "path": "tuvahealth.location",
@@ -970,79 +1250,14 @@
     "source": "https://mimilabs.ai"
   },
   {
-    "path": "palmettogba.ed_loops_segments",
-    "description": "Ecounter Data Loops and Segments",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.edps_edit_lookup",
-    "description": "EDPS Edit Lookup~References)",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.ta1_edit_lookup",
-    "description": "The Interchange Acknowledgement (TA1) Edit Lookup~...",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.raps_edit_lookup",
-    "description": "Risk Adjustment Processing System (RAPS) Edit Look...",
-    "source": "https://csscoperations.com"
-  },
-  {
     "path": "palmettogba.dmecs",
     "description": "DME Coding System (DMECS) Update Listing",
     "source": "https://www.dmepdac.com"
   },
   {
-    "path": "palmettogba.cem_837_edit_lookup",
-    "description": "Combined Common Edit Module (CEM) 837 Edit Lookup~...",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.sbsc_minimum_data_elements",
-    "description": "Supplemental Benefit Services Category Minimum Dat...",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.277ca_edit_lookup",
-    "description": "277CA Edit Lookup~References)",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.acceptable_physician_specialties",
-    "description": "Acceptable Physician Specialty Types~References)",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.ed_control_segments",
-    "description": "Ecounter Data Control Segments",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.outpatient_cpt_exlusions",
-    "description": "Outpatient CPT/HCPCS Exclusion List~References)",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.sbsc_codes",
-    "description": "Supplemental Benefit Services Category Codes",
-    "source": "https://csscoperations.com"
-  },
-  {
     "path": "palmettogba.ndc_hcpcs_xwalk",
     "description": "NDC/HCPCS Crosswalk",
     "source": "https://dmepdac.com"
-  },
-  {
-    "path": "palmettogba.feras_edit_lookup",
-    "description": "Front End Risk Adjustment System (FERAS) Edit Look...",
-    "source": "https://csscoperations.com"
-  },
-  {
-    "path": "palmettogba.ed_deactivated_edits",
-    "description": "Ecounter Data Deactivated Edits",
-    "source": "https://csscoperations.com"
   },
   {
     "path": "cmspayment.rvu_oppscap",
@@ -1445,6 +1660,26 @@
     "source": "https://meps.ahrq.gov"
   },
   {
+    "path": "fcc.c2h_maternal_counties",
+    "description": "Connect2Health Broadband and Maternal Health, Coun...",
+    "source": "https://www.fcc.gov"
+  },
+  {
+    "path": "fcc.c2h_opioids_chronic_counties",
+    "description": "Connect2Health Broadband and Opioids and Chronic C...",
+    "source": "https://www.fcc.gov"
+  },
+  {
+    "path": "fcc.c2h_opioids_chronic_states",
+    "description": "Connect2Health Broadband and Opioids and Chronic C...",
+    "source": "https://www.fcc.gov"
+  },
+  {
+    "path": "fcc.c2h_maternal_states",
+    "description": "Connect2Health Broadband and Maternal Health, Stat...",
+    "source": "https://www.fcc.gov"
+  },
+  {
     "path": "synthea.patients",
     "description": "Patient demographic data, MITRE Synthea",
     "source": "https://synthetichealth.github.io"
@@ -1525,9 +1760,19 @@
     "source": "https://synthetichealth.github.io"
   },
   {
-    "path": "mimilabs.cms_emails",
-    "description": "CMS Email Subscriptions",
+    "path": "mimilabs.cms_emails_raw",
+    "description": "CMS Email ListServ Subscriptions (Raw)",
     "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mimilabs.cms_emails_extracts",
+    "description": "CMS Email ListServ Subscriptions (Extracts)",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mimilabs.kff_emails_raw",
+    "description": "Kaiser Family Foundation Email Subscriptions",
+    "source": "https://www.kff.org"
   },
   {
     "path": "mimilabs.columnstats",
@@ -1535,19 +1780,14 @@
     "source": "https://mimilabs.ai"
   },
   {
-    "path": "mimilabs.kff_emails",
-    "description": "Kaiser Family Foundation Email Subscriptions",
-    "source": "https://www.kff.org"
+    "path": "mimilabs.google_emails_raw",
+    "description": "Google Alert Email Subscriptions, Keyword: Centers...",
+    "source": "https://www.google.com"
   },
   {
     "path": "mimilabs.tablestats",
     "description": "TableStats provides a snapshot of the table source...",
     "source": "https://mimilabs.ai"
-  },
-  {
-    "path": "mimilabs.google_emails",
-    "description": "Google Alert Email Subscriptions, Keyword: Centers...",
-    "source": "https://www.google.com"
   },
   {
     "path": "medlineplus.primary_institute",
@@ -1733,6 +1973,81 @@
     "path": "irs.zpallagi",
     "description": "Individual income tax statistics - ZIP Code data (...",
     "source": "https://www.irs.gov"
+  },
+  {
+    "path": "csscoperations.acceptable_physician_specialties",
+    "description": "Acceptable Physician Specialty Types~References)",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.raps_edit_lookup",
+    "description": "Risk Adjustment Processing System (RAPS) Edit Look...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.edps_edit_lookup",
+    "description": "EDPS Edit Lookup~References)",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.outpatient_cpt_exlusions",
+    "description": "Outpatient CPT/HCPCS Exclusion List~References)",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.ed_deactivated_edits",
+    "description": "Ecounter Data Deactivated Edits",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.references_index",
+    "description": "Reference Files Index Table, PartC, FAI, PartD",
+    "source": "https://www.csscoperations.com"
+  },
+  {
+    "path": "csscoperations.ta1_edit_lookup",
+    "description": "The Interchange Acknowledgement (TA1) Edit Lookup~...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.listservs",
+    "description": "ListServs",
+    "source": "https://www.csscoperations.com"
+  },
+  {
+    "path": "csscoperations.cem_837_edit_lookup",
+    "description": "Combined Common Edit Module (CEM) 837 Edit Lookup~...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.feras_edit_lookup",
+    "description": "Front End Risk Adjustment System (FERAS) Edit Look...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.277ca_edit_lookup",
+    "description": "277CA Edit Lookup~References)",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.ed_loops_segments",
+    "description": "Ecounter Data Loops and Segments",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.sbsc_codes",
+    "description": "Supplemental Benefit Services Category Codes",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.sbsc_minimum_data_elements",
+    "description": "Supplemental Benefit Services Category Minimum Dat...",
+    "source": "https://csscoperations.com"
+  },
+  {
+    "path": "csscoperations.ed_control_segments",
+    "description": "Ecounter Data Control Segments",
+    "source": "https://csscoperations.com"
   },
   {
     "path": "nasbo.state_expenditure",
@@ -2115,6 +2430,11 @@
     "source": "https://data.cms.gov"
   },
   {
+    "path": "grants.grants_xml_extracts",
+    "description": "Grants Daily XML Extracts",
+    "source": "https://www.grants.gov"
+  },
+  {
     "path": "provdatacatalog.hospital_hsc",
     "description": "Medicare Hospital Spending by Claim from the Hospi...",
     "source": "https://data.cms.gov"
@@ -2292,6 +2612,11 @@
   {
     "path": "resdac.claim_value_code",
     "description": "Claim Value Code",
+    "source": "https://resdac.org"
+  },
+  {
+    "path": "resdac.betos_nch_version",
+    "description": "BETOS NCH Version - prior to the revision",
     "source": "https://resdac.org"
   },
   {
@@ -2805,11 +3130,6 @@
     "source": "https://omig.ny.gov"
   },
   {
-    "path": "stategov.nevada_medicaid_provider_exclusions",
-    "description": "Nevada Department of Health and Human Services Exc...",
-    "source": "https://dhcfp.nv.gov"
-  },
-  {
     "path": "stategov.florida_licensedb",
     "description": "Florida Licensure Database",
     "source": "https://data-download.mqa.flhealthsource.gov"
@@ -2833,6 +3153,11 @@
     "path": "stategov.california_suspended_ineligible_list",
     "description": "California Department of Health Care Services Susp...",
     "source": "https://mcweb.apps.prd.cammis.medi-cal.ca.gov"
+  },
+  {
+    "path": "stategov.nevada_medicaid_provider_exclusions",
+    "description": "Nevada Department of Health and Human Services Exc...",
+    "source": "https://dhcfp.nv.gov"
   },
   {
     "path": "stategov.georgia_medicaid_provider_exclusions",
