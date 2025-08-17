@@ -3,10 +3,17 @@
     <table name="hpms_memos" description="Health Plan Management System (HPMS) weekly memo archives" source="https://www.cms.gov""/>
   </schema>
   <schema name="noridian"">
+    <table name="smrc_completed_projects" description="Supplemental Medical Review Contractor (SMRC) Completed Projects, Base" source="https://noridiansmrc.com""/>
+    <table name="smrc_current_projects_doc_reqs" description="Supplemental Medical Review Contractor (SMRC) Current Projects, Documentation Requirements" source="https://noridiansmrc.com""/>
     <table name="modifiers" description="Claim Modifiers" source="https://med.noridianmedicare.com""/>
     <table name="discharge_codes" description="Patient Discharge Codes" source="https://med.noridianmedicare.com""/>
+    <table name="smrc_current_projects_codes" description="Supplemental Medical Review Contractor (SMRC) Current Projects, Codes" source="https://noridiansmrc.com""/>
     <table name="revenue_codes" description="Revenue Codes" source="https://med.noridianmedicare.com""/>
+    <table name="smrc_completed_projects_denials" description="Supplemental Medical Review Contractor (SMRC) Completed Projects, Denials" source="https://noridiansmrc.com""/>
+    <table name="smrc_completed_projects_references" description="Supplemental Medical Review Contractor (SMRC) Completed Projects, References" source="https://noridiansmrc.com""/>
+    <table name="smrc_current_projects_references" description="Supplemental Medical Review Contractor (SMRC) Current Projects, References" source="https://noridiansmrc.com""/>
     <table name="type_of_bill_structure" description="Type of Bill Code Structure" source="https://med.noridianmedicare.com""/>
+    <table name="smrc_current_projects" description="Supplemental Medical Review Contractor (SMRC) Current Projects, Base" source="https://noridiansmrc.com""/>
     <table name="type_of_bill_by_facility" description="Type of Bill By Facility" source="https://med.noridianmedicare.com""/>
   </schema>
   <schema name="hrsa"">
@@ -20,7 +27,9 @@
     <table name="leie" description="List of Excluded Individuals/Entities (LEIE)" source="https://oig.hhs.gov""/>
     <table name="buprenorphine_countydata" description="Buprenorphine-Waivered Providers, County Data" source="https://oig.hhs.gov""/>
     <table name="enforcement_summaries" description="OIG Enforcement Summaries" source="https://oig.hhs.gov""/>
+    <table name="risk_adjustment_toolkit_2023" description="Risk Adjustment Toolkit Target Codes" source="hhttps://oig.hhs.gov""/>
     <table name="enforcement_details_enriched" description="OIG Enforcement Details LLM Extracted" source="https://oig.hhs.gov""/>
+    <table name="workplans" description="Work Plans" source="https://oig.hhs.gov""/>
     <table name="enforcement_details" description="OIG Enforcement Details Raw Text" source="https://oig.hhs.gov""/>
   </schema>
   <schema name="huduser"">
@@ -46,15 +55,19 @@
     <table name="in_network_rates_bcbsmn" description="In-Network Rates Data, BCBS MN" source="https://github.com""/>
     <table name="provider_references_aetna" description="Provider Reference Data, Aetna" source="https://health1.aetna.com""/>
     <table name="provider_references_bcbsmn" description="Provider Reference Data, BCBS MN" source="https://github.com""/>
+    <table name="npi_tin_extracts" description="NPI TIN Pairs from all provider reference files" source="https://github.com/CMSgov/price-transparency-guide""/>
     <table name="medica_toc" description="Medica Table of Contents" source="https://web.healthsparq.com""/>
     <table name="provider_references_healthpartners" description="Provider Reference Data, Health Partners" source="https://github.com""/>
+    <table name="provider_references_blueshieldca" description="Provider Reference Data, Blue Shield California" source="https://github.com""/>
     <table name="bcbsaz_toc" description="BCBS Arizona Table of Contents - contains BCBS plans from other states" source="https://bcbsaz.healthsparq.com""/>
     <table name="provider_references_unitedhealth" description="Provider Reference Data, UnitedHealthcare" source="https://github.com""/>
     <table name="provider_references_cigna" description="Provider Reference Data, Cigna" source="https://github.com""/>
     <table name="in_network_rates_medica" description="In-Network Rates Data, Medica" source="https://github.com""/>
     <table name="in_network_rates_bcbsal" description="In-Network Rates Data, BCBS Alabama" source="https://github.com""/>
+    <table name="in_network_rates_blueshieldca" description="In-Network Rates Data, Blue Shield California" source="https://github.com""/>
     <table name="in_network_rates_unitedhealth" description="In-Network Rates Data, UnitedHealthcare" source="https://github.com""/>
     <table name="aetna_toc" description="CVS/Aetna Table of Contents" source="https://health1.aetna.com""/>
+    <table name="blueshieldca_toc" description="Blue Shield California Table of Contents - contains BCBS plans from other states" source="https://web.healthsparq.com""/>
     <table name="provider_references_bcbsaz" description="Provider Reference Data, BCBS AZ" source="https://bcbsaz.healthsparq.com""/>
     <table name="npi_to_tin" description="NPI to TIN Mapping Table" source="https://github.com/CMSgov/price-transparency-guide""/>
     <table name="provider_references_bcbsal" description="Provider Reference Data, BCBS Alabama" source="https://github.com""/>
@@ -98,21 +111,26 @@
     <table name="acoreach_eligible_beneficiaries" description="ACO REACH Eligible Beneficiaries" source="https://data.cms.gov""/>
     <table name="pc_ruralhealthclinic" description="Rural Health Clinic Medicare Enrollments" source="https://data.cms.gov""/>
     <table name="betos" description="Restructured BETOS Classification System (RBCS)" source="https://data.cms.gov""/>
-    <table name="muppac_geo" description="Medicare Post-Acute Care and Hospice by Geography & Provider" source="https://data.cms.gov""/>
+    <table name="muppac_geo_legacy" description="Medicare Post-Acute Care and Hospice by Geography & Provider" source="https://data.cms.gov""/>
     <table name="mupdme_sup" description="Medicare Durable Medical Equipment, Devices & Supplies by Supplier" source="https://data.cms.gov""/>
     <table name="orderandreferring" description="Medicare Order and Referring Eligible Providers" source="https://data.cms.gov""/>
     <table name="mupohp_geo" description="Medicare Outpatient Hospitals by Geography and Service" source="https://data.cms.gov""/>
+    <table name="muppac_hh_geo" description="Medicare Post-Acute Care Utilization - Home Health Agencies and their Geographic Summaries" source="https://data.cms.gov""/>
     <table name="pc_snf" description="Skilled Nursing Facility Medicare Enrollments" source="https://data.cms.gov""/>
     <table name="cmmi_participants" description="Innovation Center Model Participants" source="https://data.cms.gov""/>
     <table name="mupdpr" description="Medicare Part D Prescribers by Prescriber and Drug" source="https://data.cms.gov""/>
     <table name="pc_fqhc" description="Federally Qualified Health Center Medicare Enrollments" source="https://data.cms.gov""/>
-    <table name="market_saturation_state_county" description="Market Saturation & Utilization State-County" source="https://data.cms.gov""/>
+    <table name="partb_discarded_drugs" description="Medicare Part B Discarded Drug Units" source="https://data.cms.gov""/>
+    <table name="market_saturation_cbsa" description="Market Saturation & Utilization CBSA" source="https://data.cms.gov""/>
     <table name="mssp_orgs" description="MSSP Accountable Care Organizations" source="https://data.cms.gov""/>
     <table name="geovariation" description="Medicare Geographic Variation - by National, State & County" source="https://data.cms.gov""/>
+    <table name="muppac_snf_geo" description="Medicare Post-Acute Care Utilization - Skilled Nursing Facilities and their Geographic Summaries" source="https://data.cms.gov""/>
     <table name="mcbs_summer" description="Medicare Current Beneficiary Survey (MCBS), Summer" source="https://data.cms.gov""/>
     <table name="pendingilt" description="Medicare Enrollment, Pending Initial Logging and Tracking" source="https://data.cms.gov""/>
     <table name="pc_snf_owner" description="SNF All Ownership Information" source="https://data.cms.gov""/>
+    <table name="muppac_hos_geo" description="Medicare Post-Acute Care Utilization - Hospices and their Geographic Summaries" source="https://data.cms.gov""/>
     <table name="optout" description="Medicare Opt Out Affidavits" source="https://data.cms.gov""/>
+    <table name="muppac_irf_geo_w_casemix" description="Medicare Post-Acute Care Utilization - Inpatient Rehabilitation Facility by Geography/Provider and Case-Mix Grouping" source="https://data.cms.gov""/>
     <table name="pc_hospice" description="Hospice Medicare Enrollments" source="https://data.cms.gov""/>
     <table name="mupihp_geo" description="Medicare Inpatient Hospitals by Geography and Service" source="https://data.cms.gov""/>
     <table name="pc_homehealth" description="Home Health Agency Medicare Enrollments" source="https://data.cms.gov""/>
@@ -120,13 +138,17 @@
     <table name="qpp" description="Quality Payment Program, e.g., MIPS, APMs, Performance Results" source="https://data.cms.gov""/>
     <table name="mupphy_prvdr" description="Medicare Physician & Other Practitioners by Provider" source="https://data.cms.gov""/>
     <table name="mupdpr_geo" description="Medicare Part D Prescribers by Geography and Drug" source="https://data.cms.gov""/>
+    <table name="muppac_hh_geo_w_casemix" description="Medicare Post-Acute Care Utilization - Home Health Agency by Geography/Provider and Case-Mix Grouping" source="https://data.cms.gov""/>
     <table name="mupihp_prvdr" description="Medicare Inpatient Hospitals by Provider" source="https://data.cms.gov""/>
+    <table name="pbj_nonnurse" description="Payroll Based Journal Daily Non-Nurse Staffing" source="https://data.cms.gov""/>
     <table name="mcbs_fall" description="Medicare Current Beneficiary Survey (MCBS), Fall" source="https://data.cms.gov""/>
     <table name="revalidation" description="Medicare Revalidation Clinic Group Practice Reassignment" source="https://data.cms.gov""/>
+    <table name="pbj_nurse" description="Payroll Based Journal Daily Nurse Staffing" source="https://data.cms.gov""/>
     <table name="taxonomy_crosswalk" description="Medicare Provider and Supplier Taxonomy Crosswalk" source="https://data.cms.gov""/>
     <table name="pc_provider" description="Medicare Fee-For-Service Public Provider Medicare Enrollment" source="https://data.cms.gov""/>
     <table name="nursinghome_ae_perf" description="Nursing Home Affiliated Entity Performance" source="https://data.cms.gov""/>
     <table name="mssp_results" description="Medicare Shared Savings Program (MSSP) Performance Year Financial and Quality Results" source="https://data.cms.gov""/>
+    <table name="muppac_irf_geo" description="Medicare Post-Acute Care Utilization - Inpatient Rehabilitation Facilities and their Geographic Summaries" source="https://data.cms.gov""/>
     <table name="mupdme" description="Medicare Durable Medical Equipment, Devices & Supplies by Referring Provider and Service" source="https://data.cms.gov""/>
     <table name="covid19nursinghomes" description="COVID-19 Nursing Home Data" source="https://data.cms.gov""/>
     <table name="cmmi_reports" description="Innovation Center Data and Reports" source="https://data.cms.gov""/>
@@ -139,11 +161,13 @@
     <table name="pc_hospice_owner" description="Hospice All Ownership Information" source="https://data.cms.gov""/>
     <table name="mupdme_suphpr" description="Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service" source="https://data.cms.gov""/>
     <table name="mssp_county_lvl_expenditures" description="Medicare Shared Savings Program County-level Aggregate Expenditure and Risk Score Data" source="://""/>
+    <table name="market_saturation_state_county" description="Market Saturation & Utilization State-County" source="https://data.cms.gov""/>
     <table name="mssp_regional_trend_factors" description="MSSP Regional Trend Factor derived from `mssp_county_lvl_expenditures`" source="https://data.cms.gov/""/>
-    <table name="market_saturation_cbsa" description="Market Saturation & Utilization CBSA" source="https://data.cms.gov""/>
     <table name="pc_homehealth_owner" description="Home Health All Ownership Information" source="https://data.cms.gov""/>
     <table name="mupihp" description="Medicare Inpatient Hospitals by Provider and Service" source="https://data.cms.gov""/>
     <table name="psps" description="Physician/Supplier Procedure Summary" source="https://data.cms.gov""/>
+    <table name="muppac_snf_geo_w_casemix" description="Medicare Post-Acute Care Utilization - Skilled Nursing Facility by Geography/Provider and Case-Mix Grouping" source="https://data.cms.gov""/>
+    <table name="muppac_ltc_geo" description="Medicare Post-Acute Care Utilization - Long-Term Care Hospitals and their Geographic Summaries" source="https://data.cms.gov""/>
     <table name="acoreach_providers" description="ACO REACH Providers" source="https://data.cms.gov""/>
   </schema>
   <schema name="cmsmarketplace"">
@@ -175,6 +199,7 @@
     <table name="text_from_pdfs" description="Parsed Text from PDFs, Office of Minority Health Reports" source="https://www.cms.gov/priorities/health-equity/minority-health""/>
   </schema>
   <schema name="va"">
+    <table name="formulary_monthly_decisions_pdf" description="VA PBM Formulary Decision Letters (PDF)" source="https://www.pbm.va.gov""/>
     <table name="pbm_national_drug_code_extract" description="VA PBM National Drug Code (NDC) Extract" source="https://www.pbm.va.gov""/>
     <table name="pbm_national_formulary" description="VA PBM National Formulary" source="https://www.pbm.va.gov""/>
     <table name="pbm_product_name_list" description="VA PBM Product Name List" source="https://www.pbm.va.gov""/>
@@ -231,41 +256,53 @@
   </schema>
   <schema name="tuvahealth"">
     <table name="location" description="Location" source="https://thetuvaproject.com""/>
-    <table name="cclf7_partd_claims" description="CCLF7 Part D Claims" source="https://thetuvaproject.com""/>
     <table name="eligibility" description="Eligibility" source="https://thetuvaproject.com""/>
-    <table name="cclf5_partb_physicians" description="CCLF5 Part B Physician" source="https://thetuvaproject.com""/>
+    <table name="cclf9_beneficiary_xref" description="CCLF9 Beneficiary XREF" source="https://thetuvaproject.com""/>
     <table name="medical_claim" description="Medical Claim" source="https://thetuvaproject.com""/>
-    <table name="lab_result" description="Lab Result" source="https://thetuvaproject.com""/>
     <table name="cclf4_parta_diagnosis_code" description="CCLF4 Part A Claims Diagnosis Code" source="https://thetuvaproject.com""/>
+    <table name="lab_result" description="Lab Result" source="https://thetuvaproject.com""/>
+    <table name="cclf6_partb_dme" description="CCLF6 Part B Part B DME" source="https://thetuvaproject.com""/>
     <table name="practitioner" description="Practitioner" source="https://thetuvaproject.com""/>
-    <table name="cclfx_enrollment" description="CCLFX ACO Enrollment File" source="https://thetuvaproject.com""/>
     <table name="patient" description="Patient" source="https://thetuvaproject.com""/>
-    <table name="cclf2_parta_claims_revenue_center_detail" description="CCLF2 Part A Claims Revenue Center Detail" source="https://thetuvaproject.com""/>
+    <table name="cclf1_parta_claims_header" description="CCLF1 Part A Claims Header File" source="https://thetuvaproject.com""/>
     <table name="medication" description="Medication" source="https://thetuvaproject.com""/>
-    <table name="cclf3_parta_procedure_code" description="CCLF3 Part A Claims Procedure Code" source="https://thetuvaproject.com""/>
+    <table name="cclf8_beneficiary_demographics" description="CCLF8 Beneficiary Demographics" source="https://thetuvaproject.com""/>
+    <table name="cclf7_partd_claims" description="CCLF7 Part D Claims" source="https://thetuvaproject.com""/>
     <table name="condition" description="Condition" source="https://thetuvaproject.com""/>
     <table name="pharmacy_claim" description="Pharmacy Claim" source="https://thetuvaproject.com""/>
-    <table name="cclf8_beneficiary_demographics" description="CCLF8 Beneficiary Demographics" source="https://thetuvaproject.com""/>
     <table name="encounter" description="Encounter" source="https://thetuvaproject.com""/>
-    <table name="cclf1_parta_claims_header" description="CCLF1 Part A Claims Header File" source="https://thetuvaproject.com""/>
-    <table name="cclf9_beneficiary_xref" description="CCLF9 Beneficiary XREF" source="https://thetuvaproject.com""/>
+    <table name="cclf3_parta_procedure_code" description="CCLF3 Part A Claims Procedure Code" source="https://thetuvaproject.com""/>
+    <table name="cclf2_parta_claims_revenue_center_detail" description="CCLF2 Part A Claims Revenue Center Detail" source="https://thetuvaproject.com""/>
+    <table name="cclfx_enrollment" description="CCLFX ACO Enrollment File" source="https://thetuvaproject.com""/>
     <table name="observation" description="Observation" source="https://thetuvaproject.com""/>
-    <table name="cclf6_partb_dme" description="CCLF6 Part B Part B DME" source="https://thetuvaproject.com""/>
+    <table name="cclf5_partb_physicians" description="CCLF5 Part B Physician" source="https://thetuvaproject.com""/>
     <table name="procedure" description="Procedure" source="https://thetuvaproject.com""/>
   </schema>
   <schema name="cmssafetystandards"">
     <table name="termination_notices" description="Medicare Termination Notices" source="https://www.cms.gov""/>
   </schema>
   <schema name="legacycom"">
-    <table name="obituaries" description="Scraped Obituaries" source="legacy.com""/>
+    <table name="obituaries" description="Scraped Obituaries" source="https://legacy.com""/>
   </schema>
   <schema name="cmscoding"">
     <table name="icd10cm" description="ICD-10-CM Codes and Descriptions" source="https://www.cms.gov""/>
     <table name="icd10cm_poa_exempt" description="ICD-10-CM Present on Admission (POA) Exempt Codes and Descriptions" source="https://www.cms.gov""/>
     <table name="ncci_ptp" description="Medicare National Correct Coding Initiative (NCCI) Procedure to Procedure Edit (PTP) Codes and Descriptions" source="https://www.cms.gov""/>
+    <table name="hcpcs_decisions_parsed" description="HCPCS Level II Coding Decisions - Extracted" source="https://www.cms.gov""/>
+    <table name="hcpcs_decisions_rawtext" description="HCPCS Level II Coding Decisions - Raw Text" source="https://www.cms.gov""/>
+    <table name="medicaid_ncci_mue" description="Medicaid National Correct Coding Initiative (NCCI) Medically Unlikely Edit (MUE) Codes and Descriptions" source="hhttps://www.cms.gov""/>
     <table name="icd10pcs" description="ICD-10-PCS Codes and Descriptions" source="https://www.cms.gov""/>
     <table name="hcpcs" description="HCPCS Codes and Descriptions" source="https://www.cms.gov""/>
     <table name="ncci_mue" description="Medicare National Correct Coding Initiative (NCCI) Medically Unlikely Edit (MUE) Codes and Descriptions" source="https://www.cms.gov""/>
+  </schema>
+  <schema name="dartmouth"">
+    <table name="medpar_dgns_cd10" description="Coding Trends, Inpatient, 2015-2018" source="https://data.dartmouthatlas.org""/>
+    <table name="cardiac_care" description="Cardiac Care Hospital Data, 1996-2014" source="https://data.dartmouthatlas.org""/>
+    <table name="ptb_dgns_cd10" description="Coding Trends, PartB, 2015-2018" source="https://data.dartmouthatlas.org""/>
+    <table name="ziphsahrr" description="ZIP HSA HRR Crosswalk" source="https://data.dartmouthatlas.org""/>
+    <table name="hosp_cost" description="Hospital Cost File, 1998-2012" source="https://data.dartmouthatlas.org""/>
+    <table name="op_dgns_cd10" description="Coding Trends, Outpatient, 2015-2018" source="https://data.dartmouthatlas.org""/>
+    <table name="hosp_tracking_file" description="Hospoital Profile Tracking, 1992-2019" source="https://data.dartmouthatlas.org""/>
   </schema>
   <schema name="surgoventures"">
     <table name="ccvi_state" description="THE U.S. COVID COMMUNITY VULNERABILITY INDEX (CCVI)" source="https://precisionforcovid.org""/>
@@ -379,6 +416,7 @@
     <table name="compendium_nursinghome_linkage" description="Compendium of U.S. Health Systems, Nursing Home Linkage" source="https://www.ahrq.gov""/>
     <table name="meps_event_dentalvisits" description="MEPS HC Event Files Dental Visits" source="https://meps.ahrq.gov""/>
     <table name="meps_consol_metadata" description="MEPS (Medical Expenditure Panel Survey) Household Component (HC) Consolidated Files Metadata; Variable Names and Descriptions" source="https://meps.ahrq.gov""/>
+    <table name="ccs_cpt" description="Clinical Classifications Software (CCS) CPT - PLEASE REVIEW THE CPT AGREEMENT BEFORE USING" source="https://hcup-us.ahrq.gov""/>
     <table name="meps_event_inpatientstays" description="MEPS HC Event Files Inpatient Stays" source="https://meps.ahrq.gov""/>
     <table name="compendium_grouppractice_linkage" description="Compendium of U.S. Health Systems, Group Practice Linkage" source="https://www.ahrq.gov""/>
     <table name="sdohdb_county" description="SDoH Database" source="https://www.ahrq.gov""/>
@@ -583,33 +621,44 @@
     <table name="grants_xml_extracts" description="Grants Daily XML Extracts" source="https://www.grants.gov""/>
   </schema>
   <schema name="provdatacatalog"">
+    <table name="dialysis_facilities" description="Dialysis Facility - Listing by Facility" source="https://data.cms.gov""/>
     <table name="hospital_hsc" description="Medicare Hospital Spending by Claim from the Hospital Data section" source="https://data.cms.gov""/>
     <table name="hospital_tec" description="Timely and Effective Care from the Hospital Data section" source="https://data.cms.gov""/>
     <table name="asc_quality" description="Ambulatory Surgial Center Quality Measures" source="https://data.cms.gov""/>
+    <table name="home_health_care_agencies" description="Home Health Care Agencies" source="https://data.cms.gov""/>
     <table name="hospital_hcahps" description="Patient survey (HCAHPS) from the Hospital Data section" source="https://data.cms.gov""/>
     <table name="dac_ndf" description="National Downloadable Files from the Doctors and Clinicians Data section" source="https://data.cms.gov""/>
+    <table name="nursinghomes_health_citations" description="Nursing Home Health Citations" source="https://data.cms.gov""/>
     <table name="hospital_pvc" description="Payment and value of care from the Hospital Data section" source="https://data.cms.gov""/>
+    <table name="hospice_general_info" description="Hospice - General Information" source="https://data.cms.gov""/>
     <table name="dac_fa" description="Facility Affiliations from the Doctors and Clinicians Data section" source="https://data.cms.gov""/>
     <table name="dac_ec_public_reporting" description="Clinician Public Reporting: MIPS Measures and Attestations from the Doctors and Clinicians Data section" source="https://data.cms.gov""/>
+    <table name="nursinghomes_mds" description="Nursing Home Minimum Data Set (MDS) Files" source="https://data.cms.gov""/>
     <table name="dac_vg_public_reporting" description="Virtual Group Public Reporting: MIPS Measures and Attestations from the Doctors and Clinicians Data section" source="https://data.cms.gov""/>
     <table name="hospital_psi" description="CMS Medicare PSI-90 and component measures, six-digit estimate dataset from the Hospital Data section" source="hhttps://data.cms.gov""/>
     <table name="dac_utilization" description="Utilization from the Doctors and Clinicians Data section" source="https://data.cms.gov""/>
     <table name="hospital_general" description="Hospital General Information from the Hospital Data section" source="https://data.cms.gov""/>
-    <table name="nursinghomes_mds" description="Nursing Home Minimum Data Set (MDS) Files" source="https://data.cms.gov""/>
     <table name="dac_grp_public_reporting_cahps" description="Group Public Reporting: Patient Experience from the Doctors and Clinicians Data section" source="https://data.cms.gov""/>
     <table name="hospital_uhv" description="Unplanned Hospital Visits from the Hospital Data section" source="https://data.cms.gov""/>
     <table name="hospital_hai" description="Healthcare Associated Infections from the Hospital Data section" source="https://data.cms.gov""/>
+    <table name="hospice_cahps" description="Hospice Patient Survey CAHPS" source="https://data.cms.gov""/>
     <table name="dac_grp_public_reporting" description="Group Public Reporting: MIPS Measures and Attestations from the Doctors and Clinicians Data section" source="https://data.cms.gov""/>
+    <table name="home_health_care_cahps" description="Home Health Patient Survey HHCAHPS" source="https://data.cms.gov""/>
+    <table name="dialysis_cahps" description="Dialysis Facility Patient Survey (ICH CAHPS)" source="https://data.cms.gov""/>
     <table name="hospital_cad" description="Complications and Deaths from the Hospital Data section" source="https://data.cms.gov""/>
     <table name="dac_ec_score_file" description="Clinician Public Reporting: Overall MIPS Performance from the Doctors and Clinicians Data section" source="https://data.cms.gov""/>
+    <table name="hospice_quality_measures" description="Hospice Care Qualitiy Measures" source="https://data.cms.gov""/>
   </schema>
   <schema name="fda"">
     <table name="enforcement" description="Drug Recall Enforcement, Base Table" source="https://open.fda.gov""/>
     <table name="purplebook" description="All FDA-licensed (approved) biological products regulated by the Center for Drug Evaluation and Research (CDER), aka Purple Book" source="https://purplebooksearch.fda.gov""/>
     <table name="orangebook_products" description="Product info from the Approved Drug Products with Therapeutic Equivalence Evaluations, aka Orange Book" source="https://www.fda.gov""/>
     <table name="ndc_directory" description="NDC Directory" source="https://open.fda.gov""/>
+    <table name="device_registrationlisting" description="Device Registrations and Listings" source="https://open.fda.gov""/>
     <table name="enforcement_ndc_detail" description="Package NDC Table, a part of the Drug Recall Enforcement, Base Table" source="https://open.fda.gov""/>
+    <table name="orphandrugs" description="Orphan Drug Designations and Approvals" source="https://www.accessdata.fda.gov""/>
     <table name="ndc_to_active_ingredients" description="NDC to Active Ingredients Mapping, a part of the NDC Directory" source="https://open.fda.gov""/>
+    <table name="foiclass" description="Product Code Classification" source="https://www.fda.gov""/>
     <table name="orangebook_exclusivity" description="Exclusivity info from the Approved Drug Products with Therapeutic Equivalence Evaluations, aka Orange Book" source="https://www.fda.gov""/>
     <table name="ndc_to_pharm_class" description="NDC to Pharmacologic Class Mapping, a part of the NDC Directory" source="https://open.fda.gov""/>
     <table name="adverse_event_base" description="Drug Adverse Event, Base Table" source="https://open.fda.gov""/>
@@ -618,6 +667,7 @@
     <table name="orangebook_patent" description="Patent info from the Approved Drug Products with Therapeutic Equivalence Evaluations, aka Orange Book" source="https://www.fda.gov""/>
     <table name="adverse_event_drug" description="Drug Table, a part of the Drug Adverse Event Base table" source="https://open.fda.gov""/>
     <table name="ndc_to_rxcui" description="NDC to RxCUI Mapping, a part of the NDC Directory" source="https://open.fda.gov""/>
+    <table name="device_510k" description="Device 510k" source="https://open.fda.gov""/>
   </schema>
   <schema name="resdac"">
     <table name="revenue_center_status_indicator_code" description="Revenue Center Status Indicator Code" source="https://resdac.org""/>
@@ -682,6 +732,7 @@
     <table name="categories" description="FSQ Categories" source="https://docs.foursquare.com""/>
   </schema>
   <schema name="mcd"">
+    <table name="ncd_pblctn_ref" description="NCD Publication Reference" source="https://www.cms.gov/medicare-coverage-database/search.aspx""/>
     <table name="article_url_type_lookup" description="ARTICLE_URL_TYPE_LOOKUP" source="https://www.cms.gov""/>
     <table name="lcd_related_ncd_documents" description="LCD_RELATED_NCD_DOCUMENTS" source="https://www.cms.gov""/>
     <table name="article_x_contractor" description="ARTICLE_X_CONTRACTOR" source="https://www.cms.gov""/>
@@ -690,10 +741,12 @@
     <table name="lcd_x_advisory_committee" description="LCD_X_ADVISORY_COMMITTEE" source="https://www.cms.gov""/>
     <table name="article_x_other_coding_group" description="ARTICLE_X_OTHER_CODING_GROUP" source="https://www.cms.gov""/>
     <table name="contractor_jurisdiction" description="CONTRACTOR_JURISDICTION" source="https://www.cms.gov""/>
+    <table name="lcd_related_documents" description="LCD_RELATED_DOCUMENTS" source="https://www.cms.gov""/>
     <table name="article_x_icd10_noncovered_group" description="ARTICLE_X_ICD10_NONCOVERED_GROUP" source="https://www.cms.gov""/>
     <table name="lcd_x_synopsis_changes_fields" description="LCD_X_SYNOPSIS_CHANGES_FIELDS" source="https://www.cms.gov""/>
     <table name="dmerc_region_lookup" description="DMERC_REGION_LOOKUP" source="https://www.cms.gov""/>
     <table name="article_x_bill_code" description="ARTICLE_X_BILL_CODE" source="https://www.cms.gov""/>
+    <table name="article_related_documents" description="ARTICLE_RELATED_DOCUMENTS" source="https://www.cms.gov""/>
     <table name="article_x_code_table" description="ARTICLE_X_CODE_TABLE" source="https://www.cms.gov""/>
     <table name="article_related_source_icd9" description="ARTICLE_RELATED_SOURCE_ICD9" source="https://www.cms.gov""/>
     <table name="lcd_x_hcpc_code" description="LCD_X_HCPC_CODE" source="https://www.cms.gov""/>
@@ -704,10 +757,12 @@
     <table name="article_future_retire" description="ARTICLE_FUTURE_RETIRE" source="https://www.cms.gov""/>
     <table name="region_lookup" description="REGION_LOOKUP" source="https://www.cms.gov""/>
     <table name="lcd_url_type_lookup" description="LCD_URL_TYPE_LOOKUP" source="https://www.cms.gov""/>
+    <table name="ncd_trkg" description="National Coverage Determination (main table)" source="https://www.cms.gov""/>
     <table name="article_x_urls" description="ARTICLE_X_URLS" source="https://www.cms.gov""/>
     <table name="state_lookup" description="STATE_LOOKUP" source="https://www.cms.gov""/>
     <table name="lcd_x_requestor_letters" description="LCD_X_REQUESTOR_LETTERS" source="https://www.cms.gov""/>
     <table name="lcd_x_revision_history" description="LCD_X_REVISION_HISTORY" source="https://www.cms.gov""/>
+    <table name="ncd_bnft_ctgry_ref" description="NCD Benefit Category Reference" source="https://www.cms.gov/medicare-coverage-database/search.aspx""/>
     <table name="article_x_icd10_pcs_code" description="ARTICLE_X_ICD10_PCS_CODE" source="https://www.cms.gov""/>
     <table name="lcd_x_reason_change" description="LCD_X_REASON_CHANGE" source="https://www.cms.gov""/>
     <table name="article_x_hcpc_code" description="ARTICLE_X_HCPC_CODE" source="https://www.cms.gov""/>
@@ -725,11 +780,10 @@
     <table name="article_x_icd10_pcs_code_group" description="ARTICLE_X_ICD10_PCS_CODE_GROUP" source="https://www.cms.gov""/>
     <table name="contractor_type_lookup" description="CONTRACTOR_TYPE_LOOKUP" source="https://www.cms.gov""/>
     <table name="article_x_sticky_note" description="ARTICLE_X_STICKY_NOTE" source="https://www.cms.gov""/>
-    <table name="article_related_documents" description="ARTICLE_RELATED_DOCUMENTS" source="https://www.cms.gov""/>
     <table name="lcd_x_urls" description="LCD_X_URLS" source="https://www.cms.gov""/>
     <table name="article_x_hcpc_code_group" description="ARTICLE_X_HCPC_CODE_GROUP" source="https://www.cms.gov""/>
     <table name="lcd_future_retire" description="LCD_FUTURE_RETIRE" source="https://www.cms.gov""/>
-    <table name="lcd_related_documents" description="LCD_RELATED_DOCUMENTS" source="https://www.cms.gov""/>
+    <table name="ncd_trkg_bnft_xref" description="NCD Main Table to Benefit Category XREF Table" source="https://www.cms.gov/medicare-coverage-database/search.aspx""/>
     <table name="article_x_icd10_noncovered" description="ARTICLE_X_ICD10_NONCOVERED" source="https://www.cms.gov""/>
     <table name="article_related_ncd_documents" description="ARTICLE_RELATED_NCD_DOCUMENTS" source="https://www.cms.gov""/>
     <table name="update_period" description="UPDATE_PERIOD" source="https://www.cms.gov""/>
@@ -753,6 +807,7 @@
   </schema>
   <schema name="cmsdataresearch"">
     <table name="costreport_raw_hosp_rpt" description="Hospital 2552-2010 form (original) Report Table" source="https://www.cms.gov""/>
+    <table name="rac_topic_details" description="Detailed RAC Topics - both approved and proposed" source="https://www.cms.gov/data-research""/>
     <table name="costreport_raw_snf_alpha" description="Skilled Nursing Facility 2540-2010 form (original) Alphnumeric Table" source="https://www.cms.gov""/>
     <table name="costreport_raw_hha_nmrc" description="Home Health Agency 1728-2929 form (original) Numeric Table" source="https://www.cms.gov""/>
     <table name="marketplace_enrollment_state_metal" description="OEP State, Metal Level, and Enrollment Status Public Use File" source="https://www.cms.gov""/>
@@ -767,10 +822,12 @@
     <table name="costreport_raw_hha_alpha" description="Home Health Agency 1728-2929 form (original) Alphnumeric Table" source="https://www.cms.gov""/>
     <table name="partb_national_summary_bess" description="Part B National Summary Data File (Previously known as BESS)" source="https://www.cms.gov""/>
     <table name="costreport_raw_snf_rpt" description="Skilled Nursing Facility 2540-2010 form (original) Report Table" source="https://www.cms.gov""/>
+    <table name="rac_proposed_topics_index" description="Proposed RAC Topics - index" source="https://www.cms.gov""/>
     <table name="costreport_raw_hosp_alpha" description="Hospital 2552-2010 form (original) Alphnumeric Table" source="https://www.cms.gov""/>
     <table name="marketplace_enrollment_county" description="OEP ZIP-Code Level Public Use File" source="https://www.cms.gov""/>
     <table name="costreport_raw_snf_nmrc" description="Skilled Nursing Facility 2540-2010 form (original) Numeric Table" source="https://www.cms.gov""/>
     <table name="hosp_id_info" description="Hospital Provider ID-Name Crosswalk for the Cost Reports" source="https://www.cms.gov""/>
+    <table name="rac_approved_topics_index" description="Approved RAC Topics - index" source="https://www.cms.gov""/>
   </schema>
   <schema name="partcd"">
     <table name="cpsc_contract" description="Medicare Advantage Contract Information from the CPSC bundle" source="https://www.cms.gov""/>
@@ -779,17 +836,22 @@
     <table name="landscape_plan_premium_report" description="Premium Report form the MAPD Coverage Landscape files" source="https://www.cms.gov""/>
     <table name="landscape_medicare_advantage" description="Medicare Advantage section from the MAPD Coverage Landscape files" source="https://www.cms.gov""/>
     <table name="pbp_b13i_b19b_services_vbid_ssbci" description="Medicare Advantage Benefits Information Section B13I-B19B VBID, Non-Primarily Health Related Benefits for the Chronically III, Food and Produce, Meals, Pest Control, Transportation for Non-Medical Needs, Indoor Air Quality Equipment and Services and Other data." source="https://www.cms.gov""/>
+    <table name="partd_reconciliation_parent_level" description="Part D Reconciliation Data - Parent Org Level" source="https://www.cms.gov""/>
+    <table name="partc_payment_plan_level" description="Part C Risk Score and Payment Data - Plan Level" source="https://www.cms.gov""/>
     <table name="pbp_mrx" description="Medicare Advantage Benefits Information Section MRX, Medicare Part D prescription drug benefits data" source="https://www.cms.gov""/>
     <table name="pbp_mrx_tier" description="Medicare Advantage Benefits Information Section MRX TIER, Medicare Part D prescription drug benefits (tiering) data" source="https://www.cms.gov""/>
+    <table name="partd_reconciliation_contract_level" description="Part D Reconciliation Data - Contract Level" source="https://www.cms.gov""/>
     <table name="pbp_b18_hearing_exams_aids" description="Medicare Advantage Benefits Information Section B18 Hearing Exams Aids data, Hearing Exams and Hearing Aids data" source="https://www.cms.gov""/>
     <table name="pbp_b16_dental" description="Medicare Advantage Benefits Information Section B16 Dental, Preventive and Comprehensive Dental data" source="https://www.cms.gov""/>
     <table name="snpdata" description="Special Needs Plan Data" source="https://www.cms.gov""/>
     <table name="hedis_rau_measures" description="Risk Adjusted Measures from the HEDIS Public Use Files (PUFs)" source="https://www.cms.gov""/>
+    <table name="partd_payment_plan_level" description="Part D Risk Score and Payment Data - Plan Level" source="https://www.cms.gov""/>
     <table name="hedis_measures" description="Contract-level Performance from the HEDIS Public Use Files (PUFs)" source="https://www.cms.gov""/>
     <table name="pbp_b18_b19b_hearing_exams_aids_vbid_uf" description="Medicare Advantage Benefits Information Section B18 B19b Hearing Exams Aids VBID UF, Hearing Exams and Hearing Aids VBID and UF data" source="https://www.cms.gov""/>
     <table name="mapd_plan_directory" description="MAPD Plan Directory" source="https://www.cms.gov""/>
     <table name="pbp_b17_b19b_eye_exams_wear_vbid_uf" description="Medicare Advantage Benefits Information Section B17 B19b Eye Exams Wear VBID UF, Eye Exams and Eye Wear VBID and UF data" source="https://www.cms.gov""/>
     <table name="pbp_plan_region_area" description="Medicare Advantage Benefits Information Section PlanRegionArea Files, Contains Service Region Area data by plan (Regional MA plans and PDPs)" source="https://www.cms.gov""/>
+    <table name="partc_payment_county_level" description="Part C Risk Score and Payment Data - County Level" source="https://www.cms.gov""/>
     <table name="pbp_b16_b19b_dental_vbid_uf" description="Medicare Advantage Benefits Information Section B16-B19B Dental VBID UF, Preventive and Comprehensive Dental VBID and UF data" source="https://www.cms.gov""/>
     <table name="pbp_b15_partb_rx_drugs" description="Medicare Advantage Benefits Information Section B15 PartB Rx, Medicare Part B prescription drugs" source="https://www.cms.gov""/>
     <table name="starrating_measure_star" description="Stars from the Part C & D Performance Data (Star Rating) files" source="https://www.cms.gov""/>

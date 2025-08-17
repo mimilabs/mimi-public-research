@@ -5,6 +5,16 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "noridian.smrc_completed_projects",
+    "description": "Supplemental Medical Review Contractor (SMRC) Comp...",
+    "source": "https://noridiansmrc.com"
+  },
+  {
+    "path": "noridian.smrc_current_projects_doc_reqs",
+    "description": "Supplemental Medical Review Contractor (SMRC) Curr...",
+    "source": "https://noridiansmrc.com"
+  },
+  {
     "path": "noridian.modifiers",
     "description": "Claim Modifiers",
     "source": "https://med.noridianmedicare.com"
@@ -15,14 +25,39 @@
     "source": "https://med.noridianmedicare.com"
   },
   {
+    "path": "noridian.smrc_current_projects_codes",
+    "description": "Supplemental Medical Review Contractor (SMRC) Curr...",
+    "source": "https://noridiansmrc.com"
+  },
+  {
     "path": "noridian.revenue_codes",
     "description": "Revenue Codes",
     "source": "https://med.noridianmedicare.com"
   },
   {
+    "path": "noridian.smrc_completed_projects_denials",
+    "description": "Supplemental Medical Review Contractor (SMRC) Comp...",
+    "source": "https://noridiansmrc.com"
+  },
+  {
+    "path": "noridian.smrc_completed_projects_references",
+    "description": "Supplemental Medical Review Contractor (SMRC) Comp...",
+    "source": "https://noridiansmrc.com"
+  },
+  {
+    "path": "noridian.smrc_current_projects_references",
+    "description": "Supplemental Medical Review Contractor (SMRC) Curr...",
+    "source": "https://noridiansmrc.com"
+  },
+  {
     "path": "noridian.type_of_bill_structure",
     "description": "Type of Bill Code Structure",
     "source": "https://med.noridianmedicare.com"
+  },
+  {
+    "path": "noridian.smrc_current_projects",
+    "description": "Supplemental Medical Review Contractor (SMRC) Curr...",
+    "source": "https://noridiansmrc.com"
   },
   {
     "path": "noridian.type_of_bill_by_facility",
@@ -70,8 +105,18 @@
     "source": "https://oig.hhs.gov"
   },
   {
+    "path": "hhsoig.risk_adjustment_toolkit_2023",
+    "description": "Risk Adjustment Toolkit Target Codes",
+    "source": "hhttps://oig.hhs.gov"
+  },
+  {
     "path": "hhsoig.enforcement_details_enriched",
     "description": "OIG Enforcement Details LLM Extracted",
+    "source": "https://oig.hhs.gov"
+  },
+  {
+    "path": "hhsoig.workplans",
+    "description": "Work Plans",
     "source": "https://oig.hhs.gov"
   },
   {
@@ -180,6 +225,11 @@
     "source": "https://github.com"
   },
   {
+    "path": "payermrf.npi_tin_extracts",
+    "description": "NPI TIN Pairs from all provider reference files",
+    "source": "https://github.com/CMSgov/price-transparency-guide"
+  },
+  {
     "path": "payermrf.medica_toc",
     "description": "Medica Table of Contents",
     "source": "https://web.healthsparq.com"
@@ -187,6 +237,11 @@
   {
     "path": "payermrf.provider_references_healthpartners",
     "description": "Provider Reference Data, Health Partners",
+    "source": "https://github.com"
+  },
+  {
+    "path": "payermrf.provider_references_blueshieldca",
+    "description": "Provider Reference Data, Blue Shield California",
     "source": "https://github.com"
   },
   {
@@ -215,6 +270,11 @@
     "source": "https://github.com"
   },
   {
+    "path": "payermrf.in_network_rates_blueshieldca",
+    "description": "In-Network Rates Data, Blue Shield California",
+    "source": "https://github.com"
+  },
+  {
     "path": "payermrf.in_network_rates_unitedhealth",
     "description": "In-Network Rates Data, UnitedHealthcare",
     "source": "https://github.com"
@@ -223,6 +283,11 @@
     "path": "payermrf.aetna_toc",
     "description": "CVS/Aetna Table of Contents",
     "source": "https://health1.aetna.com"
+  },
+  {
+    "path": "payermrf.blueshieldca_toc",
+    "description": "Blue Shield California Table of Contents - contain...",
+    "source": "https://web.healthsparq.com"
   },
   {
     "path": "payermrf.provider_references_bcbsaz",
@@ -400,7 +465,7 @@
     "source": "https://data.cms.gov"
   },
   {
-    "path": "datacmsgov.muppac_geo",
+    "path": "datacmsgov.muppac_geo_legacy",
     "description": "Medicare Post-Acute Care and Hospice by Geography ...",
     "source": "https://data.cms.gov"
   },
@@ -417,6 +482,11 @@
   {
     "path": "datacmsgov.mupohp_geo",
     "description": "Medicare Outpatient Hospitals by Geography and Ser...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.muppac_hh_geo",
+    "description": "Medicare Post-Acute Care Utilization - Home Health...",
     "source": "https://data.cms.gov"
   },
   {
@@ -440,8 +510,13 @@
     "source": "https://data.cms.gov"
   },
   {
-    "path": "datacmsgov.market_saturation_state_county",
-    "description": "Market Saturation & Utilization State-County",
+    "path": "datacmsgov.partb_discarded_drugs",
+    "description": "Medicare Part B Discarded Drug Units",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.market_saturation_cbsa",
+    "description": "Market Saturation & Utilization CBSA",
     "source": "https://data.cms.gov"
   },
   {
@@ -452,6 +527,11 @@
   {
     "path": "datacmsgov.geovariation",
     "description": "Medicare Geographic Variation - by National, State...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.muppac_snf_geo",
+    "description": "Medicare Post-Acute Care Utilization - Skilled Nur...",
     "source": "https://data.cms.gov"
   },
   {
@@ -470,8 +550,18 @@
     "source": "https://data.cms.gov"
   },
   {
+    "path": "datacmsgov.muppac_hos_geo",
+    "description": "Medicare Post-Acute Care Utilization - Hospices an...",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "datacmsgov.optout",
     "description": "Medicare Opt Out Affidavits",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.muppac_irf_geo_w_casemix",
+    "description": "Medicare Post-Acute Care Utilization - Inpatient R...",
     "source": "https://data.cms.gov"
   },
   {
@@ -510,8 +600,18 @@
     "source": "https://data.cms.gov"
   },
   {
+    "path": "datacmsgov.muppac_hh_geo_w_casemix",
+    "description": "Medicare Post-Acute Care Utilization - Home Health...",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "datacmsgov.mupihp_prvdr",
     "description": "Medicare Inpatient Hospitals by Provider",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pbj_nonnurse",
+    "description": "Payroll Based Journal Daily Non-Nurse Staffing",
     "source": "https://data.cms.gov"
   },
   {
@@ -522,6 +622,11 @@
   {
     "path": "datacmsgov.revalidation",
     "description": "Medicare Revalidation Clinic Group Practice Reassi...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.pbj_nurse",
+    "description": "Payroll Based Journal Daily Nurse Staffing",
     "source": "https://data.cms.gov"
   },
   {
@@ -542,6 +647,11 @@
   {
     "path": "datacmsgov.mssp_results",
     "description": "Medicare Shared Savings Program (MSSP) Performance...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.muppac_irf_geo",
+    "description": "Medicare Post-Acute Care Utilization - Inpatient R...",
     "source": "https://data.cms.gov"
   },
   {
@@ -605,14 +715,14 @@
     "source": "://"
   },
   {
+    "path": "datacmsgov.market_saturation_state_county",
+    "description": "Market Saturation & Utilization State-County",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "datacmsgov.mssp_regional_trend_factors",
     "description": "MSSP Regional Trend Factor derived from `mssp_coun...",
     "source": "https://data.cms.gov/"
-  },
-  {
-    "path": "datacmsgov.market_saturation_cbsa",
-    "description": "Market Saturation & Utilization CBSA",
-    "source": "https://data.cms.gov"
   },
   {
     "path": "datacmsgov.pc_homehealth_owner",
@@ -627,6 +737,16 @@
   {
     "path": "datacmsgov.psps",
     "description": "Physician/Supplier Procedure Summary",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.muppac_snf_geo_w_casemix",
+    "description": "Medicare Post-Acute Care Utilization - Skilled Nur...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "datacmsgov.muppac_ltc_geo",
+    "description": "Medicare Post-Acute Care Utilization - Long-Term C...",
     "source": "https://data.cms.gov"
   },
   {
@@ -733,6 +853,11 @@
     "path": "cmsomh.text_from_pdfs",
     "description": "Parsed Text from PDFs, Office of Minority Health R...",
     "source": "https://www.cms.gov/priorities/health-equity/minority-health"
+  },
+  {
+    "path": "va.formulary_monthly_decisions_pdf",
+    "description": "VA PBM Formulary Decision Letters (PDF)",
+    "source": "https://www.pbm.va.gov"
   },
   {
     "path": "va.pbm_national_drug_code_extract",
@@ -995,18 +1120,13 @@
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclf7_partd_claims",
-    "description": "CCLF7 Part D Claims",
-    "source": "https://thetuvaproject.com"
-  },
-  {
     "path": "tuvahealth.eligibility",
     "description": "Eligibility",
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclf5_partb_physicians",
-    "description": "CCLF5 Part B Physician",
+    "path": "tuvahealth.cclf9_beneficiary_xref",
+    "description": "CCLF9 Beneficiary XREF",
     "source": "https://thetuvaproject.com"
   },
   {
@@ -1015,13 +1135,18 @@
     "source": "https://thetuvaproject.com"
   },
   {
+    "path": "tuvahealth.cclf4_parta_diagnosis_code",
+    "description": "CCLF4 Part A Claims Diagnosis Code",
+    "source": "https://thetuvaproject.com"
+  },
+  {
     "path": "tuvahealth.lab_result",
     "description": "Lab Result",
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclf4_parta_diagnosis_code",
-    "description": "CCLF4 Part A Claims Diagnosis Code",
+    "path": "tuvahealth.cclf6_partb_dme",
+    "description": "CCLF6 Part B Part B DME",
     "source": "https://thetuvaproject.com"
   },
   {
@@ -1030,18 +1155,13 @@
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclfx_enrollment",
-    "description": "CCLFX ACO Enrollment File",
-    "source": "https://thetuvaproject.com"
-  },
-  {
     "path": "tuvahealth.patient",
     "description": "Patient",
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclf2_parta_claims_revenue_center_detail",
-    "description": "CCLF2 Part A Claims Revenue Center Detail",
+    "path": "tuvahealth.cclf1_parta_claims_header",
+    "description": "CCLF1 Part A Claims Header File",
     "source": "https://thetuvaproject.com"
   },
   {
@@ -1050,8 +1170,13 @@
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclf3_parta_procedure_code",
-    "description": "CCLF3 Part A Claims Procedure Code",
+    "path": "tuvahealth.cclf8_beneficiary_demographics",
+    "description": "CCLF8 Beneficiary Demographics",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclf7_partd_claims",
+    "description": "CCLF7 Part D Claims",
     "source": "https://thetuvaproject.com"
   },
   {
@@ -1065,23 +1190,23 @@
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclf8_beneficiary_demographics",
-    "description": "CCLF8 Beneficiary Demographics",
-    "source": "https://thetuvaproject.com"
-  },
-  {
     "path": "tuvahealth.encounter",
     "description": "Encounter",
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclf1_parta_claims_header",
-    "description": "CCLF1 Part A Claims Header File",
+    "path": "tuvahealth.cclf3_parta_procedure_code",
+    "description": "CCLF3 Part A Claims Procedure Code",
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclf9_beneficiary_xref",
-    "description": "CCLF9 Beneficiary XREF",
+    "path": "tuvahealth.cclf2_parta_claims_revenue_center_detail",
+    "description": "CCLF2 Part A Claims Revenue Center Detail",
+    "source": "https://thetuvaproject.com"
+  },
+  {
+    "path": "tuvahealth.cclfx_enrollment",
+    "description": "CCLFX ACO Enrollment File",
     "source": "https://thetuvaproject.com"
   },
   {
@@ -1090,8 +1215,8 @@
     "source": "https://thetuvaproject.com"
   },
   {
-    "path": "tuvahealth.cclf6_partb_dme",
-    "description": "CCLF6 Part B Part B DME",
+    "path": "tuvahealth.cclf5_partb_physicians",
+    "description": "CCLF5 Part B Physician",
     "source": "https://thetuvaproject.com"
   },
   {
@@ -1107,7 +1232,7 @@
   {
     "path": "legacycom.obituaries",
     "description": "Scraped Obituaries",
-    "source": "legacy.com"
+    "source": "https://legacy.com"
   },
   {
     "path": "cmscoding.icd10cm",
@@ -1125,6 +1250,21 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "cmscoding.hcpcs_decisions_parsed",
+    "description": "HCPCS Level II Coding Decisions - Extracted",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmscoding.hcpcs_decisions_rawtext",
+    "description": "HCPCS Level II Coding Decisions - Raw Text",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmscoding.medicaid_ncci_mue",
+    "description": "Medicaid National Correct Coding Initiative (NCCI)...",
+    "source": "hhttps://www.cms.gov"
+  },
+  {
     "path": "cmscoding.icd10pcs",
     "description": "ICD-10-PCS Codes and Descriptions",
     "source": "https://www.cms.gov"
@@ -1138,6 +1278,41 @@
     "path": "cmscoding.ncci_mue",
     "description": "Medicare National Correct Coding Initiative (NCCI)...",
     "source": "https://www.cms.gov"
+  },
+  {
+    "path": "dartmouth.medpar_dgns_cd10",
+    "description": "Coding Trends, Inpatient, 2015-2018",
+    "source": "https://data.dartmouthatlas.org"
+  },
+  {
+    "path": "dartmouth.cardiac_care",
+    "description": "Cardiac Care Hospital Data, 1996-2014",
+    "source": "https://data.dartmouthatlas.org"
+  },
+  {
+    "path": "dartmouth.ptb_dgns_cd10",
+    "description": "Coding Trends, PartB, 2015-2018",
+    "source": "https://data.dartmouthatlas.org"
+  },
+  {
+    "path": "dartmouth.ziphsahrr",
+    "description": "ZIP HSA HRR Crosswalk",
+    "source": "https://data.dartmouthatlas.org"
+  },
+  {
+    "path": "dartmouth.hosp_cost",
+    "description": "Hospital Cost File, 1998-2012",
+    "source": "https://data.dartmouthatlas.org"
+  },
+  {
+    "path": "dartmouth.op_dgns_cd10",
+    "description": "Coding Trends, Outpatient, 2015-2018",
+    "source": "https://data.dartmouthatlas.org"
+  },
+  {
+    "path": "dartmouth.hosp_tracking_file",
+    "description": "Hospoital Profile Tracking, 1992-2019",
+    "source": "https://data.dartmouthatlas.org"
   },
   {
     "path": "surgoventures.ccvi_state",
@@ -1613,6 +1788,11 @@
     "path": "ahrq.meps_consol_metadata",
     "description": "MEPS (Medical Expenditure Panel Survey) Household ...",
     "source": "https://meps.ahrq.gov"
+  },
+  {
+    "path": "ahrq.ccs_cpt",
+    "description": "Clinical Classifications Software (CCS) CPT - PLEA...",
+    "source": "https://hcup-us.ahrq.gov"
   },
   {
     "path": "ahrq.meps_event_inpatientstays",
@@ -2435,6 +2615,11 @@
     "source": "https://www.grants.gov"
   },
   {
+    "path": "provdatacatalog.dialysis_facilities",
+    "description": "Dialysis Facility - Listing by Facility",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "provdatacatalog.hospital_hsc",
     "description": "Medicare Hospital Spending by Claim from the Hospi...",
     "source": "https://data.cms.gov"
@@ -2450,6 +2635,11 @@
     "source": "https://data.cms.gov"
   },
   {
+    "path": "provdatacatalog.home_health_care_agencies",
+    "description": "Home Health Care Agencies",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "provdatacatalog.hospital_hcahps",
     "description": "Patient survey (HCAHPS) from the Hospital Data sec...",
     "source": "https://data.cms.gov"
@@ -2460,8 +2650,18 @@
     "source": "https://data.cms.gov"
   },
   {
+    "path": "provdatacatalog.nursinghomes_health_citations",
+    "description": "Nursing Home Health Citations",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "provdatacatalog.hospital_pvc",
     "description": "Payment and value of care from the Hospital Data s...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospice_general_info",
+    "description": "Hospice - General Information",
     "source": "https://data.cms.gov"
   },
   {
@@ -2472,6 +2672,11 @@
   {
     "path": "provdatacatalog.dac_ec_public_reporting",
     "description": "Clinician Public Reporting: MIPS Measures and Atte...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.nursinghomes_mds",
+    "description": "Nursing Home Minimum Data Set (MDS) Files",
     "source": "https://data.cms.gov"
   },
   {
@@ -2495,11 +2700,6 @@
     "source": "https://data.cms.gov"
   },
   {
-    "path": "provdatacatalog.nursinghomes_mds",
-    "description": "Nursing Home Minimum Data Set (MDS) Files",
-    "source": "https://data.cms.gov"
-  },
-  {
     "path": "provdatacatalog.dac_grp_public_reporting_cahps",
     "description": "Group Public Reporting: Patient Experience from th...",
     "source": "https://data.cms.gov"
@@ -2515,8 +2715,23 @@
     "source": "https://data.cms.gov"
   },
   {
+    "path": "provdatacatalog.hospice_cahps",
+    "description": "Hospice Patient Survey CAHPS",
+    "source": "https://data.cms.gov"
+  },
+  {
     "path": "provdatacatalog.dac_grp_public_reporting",
     "description": "Group Public Reporting: MIPS Measures and Attestat...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.home_health_care_cahps",
+    "description": "Home Health Patient Survey HHCAHPS",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.dialysis_cahps",
+    "description": "Dialysis Facility Patient Survey (ICH CAHPS)",
     "source": "https://data.cms.gov"
   },
   {
@@ -2527,6 +2742,11 @@
   {
     "path": "provdatacatalog.dac_ec_score_file",
     "description": "Clinician Public Reporting: Overall MIPS Performan...",
+    "source": "https://data.cms.gov"
+  },
+  {
+    "path": "provdatacatalog.hospice_quality_measures",
+    "description": "Hospice Care Qualitiy Measures",
     "source": "https://data.cms.gov"
   },
   {
@@ -2550,14 +2770,29 @@
     "source": "https://open.fda.gov"
   },
   {
+    "path": "fda.device_registrationlisting",
+    "description": "Device Registrations and Listings",
+    "source": "https://open.fda.gov"
+  },
+  {
     "path": "fda.enforcement_ndc_detail",
     "description": "Package NDC Table, a part of the Drug Recall Enfor...",
     "source": "https://open.fda.gov"
   },
   {
+    "path": "fda.orphandrugs",
+    "description": "Orphan Drug Designations and Approvals",
+    "source": "https://www.accessdata.fda.gov"
+  },
+  {
     "path": "fda.ndc_to_active_ingredients",
     "description": "NDC to Active Ingredients Mapping, a part of the N...",
     "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.foiclass",
+    "description": "Product Code Classification",
+    "source": "https://www.fda.gov"
   },
   {
     "path": "fda.orangebook_exclusivity",
@@ -2597,6 +2832,11 @@
   {
     "path": "fda.ndc_to_rxcui",
     "description": "NDC to RxCUI Mapping, a part of the NDC Directory",
+    "source": "https://open.fda.gov"
+  },
+  {
+    "path": "fda.device_510k",
+    "description": "Device 510k",
     "source": "https://open.fda.gov"
   },
   {
@@ -2850,6 +3090,11 @@
     "source": "https://docs.foursquare.com"
   },
   {
+    "path": "mcd.ncd_pblctn_ref",
+    "description": "NCD Publication Reference",
+    "source": "https://www.cms.gov/medicare-coverage-database/search.aspx"
+  },
+  {
     "path": "mcd.article_url_type_lookup",
     "description": "ARTICLE_URL_TYPE_LOOKUP",
     "source": "https://www.cms.gov"
@@ -2890,6 +3135,11 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "mcd.lcd_related_documents",
+    "description": "LCD_RELATED_DOCUMENTS",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "mcd.article_x_icd10_noncovered_group",
     "description": "ARTICLE_X_ICD10_NONCOVERED_GROUP",
     "source": "https://www.cms.gov"
@@ -2907,6 +3157,11 @@
   {
     "path": "mcd.article_x_bill_code",
     "description": "ARTICLE_X_BILL_CODE",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.article_related_documents",
+    "description": "ARTICLE_RELATED_DOCUMENTS",
     "source": "https://www.cms.gov"
   },
   {
@@ -2960,6 +3215,11 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "mcd.ncd_trkg",
+    "description": "National Coverage Determination (main table)",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "mcd.article_x_urls",
     "description": "ARTICLE_X_URLS",
     "source": "https://www.cms.gov"
@@ -2978,6 +3238,11 @@
     "path": "mcd.lcd_x_revision_history",
     "description": "LCD_X_REVISION_HISTORY",
     "source": "https://www.cms.gov"
+  },
+  {
+    "path": "mcd.ncd_bnft_ctgry_ref",
+    "description": "NCD Benefit Category Reference",
+    "source": "https://www.cms.gov/medicare-coverage-database/search.aspx"
   },
   {
     "path": "mcd.article_x_icd10_pcs_code",
@@ -3065,11 +3330,6 @@
     "source": "https://www.cms.gov"
   },
   {
-    "path": "mcd.article_related_documents",
-    "description": "ARTICLE_RELATED_DOCUMENTS",
-    "source": "https://www.cms.gov"
-  },
-  {
     "path": "mcd.lcd_x_urls",
     "description": "LCD_X_URLS",
     "source": "https://www.cms.gov"
@@ -3085,9 +3345,9 @@
     "source": "https://www.cms.gov"
   },
   {
-    "path": "mcd.lcd_related_documents",
-    "description": "LCD_RELATED_DOCUMENTS",
-    "source": "https://www.cms.gov"
+    "path": "mcd.ncd_trkg_bnft_xref",
+    "description": "NCD Main Table to Benefit Category XREF Table",
+    "source": "https://www.cms.gov/medicare-coverage-database/search.aspx"
   },
   {
     "path": "mcd.article_x_icd10_noncovered",
@@ -3185,6 +3445,11 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "cmsdataresearch.rac_topic_details",
+    "description": "Detailed RAC Topics - both approved and proposed",
+    "source": "https://www.cms.gov/data-research"
+  },
+  {
     "path": "cmsdataresearch.costreport_raw_snf_alpha",
     "description": "Skilled Nursing Facility 2540-2010 form (original)...",
     "source": "https://www.cms.gov"
@@ -3255,6 +3520,11 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "cmsdataresearch.rac_proposed_topics_index",
+    "description": "Proposed RAC Topics - index",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "cmsdataresearch.costreport_raw_hosp_alpha",
     "description": "Hospital 2552-2010 form (original) Alphnumeric Tab...",
     "source": "https://www.cms.gov"
@@ -3272,6 +3542,11 @@
   {
     "path": "cmsdataresearch.hosp_id_info",
     "description": "Hospital Provider ID-Name Crosswalk for the Cost R...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "cmsdataresearch.rac_approved_topics_index",
+    "description": "Approved RAC Topics - index",
     "source": "https://www.cms.gov"
   },
   {
@@ -3305,6 +3580,16 @@
     "source": "https://www.cms.gov"
   },
   {
+    "path": "partcd.partd_reconciliation_parent_level",
+    "description": "Part D Reconciliation Data - Parent Org Level",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.partc_payment_plan_level",
+    "description": "Part C Risk Score and Payment Data - Plan Level",
+    "source": "https://www.cms.gov"
+  },
+  {
     "path": "partcd.pbp_mrx",
     "description": "Medicare Advantage Benefits Information Section MR...",
     "source": "https://www.cms.gov"
@@ -3312,6 +3597,11 @@
   {
     "path": "partcd.pbp_mrx_tier",
     "description": "Medicare Advantage Benefits Information Section MR...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.partd_reconciliation_contract_level",
+    "description": "Part D Reconciliation Data - Contract Level",
     "source": "https://www.cms.gov"
   },
   {
@@ -3332,6 +3622,11 @@
   {
     "path": "partcd.hedis_rau_measures",
     "description": "Risk Adjusted Measures from the HEDIS Public Use F...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.partd_payment_plan_level",
+    "description": "Part D Risk Score and Payment Data - Plan Level",
     "source": "https://www.cms.gov"
   },
   {
@@ -3357,6 +3652,11 @@
   {
     "path": "partcd.pbp_plan_region_area",
     "description": "Medicare Advantage Benefits Information Section Pl...",
+    "source": "https://www.cms.gov"
+  },
+  {
+    "path": "partcd.partc_payment_county_level",
+    "description": "Part C Risk Score and Payment Data - County Level",
     "source": "https://www.cms.gov"
   },
   {
